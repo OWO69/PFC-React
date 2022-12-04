@@ -44,10 +44,3 @@
   font-family: Poppins;
   line-height: 28px;
 }
-
-@media(max-width: 991px) {
-  .card-root-class-name {
-    flex: 0 0 auto;
-    width: 100%;
-  }
-}

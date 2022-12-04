@@ -4,7 +4,6 @@ import DangerousHTML from 'dangerous-html/react'
 import { Helmet } from 'react-helmet'
 
 import Navbar from '../components/navbar'
-import Card from '../components/card'
 import FAQ from '../components/f-a-q'
 import './home.css'
 
@@ -516,115 +515,113 @@ const Home = (props) => {
         </div>
       </section>
       <section className="home-section05">
-        <div className="home-note3">
-          <div className="home-image70">
-            <img
-              alt="image"
-              src="/playground_assets/bkg%20%5B19%5D-600h.png"
-              className="home-image71"
-            />
-          </div>
-          <div className="home-content04">
-            <div className="home-caption3"></div>
-            <div className="home-heading06">
-              <div className="home-header03">
-                <h2 className="section-heading">JungleMap</h2>
+        <div className="home-image70">
+          <img
+            alt="image"
+            src="/playground_assets/bkg%20%5B19%5D-600h.png"
+            className="home-image71"
+          />
+        </div>
+        <div className="home-content04">
+          <div className="home-caption3"></div>
+          <div className="home-heading06">
+            <div className="home-header03">
+              <h2 className="section-heading">JungleMap</h2>
+            </div>
+            <div className="home-accordion">
+              <div
+                data-role="accordion-container"
+                className="home-element accordion-element"
+              >
+                <div className="home-details">
+                  <span className="section-head">Bambooverse begins</span>
+                  <span className="home-text18">Dec 22</span>
+                  <span data-role="accordion-content" className="home-text19">
+                    we will first build a community of around 10k people on both
+                    twitter and discord and be giving whitelists to first and
+                    foremost the gaming audience of our partner streamer
+                  </span>
+                </div>
+                <svg
+                  viewBox="0 0 1024 1024"
+                  data-role="accordion-icon"
+                  className="home-icon09"
+                >
+                  <path d="M366 708l196-196-196-196 60-60 256 256-256 256z"></path>
+                </svg>
               </div>
-              <div className="home-accordion">
-                <div
-                  data-role="accordion-container"
-                  className="home-element accordion-element"
-                >
-                  <div className="home-details">
-                    <span className="section-head">Bambooverse begins</span>
-                    <span className="home-text18">Dec 22</span>
-                    <span data-role="accordion-content" className="home-text19">
-                      we will first build a community of around 10k people on
-                      both twitter and discord and be giving whitelists to first
-                      and foremost the gaming audience of our partner streamer
-                    </span>
-                  </div>
-                  <svg
-                    viewBox="0 0 1024 1024"
-                    data-role="accordion-icon"
-                    className="home-icon09"
-                  >
-                    <path d="M366 708l196-196-196-196 60-60 256 256-256 256z"></path>
-                  </svg>
+              <span className="section-head">Bambooverse Blooms</span>
+              <div
+                data-role="accordion-container"
+                className="home-element1 accordion-element"
+              >
+                <div className="home-details01">
+                  <span className="home-text20">Q1 2023</span>
+                  <span data-role="accordion-content" className="home-text21">
+                    we will then add our project into leading nft marketplaces
+                    like opensea and gamestop nft as we set up shop
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
                 </div>
-                <span className="section-head">Bambooverse Blooms</span>
-                <div
-                  data-role="accordion-container"
-                  className="home-element1 accordion-element"
+                <svg
+                  viewBox="0 0 1024 1024"
+                  data-role="accordion-icon"
+                  className="home-icon11"
                 >
-                  <div className="home-details01">
-                    <span className="home-text20">Q1 2023</span>
-                    <span data-role="accordion-content" className="home-text21">
-                      we will then add our project into leading nft marketplaces
-                      like opensea and gamestop nft as we set up shop
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: ' ',
-                        }}
-                      />
-                    </span>
-                  </div>
-                  <svg
-                    viewBox="0 0 1024 1024"
-                    data-role="accordion-icon"
-                    className="home-icon11"
-                  >
-                    <path d="M366 708l196-196-196-196 60-60 256 256-256 256z"></path>
-                  </svg>
+                  <path d="M366 708l196-196-196-196 60-60 256 256-256 256z"></path>
+                </svg>
+              </div>
+              <span className="section-head">Bambooverse Booms</span>
+              <div
+                data-role="accordion-container"
+                className="home-element2 accordion-element"
+              >
+                <div className="home-details02">
+                  <span className="home-text22">Q2 2023</span>
+                  <span data-role="accordion-content" className="home-text23">
+                    we&apos;ll be building a Panda gaming studio from the funds
+                    raised and add more members to the team to build more games
+                    and add more skins and events as time passes to build even
+                    more quality product and make a name in both web2 and web3
+                    worlds
+                  </span>
                 </div>
-                <span className="section-head">Bambooverse Booms</span>
-                <div
-                  data-role="accordion-container"
-                  className="home-element2 accordion-element"
+                <svg
+                  viewBox="0 0 1024 1024"
+                  data-role="accordion-icon"
+                  className="home-icon13"
                 >
-                  <div className="home-details02">
-                    <span className="home-text22">Q2 2023</span>
-                    <span data-role="accordion-content" className="home-text23">
-                      we&apos;ll be building a Panda gaming studio from the
-                      funds raised and add more members to the team to build
-                      more games and add more skins and events as time passes to
-                      build even more quality product and make a name in both
-                      web2 and web3 worlds
-                    </span>
-                  </div>
-                  <svg
-                    viewBox="0 0 1024 1024"
-                    data-role="accordion-icon"
-                    className="home-icon13"
-                  >
-                    <path d="M366 708l196-196-196-196 60-60 256 256-256 256z"></path>
-                  </svg>
+                  <path d="M366 708l196-196-196-196 60-60 256 256-256 256z"></path>
+                </svg>
+              </div>
+              <div
+                data-role="accordion-container"
+                className="home-element3 accordion-element"
+              >
+                <div className="home-details03">
+                  <span className="home-text24">Funds Split</span>
+                  <span data-role="accordion-content" className="home-text25">
+                    50% for the project, 10% for the team, 10% for promotion,
+                    10% misc , 20% to streamer partner and a 100% reason to
+                    remember the name
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
                 </div>
-                <div
-                  data-role="accordion-container"
-                  className="home-element3 accordion-element"
+                <svg
+                  viewBox="0 0 1024 1024"
+                  data-role="accordion-icon"
+                  className="home-icon15"
                 >
-                  <div className="home-details03">
-                    <span className="home-text24">Funds Split</span>
-                    <span data-role="accordion-content" className="home-text25">
-                      50% for the project, 10% for the team, 10% for promotion,
-                      10% misc , 20% to streamer partner and a 100% reason to
-                      remember the name
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: ' ',
-                        }}
-                      />
-                    </span>
-                  </div>
-                  <svg
-                    viewBox="0 0 1024 1024"
-                    data-role="accordion-icon"
-                    className="home-icon15"
-                  >
-                    <path d="M366 708l196-196-196-196 60-60 256 256-256 256z"></path>
-                  </svg>
-                </div>
+                  <path d="M366 708l196-196-196-196 60-60 256 256-256 256z"></path>
+                </svg>
               </div>
             </div>
           </div>
@@ -649,31 +646,43 @@ const Home = (props) => {
           </div>
         </header>
         <main className="home-cards">
-          <Card rootClassName="card-root-class-name"></Card>
           <section className="home-card">
             <div className="home-icon17">
               <img
                 alt="image"
-                src="/playground_assets/group%201314-200h.png"
+                src="/playground_assets/group%201316-1200w.png"
                 className="home-icon18"
               />
             </div>
             <main className="home-content05">
-              <h1 className="home-header05">Launch</h1>
-              <p className="home-description">TBD</p>
+              <h1 className="home-header05">Price</h1>
+              <p className="home-description">0.0069 ETH (~$10)</p>
             </main>
           </section>
           <section className="home-card01">
             <div className="home-icon19">
               <img
                 alt="image"
-                src="/playground_assets/group%201317-200h.png"
+                src="/playground_assets/group%201314-200h.png"
                 className="home-icon20"
               />
             </div>
             <main className="home-content06">
-              <h1 className="home-header06">Blockchain</h1>
-              <p className="home-description01">Polygon</p>
+              <h1 className="home-header06">Launch</h1>
+              <p className="home-description01">TBD</p>
+            </main>
+          </section>
+          <section className="home-card02">
+            <div className="home-icon21">
+              <img
+                alt="image"
+                src="/playground_assets/group%201317-200h.png"
+                className="home-icon22"
+              />
+            </div>
+            <main className="home-content07">
+              <h1 className="home-header07">Blockchain</h1>
+              <p className="home-description02">Polygon</p>
             </main>
           </section>
         </main>
@@ -685,9 +694,9 @@ const Home = (props) => {
           <div className="home-left1 side"></div>
         </div>
         <main className="home-banner">
-          <div className="home-header07">
+          <div className="home-header08">
             <h2 className="section-heading">Blockchain </h2>
-            <p className="home-description02 section-description">
+            <p className="home-description03 section-description">
               Polyon is our starting choice of sidechain. As we&apos;re only
               using the chain for fund raise and not long term asset holding it
               seems the best decision to hold our Initial sale on a low gas
@@ -711,7 +720,7 @@ const Home = (props) => {
           <div className="home-left2 side"></div>
         </div>
         <main className="home-pricing">
-          <header className="home-header08">
+          <header className="home-header09">
             <header className="home-left3">
               <h2 className="section-heading home-heading10">About Us</h2>
             </header>
@@ -721,13 +730,13 @@ const Home = (props) => {
             <main className="home-plans">
               <div className="home-plan">
                 <div className="home-details04">
-                  <div className="home-header09">
+                  <div className="home-header10">
                     <label className="home-name">Muller23#1095</label>
                     <div className="home-pricing01">
                       <h1 className="home-price">Project Lead</h1>
                     </div>
                   </div>
-                  <p className="home-description03">
+                  <p className="home-description04">
                     Electronics Engineer, Digital Nomad, Gamer
                   </p>
                   <img
@@ -767,13 +776,13 @@ const Home = (props) => {
               </div>
               <div className="home-plan1">
                 <div className="home-details05">
-                  <div className="home-header10">
+                  <div className="home-header11">
                     <label className="home-name1">Lupu</label>
                     <div className="home-pricing02">
                       <h1 className="home-price1">Artist</h1>
                     </div>
                   </div>
-                  <p className="home-description04">
+                  <p className="home-description05">
                     Painter turned digital artist
                   </p>
                   <img
@@ -813,13 +822,13 @@ const Home = (props) => {
               </div>
               <div className="home-plan2">
                 <div className="home-details06">
-                  <div className="home-header11">
+                  <div className="home-header12">
                     <label className="home-name2">BigBird</label>
                     <div className="home-pricing03">
                       <span className="home-price2">GameDev</span>
                     </div>
                   </div>
-                  <p className="home-description05">
+                  <p className="home-description06">
                     An educator in the space of web3 and an indie game designer
                     for over 10 years
                   </p>
@@ -862,13 +871,13 @@ const Home = (props) => {
             <main className="home-plans1">
               <div className="home-plan3">
                 <div className="home-details07">
-                  <div className="home-header12">
+                  <div className="home-header13">
                     <label className="home-name3">Butch</label>
                     <div className="home-pricing04">
                       <h1 className="home-price3">WebDev</h1>
                     </div>
                   </div>
-                  <p className="home-description06">
+                  <p className="home-description07">
                     A weekday workhorse and weekend waster
                   </p>
                   <img
@@ -894,13 +903,13 @@ const Home = (props) => {
               </div>
               <div className="home-plan4">
                 <div className="home-details08">
-                  <div className="home-header13">
+                  <div className="home-header14">
                     <label className="home-name4">Frenchie</label>
                     <div className="home-pricing05">
                       <h1 className="home-price4">Solidity</h1>
                     </div>
                   </div>
-                  <p className="home-description07">
+                  <p className="home-description08">
                     If Code is law, Frenchie is lawman
                   </p>
                   <img
@@ -926,13 +935,13 @@ const Home = (props) => {
               </div>
               <div className="home-plan5">
                 <div className="home-details09">
-                  <div className="home-header14">
+                  <div className="home-header15">
                     <label className="home-name5">****</label>
                     <div className="home-pricing06">
                       <span className="home-price5">Streamer</span>
                     </div>
                   </div>
-                  <p className="home-description08">________________</p>
+                  <p className="home-description09">________________</p>
                   <img
                     alt="image"
                     src="/playground_assets/8-300h.png"
@@ -958,13 +967,13 @@ const Home = (props) => {
             <main className="home-plans2">
               <div className="home-plan6">
                 <div className="home-details10">
-                  <div className="home-header15">
+                  <div className="home-header16">
                     <label className="home-name6">Kannon</label>
                     <div className="home-pricing07">
                       <h1 className="home-price6">MemeTeam</h1>
                     </div>
                   </div>
-                  <p className="home-description09">
+                  <p className="home-description10">
                     Jpeg collector, digital trash cleaner, moody moderator
                   </p>
                   <img
@@ -984,13 +993,13 @@ const Home = (props) => {
               </div>
               <div className="home-plan7">
                 <div className="home-details11">
-                  <div className="home-header16">
+                  <div className="home-header17">
                     <label className="home-name7">Gabriel</label>
                     <div className="home-pricing08">
                       <h1 className="home-price7">MemeTeam</h1>
                     </div>
                   </div>
-                  <p className="home-description10">
+                  <p className="home-description11">
                     <span>
                       If Neymar has million fans, then I&apos;m one of them.
                     </span>
@@ -1015,13 +1024,13 @@ const Home = (props) => {
               </div>
               <div className="home-plan8">
                 <div className="home-details12">
-                  <div className="home-header17">
+                  <div className="home-header18">
                     <label className="home-name8">WarJammer99</label>
                     <div className="home-pricing09">
                       <span className="home-price8">MemeTeam</span>
                     </div>
                   </div>
-                  <p className="home-description11">
+                  <p className="home-description12">
                     Peace was never a top10 option
                   </p>
                   <img
@@ -1044,7 +1053,7 @@ const Home = (props) => {
         </main>
       </section>
       <section className="home-section13">
-        <header className="home-header18">
+        <header className="home-header19">
           <header className="home-left4">
             <span className="section-head">
               Review us or roast us and get featured
@@ -1057,19 +1066,19 @@ const Home = (props) => {
         </header>
         <main className="home-cards1">
           <div className="home-container4">
-            <section className="home-card02">
+            <section className="home-card03">
               <div className="home-stars">
-                <svg viewBox="0 0 1024 1024" className="home-icon21">
-                  <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
-                </svg>
                 <svg viewBox="0 0 1024 1024" className="home-icon23">
                   <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
                 </svg>
                 <svg viewBox="0 0 1024 1024" className="home-icon25">
                   <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
                 </svg>
+                <svg viewBox="0 0 1024 1024" className="home-icon27">
+                  <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
+                </svg>
               </div>
-              <main className="home-content07">
+              <main className="home-content08">
                 <p className="home-quote">&quot;What the fk&quot;</p>
                 <div className="home-author">
                   <img
@@ -1084,11 +1093,8 @@ const Home = (props) => {
                 </div>
               </main>
             </section>
-            <section className="home-card03">
+            <section className="home-card04">
               <div className="home-stars1">
-                <svg viewBox="0 0 1024 1024" className="home-icon27">
-                  <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
-                </svg>
                 <svg viewBox="0 0 1024 1024" className="home-icon29">
                   <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
                 </svg>
@@ -1098,8 +1104,11 @@ const Home = (props) => {
                 <svg viewBox="0 0 1024 1024" className="home-icon33">
                   <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
                 </svg>
+                <svg viewBox="0 0 1024 1024" className="home-icon35">
+                  <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
+                </svg>
               </div>
-              <main className="home-content08">
+              <main className="home-content09">
                 <p className="home-quote1">&quot;Cool Stuff&quot;</p>
                 <div className="home-author02">
                   <img
@@ -1116,13 +1125,13 @@ const Home = (props) => {
             </section>
           </div>
           <div className="home-container5">
-            <section className="home-card04">
+            <section className="home-card05">
               <div className="home-stars2">
-                <svg viewBox="0 0 1024 1024" className="home-icon35">
+                <svg viewBox="0 0 1024 1024" className="home-icon37">
                   <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
                 </svg>
               </div>
-              <main className="home-content09">
+              <main className="home-content10">
                 <p className="home-quote2">&quot;Not A MOBA&quot;</p>
                 <div className="home-author04">
                   <img
@@ -1137,16 +1146,16 @@ const Home = (props) => {
                 </div>
               </main>
             </section>
-            <section className="home-card05">
+            <section className="home-card06">
               <div className="home-stars3">
-                <svg viewBox="0 0 1024 1024" className="home-icon37">
-                  <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
-                </svg>
                 <svg viewBox="0 0 1024 1024" className="home-icon39">
                   <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
                 </svg>
+                <svg viewBox="0 0 1024 1024" className="home-icon41">
+                  <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
+                </svg>
               </div>
-              <main className="home-content10">
+              <main className="home-content11">
                 <p className="home-quote3">&quot;Do Me&quot;</p>
                 <div className="home-author06">
                   <img
@@ -1163,11 +1172,8 @@ const Home = (props) => {
             </section>
           </div>
           <div className="home-container6">
-            <section className="home-card06">
+            <section className="home-card07">
               <div className="home-stars4">
-                <svg viewBox="0 0 1024 1024" className="home-icon41">
-                  <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
-                </svg>
                 <svg viewBox="0 0 1024 1024" className="home-icon43">
                   <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
                 </svg>
@@ -1180,8 +1186,11 @@ const Home = (props) => {
                 <svg viewBox="0 0 1024 1024" className="home-icon49">
                   <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
                 </svg>
+                <svg viewBox="0 0 1024 1024" className="home-icon51">
+                  <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
+                </svg>
               </div>
-              <main className="home-content11">
+              <main className="home-content12">
                 <p className="home-quote4">
                   &quot;Better than Mona Lisa if that painting were a game&quot;
                 </p>
@@ -1198,11 +1207,8 @@ const Home = (props) => {
                 </div>
               </main>
             </section>
-            <section className="home-card07">
+            <section className="home-card08">
               <div className="home-stars5">
-                <svg viewBox="0 0 1024 1024" className="home-icon51">
-                  <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
-                </svg>
                 <svg viewBox="0 0 1024 1024" className="home-icon53">
                   <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
                 </svg>
@@ -1215,8 +1221,11 @@ const Home = (props) => {
                 <svg viewBox="0 0 1024 1024" className="home-icon59">
                   <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
                 </svg>
+                <svg viewBox="0 0 1024 1024" className="home-icon61">
+                  <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
+                </svg>
               </div>
-              <main className="home-content12">
+              <main className="home-content13">
                 <p className="home-quote5">&quot;It;s Okay&quot;</p>
                 <div className="home-author10">
                   <img
@@ -1238,15 +1247,15 @@ const Home = (props) => {
         </div>
       </section>
       <section className="home-section15">
-        <header className="home-header19">
+        <header className="home-header20">
           <span className="section-head">Across the interwebz</span>
           <h2 className="home-heading12 section-heading">Featured On</h2>
         </header>
         <main className="home-cards2">
-          <section className="home-card08">
-            <main className="home-content13">
-              <header className="home-header20">
-                <h1 className="home-header21">Rarity Tools</h1>
+          <section className="home-card09">
+            <main className="home-content14">
+              <header className="home-header21">
+                <h1 className="home-header22">Rarity Tools</h1>
               </header>
               <img
                 alt="image"
@@ -1265,10 +1274,10 @@ const Home = (props) => {
               </div>
             </main>
           </section>
-          <section className="home-card09">
-            <main className="home-content14">
-              <header className="home-header22">
-                <h1 className="home-header23">Tech Crunch</h1>
+          <section className="home-card10">
+            <main className="home-content15">
+              <header className="home-header23">
+                <h1 className="home-header24">Tech Crunch</h1>
               </header>
               <img
                 alt="image"
@@ -1287,10 +1296,10 @@ const Home = (props) => {
               </div>
             </main>
           </section>
-          <section className="home-card10">
-            <main className="home-content15">
-              <header className="home-header24">
-                <h1 className="home-header25">Rarity Sniper</h1>
+          <section className="home-card11">
+            <main className="home-content16">
+              <header className="home-header25">
+                <h1 className="home-header26">Rarity Sniper</h1>
               </header>
               <img
                 alt="image"
@@ -1312,7 +1321,7 @@ const Home = (props) => {
         </main>
       </section>
       <section className="home-section17">
-        <header className="home-header26">
+        <header className="home-header27">
           <span className="section-head">FAQ</span>
           <h2 className="home-heading13 section-heading">
             Frequently asked questions
@@ -1323,8 +1332,8 @@ const Home = (props) => {
         </main>
       </section>
       <section className="home-section19">
-        <main className="home-content16">
-          <header className="home-header27">
+        <main className="home-content17">
+          <header className="home-header28">
             <h2 className="home-heading14 section-heading">
               Download links (coming soon)
             </h2>
@@ -1333,7 +1342,7 @@ const Home = (props) => {
                 <img
                   alt="image"
                   src="/playground_assets/apple-200w.png"
-                  className="home-icon61"
+                  className="home-icon63"
                 />
                 <span className="home-text80">Download for iOS</span>
               </div>
@@ -1341,7 +1350,7 @@ const Home = (props) => {
                 <img
                   alt="image"
                   src="/playground_assets/android-200h.png"
-                  className="home-icon62"
+                  className="home-icon64"
                 />
                 <span className="home-text81">Download for Android</span>
               </div>
@@ -1359,9 +1368,9 @@ const Home = (props) => {
           <span className="home-text82">-&gt;</span>
           <span className="home-text83">Links &amp; Socials</span>
         </div>
-        <div className="home-content17">
+        <div className="home-content18">
           <main className="home-main-content">
-            <div className="home-content18">
+            <div className="home-content19">
               <header className="home-categories">
                 <img
                   alt="image"
