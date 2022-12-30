@@ -22,8 +22,8 @@ const Navbar = (props) => {
         </div>
         <div className="get-started navbar-get-started">
           <span className="navbar-text">
-            <span className="">Mint (coming soon)</span>
-            <br className=""></br>
+            <span>Mint (coming soon)</span>
+            <br></br>
           </span>
         </div>
         <div id="open-mobile-menu" className="navbar-hamburger get-started">
@@ -43,24 +43,28 @@ const Navbar = (props) => {
           />
           <div id="close-mobile-menu" className="navbar-container">
             <svg viewBox="0 0 1024 1024" className="navbar-icon">
-              <path
-                d="M225.835 286.165l225.835 225.835-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l225.835-225.835 225.835 225.835c16.683 16.683 43.691 16.683 60.331 0s16.683-43.691 0-60.331l-225.835-225.835 225.835-225.835c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0l-225.835 225.835-225.835-225.835c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"
-                className=""
-              ></path>
+              <path d="M225.835 286.165l225.835 225.835-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l225.835-225.835 225.835 225.835c16.683 16.683 43.691 16.683 60.331 0s16.683-43.691 0-60.331l-225.835-225.835 225.835-225.835c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0l-225.835 225.835-225.835-225.835c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path>
             </svg>
           </div>
         </div>
         <div className="navbar-nav-links1">
-          <span className="nav-link">Features</span>
-          <span className="nav-link">Why us</span>
-          <span className="nav-link">Prices</span>
-          <span className="nav-link">Contact</span>
+          <a
+            href="https://www.pandasfight.club/#JungleMap"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="navbar-link4 nav-link"
+          >
+            JungleMap
+          </a>
+          <span className="nav-link navbar-link5">F2F</span>
+          <span className="nav-link navbar-link6">FAQs</span>
+          <span className="nav-link navbar-link7">About Us</span>
         </div>
         <div className="get-started">
-          <span className="navbar-text3">Get started</span>
+          <span className="navbar-text3">Mint</span>
         </div>
       </div>
-      <div className="">
+      <div>
         <DangerousHTML
           html={`<script>
     /*
@@ -106,7 +110,6 @@ const runMobileMenuCodeEmbed = () => {
 runMobileMenuCodeEmbed()
 listenForUrlChangesMobileMenu()
 </script>`}
-          className=""
         ></DangerousHTML>
       </div>
     </nav>
@@ -115,11 +118,11 @@ listenForUrlChangesMobileMenu()
 
 Navbar.defaultProps = {
   image_alt: 'image',
-  image_src1: '/playground_assets/planical7012-ttpb.svg',
+  image_src1: '/playground_assets/pfc-1500h.png',
   image_src: '/playground_assets/hamburger-200h.png',
   image_alt1: 'image',
   rootClassName: '',
-  BrandingLogo: '/playground_assets/pfc-200h.png',
+  BrandingLogo: '/playground_assets/pfc-1500h.png',
 }
 
 Navbar.propTypes = {

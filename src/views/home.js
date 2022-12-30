@@ -3,7 +3,6 @@ import React from 'react'
 import DangerousHTML from 'dangerous-html/react'
 import { Helmet } from 'react-helmet'
 
-import Navbar from '../components/navbar'
 import FAQ from '../components/f-a-q'
 import './home.css'
 
@@ -14,64 +13,172 @@ const Home = (props) => {
         <title>PFC</title>
         <meta property="og:title" content="PFC" />
       </Helmet>
-      <Navbar rootClassName="navbar-root-class-name"></Navbar>
-      <section className="home-section">
+      <nav className="home-navbar">
+        <a href="#top" className="home-link">
+          <img
+            alt="Planical7012"
+            src="7202d858-4ef8-4ec3-993d-6215da46e507"
+            className="home-branding-logo"
+          />
+        </a>
+        <div className="home-nav-content">
+          <div className="home-nav-links">
+            <a href="#JungleMap" className="home-link01 nav-link">
+              JungleMap
+            </a>
+            <a href="#Pew Pew" className="home-link02 nav-link">
+              F2F Game
+            </a>
+            <a href="#About Us" className="home-link03 nav-link">
+              About Us
+            </a>
+            <a href="#FAQs" className="home-link04 nav-link">
+              FAQs
+            </a>
+          </div>
+          <div className="get-started home-get-started">
+            <span className="home-text">
+              <span>Mint (coming soon)</span>
+              <br></br>
+            </span>
+          </div>
+          <div id="open-mobile-menu" className="home-hamburger get-started">
+            <img
+              alt="image"
+              src="9df4c1d2-c994-4c1e-a57e-b5a81d63ee6c"
+              className="home-image"
+            />
+          </div>
+        </div>
+        <div id="mobile-menu" className="home-mobile-menu">
+          <div className="home-branding">
+            <img
+              alt="image"
+              src="/playground_assets/planical7012-ttpb.svg"
+              className="home-image01"
+            />
+            <div id="close-mobile-menu" className="home-container1">
+              <svg viewBox="0 0 1024 1024" className="home-icon">
+                <path d="M225.835 286.165l225.835 225.835-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l225.835-225.835 225.835 225.835c16.683 16.683 43.691 16.683 60.331 0s16.683-43.691 0-60.331l-225.835-225.835 225.835-225.835c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0l-225.835 225.835-225.835-225.835c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path>
+              </svg>
+            </div>
+          </div>
+          <div className="home-nav-links1">
+            <span className="nav-link">Features</span>
+            <span className="nav-link">Why us</span>
+            <span className="nav-link">Prices</span>
+            <span className="nav-link">Contact</span>
+          </div>
+          <div className="get-started">
+            <span className="home-text03">Get started</span>
+          </div>
+        </div>
+        <div>
+          <DangerousHTML
+            html={`<script>
+    /*
+Mobile menu - Code Embed
+*/
+
+/* listenForUrlChangesMobileMenu() makes sure that if you changes pages inside your app, 
+the mobile menu will still work*/
+
+const listenForUrlChangesMobileMenu = () => {
+    let url = location.href;
+    document.body.addEventListener("click", () => {
+        requestAnimationFrame(() => {
+            if (url !== location.href) {
+                runMobileMenuCodeEmbed();
+                url = location.href;
+            }
+        });
+    },
+    true
+    );
+};
+
+const runMobileMenuCodeEmbed = () => {
+    // Mobile menu
+    const mobileMenu = document.querySelector("#mobile-menu")
+
+    // Buttons
+    const closeButton = document.querySelector("#close-mobile-menu")
+    const openButton = document.querySelector("#open-mobile-menu")
+
+    // On openButton click, set the mobileMenu position left to -100vw
+    openButton && openButton.addEventListener("click", function() {
+        mobileMenu.style.transform = "translateX(0%)"
+    })
+
+    // On closeButton click, set the mobileMenu position to 0vw
+    closeButton && closeButton.addEventListener("click", function() {
+        mobileMenu.style.transform = "translateX(100%)"
+    })
+}
+
+runMobileMenuCodeEmbed()
+listenForUrlChangesMobileMenu()
+</script>`}
+          ></DangerousHTML>
+        </div>
+      </nav>
+      <section id="top" className="home-section">
         <div className="home-gallery gallery">
-          <div className="home-container1 scrollbar">
+          <div className="home-container2 scrollbar">
             <img
               alt="image"
               src="/playground_assets/7-300h.png"
-              className="home-image scroll-item"
-            />
-            <img
-              alt="image"
-              src="/playground_assets/8-300h.png"
-              className="home-image01 scroll-item"
-            />
-            <img
-              alt="image"
-              src="/playground_assets/6-300h.png"
               className="home-image02 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/5-300h.png"
+              src="/playground_assets/8-300h.png"
               className="home-image03 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/4-300h.png"
+              src="/playground_assets/6-300h.png"
               className="home-image04 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/3-300h.png"
+              src="/playground_assets/5-300h.png"
               className="home-image05 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/9-300h.png"
+              src="/playground_assets/4-300h.png"
               className="home-image06 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/2-300h.png"
+              src="/playground_assets/3-300h.png"
               className="home-image07 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/11-300h.png"
+              src="/playground_assets/9-300h.png"
               className="home-image08 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/1-300h.png"
+              src="/playground_assets/2-300h.png"
               className="home-image09 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/10-300h.png"
+              src="/playground_assets/11-300h.png"
               className="home-image10 scroll-item"
+            />
+            <img
+              alt="image"
+              src="/playground_assets/1-300h.png"
+              className="home-image11 scroll-item"
+            />
+            <img
+              alt="image"
+              src="/playground_assets/10-300h.png"
+              className="home-image12 scroll-item"
             />
           </div>
         </div>
@@ -86,23 +193,30 @@ const Home = (props) => {
                 </span>
               </header>
               <div className="home-buttons">
-                <div className="home-get-started button">
-                  <span className="home-text">Join the waitlist</span>
-                </div>
-                <div className="home-get-started1 button">
-                  <span className="home-text01">
-                    Join the waitlist (but in grey)
-                  </span>
-                </div>
+                <a
+                  href="https://discord.gg/gV2P4JxjFd"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="home-link09"
+                >
+                  <div className="home-get-started2 button">
+                    <span className="home-text04">Join the waitlist</span>
+                  </div>
+                </a>
+                <a
+                  href="https://discord.gg/gV2P4JxjFd"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="home-link10"
+                >
+                  <div className="home-get-started3 button">
+                    <span className="home-text05">
+                      Join the waitlist (but in grey)
+                    </span>
+                  </div>
+                </a>
               </div>
             </main>
-          </div>
-          <div className="home-image11">
-            <img
-              alt="image"
-              src="/playground_assets/faceon__1_-removebg-preview-900h.png"
-              className="home-image12"
-            />
           </div>
           <div className="home-image13">
             <img
@@ -111,21 +225,28 @@ const Home = (props) => {
               className="home-image14"
             />
           </div>
+          <div className="home-image15">
+            <img
+              alt="image"
+              src="/playground_assets/faceon__1_-removebg-preview-900h.png"
+              className="home-image16"
+            />
+          </div>
         </div>
       </section>
       <section className="home-section01">
         <header className="home-header01">
-          <h2 className="home-text02">
+          <h2 className="home-text06">
             What&apos;s cooking in the Panda kitchen?
           </h2>
-          <span className="home-text03">Panda stuff</span>
+          <span className="home-text07">Panda stuff</span>
         </header>
         <section className="home-note">
-          <div className="home-image15">
+          <div className="home-image17">
             <img
               alt="image"
               src="/playground_assets/bkg%20%5B18%5D-600h.png"
-              className="home-image16"
+              className="home-image18"
             />
           </div>
           <div className="home-content01">
@@ -145,17 +266,24 @@ const Home = (props) => {
                 </p>
               </div>
             </div>
-            <div className="home-get-started2 button">
-              <span className="home-text04">Join Discord</span>
-            </div>
+            <a
+              href="https://discord.gg/gV2P4JxjFd"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="home-link11"
+            >
+              <div className="home-get-started4 button">
+                <span className="home-text08">Join Discord</span>
+              </div>
+            </a>
           </div>
         </section>
         <section className="home-note1">
-          <div className="home-image17">
+          <div className="home-image19">
             <img
               alt="image"
               src="/playground_assets/bkg%20%5B8%5D-1200w.png"
-              className="home-image18"
+              className="home-image20"
             />
           </div>
           <div className="home-content02">
@@ -179,24 +307,24 @@ const Home = (props) => {
                 </header>
                 <div className="home-checkmarks">
                   <div className="home-mark">
-                    <div className="home-icon">
-                      <svg viewBox="0 0 1024 1024" className="home-icon01">
+                    <div className="home-icon02">
+                      <svg viewBox="0 0 1024 1024" className="home-icon03">
                         <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
                       </svg>
                     </div>
                     <p className="home-label">Battle Pass</p>
                   </div>
                   <div className="home-mark1">
-                    <div className="home-icon03">
-                      <svg viewBox="0 0 1024 1024" className="home-icon04">
+                    <div className="home-icon05">
+                      <svg viewBox="0 0 1024 1024" className="home-icon06">
                         <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
                       </svg>
                     </div>
                     <p className="home-label1">OG Skin Drops</p>
                   </div>
                   <div className="home-mark2">
-                    <div className="home-icon06">
-                      <svg viewBox="0 0 1024 1024" className="home-icon07">
+                    <div className="home-icon08">
+                      <svg viewBox="0 0 1024 1024" className="home-icon09">
                         <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
                       </svg>
                     </div>
@@ -205,90 +333,97 @@ const Home = (props) => {
                 </div>
               </main>
             </main>
-            <div className="home-get-started3 button">
-              <span className="home-text05">
-                Did I tell you about our lord and savior black&amp;whitelist
-              </span>
-            </div>
+            <a
+              href="https://discord.gg/gV2P4JxjFd"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="home-link12"
+            >
+              <div className="home-get-started5 button">
+                <span className="home-text09">
+                  Did I tell you about our lord and savior black&amp;whitelist
+                </span>
+              </div>
+            </a>
           </div>
         </section>
         <div className="home-gallery1 gallery">
-          <div className="home-container2 scrollbar">
+          <div className="home-container3 scrollbar">
             <img
               alt="image"
               src="/playground_assets/bkg%20%5B1%5D-600h.png"
-              className="home-image19 scroll-item"
-            />
-            <img
-              alt="image"
-              src="/playground_assets/bkg%20%5B10%5D-600h.png"
-              className="home-image20 scroll-item"
-            />
-            <img
-              alt="image"
-              src="/playground_assets/bkg%20%5B11%5D-600h.png"
               className="home-image21 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/bkg%20%5B12%5D-600h.png"
+              src="/playground_assets/bkg%20%5B10%5D-600h.png"
               className="home-image22 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/bkg%20%5B13%5D-600h.png"
+              src="/playground_assets/bkg%20%5B11%5D-600h.png"
               className="home-image23 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/bkg%20%5B14%5D-600h.png"
+              src="/playground_assets/bkg%20%5B12%5D-600h.png"
               className="home-image24 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/bkg%20%5B15%5D-600h.png"
+              src="/playground_assets/bkg%20%5B13%5D-600h.png"
               className="home-image25 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/bkg%20%5B16%5D-600h.png"
+              src="/playground_assets/bkg%20%5B14%5D-600h.png"
               className="home-image26 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/bkg%20%5B17%5D-600h.png"
+              src="/playground_assets/bkg%20%5B15%5D-600h.png"
               className="home-image27 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/bkg%20%5B18%5D-600h.png"
+              src="/playground_assets/bkg%20%5B16%5D-600h.png"
               className="home-image28 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/bkg%20%5B19%5D-600h.png"
+              src="/playground_assets/bkg%20%5B17%5D-600h.png"
               className="home-image29 scroll-item"
+            />
+            <img
+              alt="image"
+              src="/playground_assets/bkg%20%5B18%5D-600h.png"
+              className="home-image30 scroll-item"
+            />
+            <img
+              alt="image"
+              src="/playground_assets/bkg%20%5B19%5D-600h.png"
+              className="home-image31 scroll-item"
             />
           </div>
         </div>
       </section>
-      <section className="home-section04">
-        <h2 className="home-text06">
+      <section id="Pew Pew" className="home-section04">
+        <h2 className="home-text10">
           <span>PEW PEW POW POW</span>
           <br></br>
         </h2>
         <div className="home-features">
           <header className="feature feature-active home-feature">
-            <h3 className="home-text09">Bambooska</h3>
-            <p className="home-text10">ERC 1155s</p>
+            <h3 className="home-text13">Bambooska</h3>
+            <p className="home-text14">ERC 1155s</p>
           </header>
           <header className="feature home-feature1">
-            <h3 className="home-text11">Babubshka</h3>
-            <p className="home-text12">Limited Edition</p>
+            <h3 className="home-text15">Babubshka</h3>
+            <p className="home-text16">Limited Edition</p>
           </header>
           <header className="feature home-feature2">
-            <h3 className="home-text13">Streamer Snipers</h3>
-            <p className="home-text14">Ultra Rare Pro Max 1off Editions</p>
+            <h3 className="home-text17">Streamer Snipers</h3>
+            <p className="home-text18">Ultra Rare Pro Max 1off Editions</p>
           </header>
         </div>
         <div className="home-note2">
@@ -308,157 +443,147 @@ const Home = (props) => {
               </p>
             </main>
             <div className="home-explore-more">
-              <p className="home-text17">Learn more -&gt;</p>
+              <p className="home-text21">Learn more -&gt;</p>
             </div>
           </div>
-          <div className="home-image30">
+          <div className="home-image32">
             <img
               alt="image"
               src="/playground_assets/wrappedzooka%20%5B1%5D-1200w.png"
-              className="home-image31"
+              className="home-image33"
             />
           </div>
         </div>
         <div className="home-gallery2 gallery">
-          <div className="home-container3 scrollbar">
+          <div className="home-container4 scrollbar">
             <img
               alt="image"
               src="/playground_assets/bambooka-200h.png"
-              className="home-image32 scroll-item"
-            />
-            <img
-              alt="image"
-              src="/playground_assets/pew%20%5B11%5D-200h.png"
-              className="home-image33 scroll-item"
-            />
-            <img
-              alt="image"
-              src="/playground_assets/shotgun-200h.png"
               className="home-image34 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/pew%20%5B1%5D-200h.png"
+              src="/playground_assets/pew%20%5B11%5D-200h.png"
               className="home-image35 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/binigun-200h.png"
+              src="/playground_assets/shotgun-200h.png"
               className="home-image36 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/pew%20%5B10%5D-200h.png"
+              src="/playground_assets/pew%20%5B1%5D-200h.png"
               className="home-image37 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/bk47-200h.png"
+              src="/playground_assets/binigun-200h.png"
               className="home-image38 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/pew%20%5B12%5D-200h.png"
+              src="/playground_assets/pew%20%5B10%5D-200h.png"
               className="home-image39 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/bambooshka-200h.png"
+              src="/playground_assets/bk47-200h.png"
               className="home-image40 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/pew%20%5B4%5D-200h.png"
+              src="/playground_assets/pew%20%5B12%5D-200h.png"
               className="home-image41 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/wrappedzooka-200h.png"
+              src="/playground_assets/bambooshka-200h.png"
               className="home-image42 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/pew%20%5B9%5D-200h.png"
+              src="/playground_assets/pew%20%5B4%5D-200h.png"
               className="home-image43 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/bambooka-200h.png"
+              src="/playground_assets/wrappedzooka-200h.png"
               className="home-image44 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/pew%20%5B31%5D-200h.png"
+              src="/playground_assets/pew%20%5B9%5D-200h.png"
               className="home-image45 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/shotgun-200h.png"
+              src="/playground_assets/bambooka-200h.png"
               className="home-image46 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/pew%20%5B22%5D-200h.png"
+              src="/playground_assets/pew%20%5B31%5D-200h.png"
               className="home-image47 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/binigun-200h.png"
+              src="/playground_assets/shotgun-200h.png"
               className="home-image48 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/pew%20%5B32%5D-200h.png"
+              src="/playground_assets/pew%20%5B22%5D-200h.png"
               className="home-image49 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/bk47-200h.png"
+              src="/playground_assets/binigun-200h.png"
               className="home-image50 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/pew%20%5B37%5D-200h.png"
+              src="/playground_assets/pew%20%5B32%5D-200h.png"
               className="home-image51 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/bambooshka-200h.png"
+              src="/playground_assets/bk47-200h.png"
               className="home-image52 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/pow%20%5B7%5D-200h.png"
+              src="/playground_assets/pew%20%5B37%5D-200h.png"
               className="home-image53 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/wrappedzooka-200h.png"
+              src="/playground_assets/bambooshka-200h.png"
               className="home-image54 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/pow%20%5B12%5D-200h.png"
+              src="/playground_assets/pow%20%5B7%5D-200h.png"
               className="home-image55 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/bambooshka-200h.png"
+              src="/playground_assets/wrappedzooka-200h.png"
               className="home-image56 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/pow%20%5B6%5D-200h.png"
+              src="/playground_assets/pow%20%5B12%5D-200h.png"
               className="home-image57 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/wrappedzooka-200h.png"
+              src="/playground_assets/bambooshka-200h.png"
               className="home-image58 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/pew%20%5B27%5D-200h.png"
+              src="/playground_assets/pow%20%5B6%5D-200h.png"
               className="home-image59 scroll-item"
             />
             <img
@@ -468,7 +593,7 @@ const Home = (props) => {
             />
             <img
               alt="image"
-              src="/playground_assets/pow%20%5B8%5D-200h.png"
+              src="/playground_assets/pew%20%5B27%5D-200h.png"
               className="home-image61 scroll-item"
             />
             <img
@@ -478,7 +603,7 @@ const Home = (props) => {
             />
             <img
               alt="image"
-              src="/playground_assets/pew%20%5B18%5D-200h.png"
+              src="/playground_assets/pow%20%5B8%5D-200h.png"
               className="home-image63 scroll-item"
             />
             <img
@@ -488,7 +613,7 @@ const Home = (props) => {
             />
             <img
               alt="image"
-              src="/playground_assets/pow%20%5B2%5D-200h.png"
+              src="/playground_assets/pew%20%5B18%5D-200h.png"
               className="home-image65 scroll-item"
             />
             <img
@@ -498,7 +623,7 @@ const Home = (props) => {
             />
             <img
               alt="image"
-              src="/playground_assets/pew%20%5B23%5D-200h.png"
+              src="/playground_assets/pow%20%5B2%5D-200h.png"
               className="home-image67 scroll-item"
             />
             <img
@@ -508,18 +633,28 @@ const Home = (props) => {
             />
             <img
               alt="image"
-              src="/playground_assets/pew%20%5B13%5D-200h.png"
+              src="/playground_assets/pew%20%5B23%5D-200h.png"
               className="home-image69 scroll-item"
+            />
+            <img
+              alt="image"
+              src="/playground_assets/wrappedzooka-200h.png"
+              className="home-image70 scroll-item"
+            />
+            <img
+              alt="image"
+              src="/playground_assets/pew%20%5B13%5D-200h.png"
+              className="home-image71 scroll-item"
             />
           </div>
         </div>
       </section>
-      <section className="home-section05">
-        <div className="home-image70">
+      <section id="JungleMap" className="home-section05">
+        <div className="home-image72">
           <img
             alt="image"
             src="/playground_assets/bkg%20%5B19%5D-600h.png"
-            className="home-image71"
+            className="home-image73"
           />
         </div>
         <div className="home-content04">
@@ -535,8 +670,8 @@ const Home = (props) => {
               >
                 <div className="home-details">
                   <span className="section-head">Bambooverse begins</span>
-                  <span className="home-text18">Dec 22</span>
-                  <span data-role="accordion-content" className="home-text19">
+                  <span className="home-text22">Dec 22</span>
+                  <span data-role="accordion-content" className="home-text23">
                     we will first build a community of around 10k people on both
                     twitter and discord and be giving whitelists to first and
                     foremost the gaming audience of our partner streamer
@@ -545,7 +680,7 @@ const Home = (props) => {
                 <svg
                   viewBox="0 0 1024 1024"
                   data-role="accordion-icon"
-                  className="home-icon09"
+                  className="home-icon11"
                 >
                   <path d="M366 708l196-196-196-196 60-60 256 256-256 256z"></path>
                 </svg>
@@ -556,8 +691,8 @@ const Home = (props) => {
                 className="home-element1 accordion-element"
               >
                 <div className="home-details01">
-                  <span className="home-text20">Q1 2023</span>
-                  <span data-role="accordion-content" className="home-text21">
+                  <span className="home-text24">Q1 2023</span>
+                  <span data-role="accordion-content" className="home-text25">
                     we will then add our project into leading nft marketplaces
                     like opensea and gamestop nft as we set up shop
                     <span
@@ -570,7 +705,7 @@ const Home = (props) => {
                 <svg
                   viewBox="0 0 1024 1024"
                   data-role="accordion-icon"
-                  className="home-icon11"
+                  className="home-icon13"
                 >
                   <path d="M366 708l196-196-196-196 60-60 256 256-256 256z"></path>
                 </svg>
@@ -581,8 +716,8 @@ const Home = (props) => {
                 className="home-element2 accordion-element"
               >
                 <div className="home-details02">
-                  <span className="home-text22">Q2 2023</span>
-                  <span data-role="accordion-content" className="home-text23">
+                  <span className="home-text26">Q2 2023</span>
+                  <span data-role="accordion-content" className="home-text27">
                     we&apos;ll be building a Panda gaming studio from the funds
                     raised and add more members to the team to build more games
                     and add more skins and events as time passes to build even
@@ -593,7 +728,7 @@ const Home = (props) => {
                 <svg
                   viewBox="0 0 1024 1024"
                   data-role="accordion-icon"
-                  className="home-icon13"
+                  className="home-icon15"
                 >
                   <path d="M366 708l196-196-196-196 60-60 256 256-256 256z"></path>
                 </svg>
@@ -603,8 +738,8 @@ const Home = (props) => {
                 className="home-element3 accordion-element"
               >
                 <div className="home-details03">
-                  <span className="home-text24">Funds Split</span>
-                  <span data-role="accordion-content" className="home-text25">
+                  <span className="home-text28">Funds Split</span>
+                  <span data-role="accordion-content" className="home-text29">
                     50% for the project, 10% for the team, 10% for promotion,
                     10% misc , 20% to streamer partner and a 100% reason to
                     remember the name
@@ -618,7 +753,7 @@ const Home = (props) => {
                 <svg
                   viewBox="0 0 1024 1024"
                   data-role="accordion-icon"
-                  className="home-icon15"
+                  className="home-icon17"
                 >
                   <path d="M366 708l196-196-196-196 60-60 256 256-256 256z"></path>
                 </svg>
@@ -647,11 +782,11 @@ const Home = (props) => {
         </header>
         <main className="home-cards">
           <section className="home-card">
-            <div className="home-icon17">
+            <div className="home-icon19">
               <img
                 alt="image"
                 src="/playground_assets/group%201316-1200w.png"
-                className="home-icon18"
+                className="home-icon20"
               />
             </div>
             <main className="home-content05">
@@ -660,11 +795,11 @@ const Home = (props) => {
             </main>
           </section>
           <section className="home-card01">
-            <div className="home-icon19">
+            <div className="home-icon21">
               <img
                 alt="image"
                 src="/playground_assets/group%201314-200h.png"
-                className="home-icon20"
+                className="home-icon22"
               />
             </div>
             <main className="home-content06">
@@ -673,11 +808,11 @@ const Home = (props) => {
             </main>
           </section>
           <section className="home-card02">
-            <div className="home-icon21">
+            <div className="home-icon23">
               <img
                 alt="image"
                 src="/playground_assets/group%201317-200h.png"
-                className="home-icon22"
+                className="home-icon24"
               />
             </div>
             <main className="home-content07">
@@ -708,20 +843,20 @@ const Home = (props) => {
               href="https://opensea.io/"
               target="_blank"
               rel="noreferrer noopener"
-              className="home-link"
+              className="home-link13"
             >
-              <div className="home-get-started4 button">
-                <span className="home-text26">Opensea</span>
+              <div className="home-get-started6 button">
+                <span className="home-text30">Opensea</span>
               </div>
             </a>
             <a
               href="https://youtu.be/yTkgsTmDzLQ"
               target="_blank"
               rel="noreferrer noopener"
-              className="home-link01"
+              className="home-link14"
             >
               <div className="home-book-demo button">
-                <span className="home-text27">Minting Demo (youtube)</span>
+                <span className="home-text31">Minting Demo (youtube)</span>
               </div>
             </a>
           </div>
@@ -733,7 +868,7 @@ const Home = (props) => {
           <div className="home-front1 side"></div>
           <div className="home-left2 side"></div>
         </div>
-        <main className="home-pricing">
+        <main id="About Us" className="home-pricing">
           <header className="home-header09">
             <header className="home-left3">
               <h2 className="section-heading home-heading10">About Us</h2>
@@ -756,7 +891,7 @@ const Home = (props) => {
                   <img
                     alt="image"
                     src="/playground_assets/83-300w.png"
-                    className="home-image72"
+                    className="home-image74"
                   />
                 </div>
                 <div className="home-buy-details">
@@ -764,10 +899,10 @@ const Home = (props) => {
                     href="https://tracker.gg/valorant/profile/riot/muller23%231095/overview?season=all"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="home-link02"
+                    className="home-link15"
                   >
                     <div className="home-buy button">
-                      <span className="home-text28">
+                      <span className="home-text32">
                         <span>Tracker GG</span>
                         <br></br>
                       </span>
@@ -777,10 +912,10 @@ const Home = (props) => {
                     href="https://discord.gg/gV2P4JxjFd"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="home-link03"
+                    className="home-link16"
                   >
                     <div className="home-buy01 button">
-                      <span className="home-text31">
+                      <span className="home-text35">
                         <span>Discord</span>
                         <br></br>
                       </span>
@@ -802,7 +937,7 @@ const Home = (props) => {
                   <img
                     alt="image"
                     src="/playground_assets/1-300h.png"
-                    className="home-image73"
+                    className="home-image75"
                   />
                 </div>
                 <div className="home-buy-details1">
@@ -810,10 +945,10 @@ const Home = (props) => {
                     href="https://www.deviantart.com/lupubaciu23"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="home-link04"
+                    className="home-link17"
                   >
                     <div className="home-buy02 button">
-                      <span className="home-text34">
+                      <span className="home-text38">
                         <span>Deviant Art</span>
                         <br></br>
                       </span>
@@ -823,10 +958,10 @@ const Home = (props) => {
                     href="https://discord.gg/abhFFXxXrX"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="home-link05"
+                    className="home-link18"
                   >
                     <div className="home-buy03 button">
-                      <span className="home-text37">
+                      <span className="home-text41">
                         <span>Discord</span>
                         <br></br>
                       </span>
@@ -849,7 +984,7 @@ const Home = (props) => {
                   <img
                     alt="image"
                     src="/playground_assets/6-300h.png"
-                    className="home-image74"
+                    className="home-image76"
                   />
                 </div>
                 <div className="home-buy-details2">
@@ -857,10 +992,10 @@ const Home = (props) => {
                     href="https://store.steampowered.com/curator/39218809"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="home-link06"
+                    className="home-link19"
                   >
                     <div className="home-buy04 button">
-                      <span className="home-text40">
+                      <span className="home-text44">
                         <span>Steam Store</span>
                         <br></br>
                       </span>
@@ -870,10 +1005,10 @@ const Home = (props) => {
                     href="https://youtube.com/channel/UCXgxW8ppgHI7_zvsS4O0Ltw"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="home-link07"
+                    className="home-link20"
                   >
                     <div className="home-buy05 button">
-                      <span className="home-text43">
+                      <span className="home-text47">
                         <span>Youtube</span>
                         <br></br>
                       </span>
@@ -897,7 +1032,7 @@ const Home = (props) => {
                   <img
                     alt="image"
                     src="/playground_assets/93-300w.png"
-                    className="home-image75"
+                    className="home-image77"
                   />
                 </div>
                 <div className="home-buy-details3">
@@ -905,10 +1040,10 @@ const Home = (props) => {
                     href="https://github.com/OWO69"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="home-link08"
+                    className="home-link21"
                   >
                     <div className="home-buy06 button">
-                      <span className="home-text46">
+                      <span className="home-text50">
                         <span>GitHub</span>
                         <br></br>
                       </span>
@@ -918,10 +1053,10 @@ const Home = (props) => {
                     href="https://www.layer1loopy.club/"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="home-link09"
+                    className="home-link22"
                   >
                     <div className="home-buy07 button">
-                      <span className="home-text49">
+                      <span className="home-text53">
                         <span>Previously On</span>
                         <br></br>
                       </span>
@@ -943,18 +1078,18 @@ const Home = (props) => {
                   <img
                     alt="image"
                     src="/playground_assets/87-300w.png"
-                    className="home-image76"
+                    className="home-image78"
                   />
                 </div>
                 <div className="home-buy-details4">
                   <div className="home-buy08 button">
-                    <span className="home-text52">
+                    <span className="home-text56">
                       <span>Goerli</span>
                       <br></br>
                     </span>
                   </div>
                   <div className="home-buy09 button">
-                    <span className="home-text55">
+                    <span className="home-text59">
                       <span>Etherscan</span>
                       <br></br>
                     </span>
@@ -973,18 +1108,18 @@ const Home = (props) => {
                   <img
                     alt="image"
                     src="/playground_assets/8-300h.png"
-                    className="home-image77"
+                    className="home-image79"
                   />
                 </div>
                 <div className="home-buy-details5">
                   <div className="home-buy10 button">
-                    <span className="home-text58">
+                    <span className="home-text62">
                       <span>Twitch</span>
                       <br></br>
                     </span>
                   </div>
                   <div className="home-buy11 button">
-                    <span className="home-text61">
+                    <span className="home-text65">
                       <span>Insta</span>
                       <br></br>
                     </span>
@@ -1007,7 +1142,7 @@ const Home = (props) => {
                   <img
                     alt="image"
                     src="/playground_assets/97-300w.png"
-                    className="home-image78"
+                    className="home-image80"
                   />
                 </div>
                 <div className="home-buy-details6">
@@ -1015,10 +1150,10 @@ const Home = (props) => {
                     href="https://discord.gg/J7xQm2NyQC"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="home-link10"
+                    className="home-link23"
                   >
                     <div className="home-buy12 button">
-                      <span className="home-text64">
+                      <span className="home-text68">
                         <span>Discord</span>
                         <br></br>
                       </span>
@@ -1040,7 +1175,7 @@ const Home = (props) => {
                     </span>
                     <br></br>
                     <span>If Neymar has one fan, then I&apos;m the one.</span>
-                    <br className="home-text70"></br>
+                    <br className="home-text74"></br>
                     <span>
                       If Neymar has no fans, that means I don&apos;t exist
                     </span>
@@ -1048,7 +1183,7 @@ const Home = (props) => {
                   <img
                     alt="image"
                     src="/playground_assets/48-300w.png"
-                    className="home-image79"
+                    className="home-image81"
                   />
                 </div>
                 <div className="home-buy-details7">
@@ -1056,10 +1191,10 @@ const Home = (props) => {
                     href="https://discord.gg/NQjph5e7aS"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="home-link11"
+                    className="home-link24"
                   >
                     <div className="home-buy13 button">
-                      <span className="home-text72">Discord</span>
+                      <span className="home-text76">Discord</span>
                     </div>
                   </a>
                 </div>
@@ -1078,7 +1213,7 @@ const Home = (props) => {
                   <img
                     alt="image"
                     src="/playground_assets/27-300w.png"
-                    className="home-image80"
+                    className="home-image82"
                   />
                 </div>
                 <div className="home-buy-details8">
@@ -1086,10 +1221,10 @@ const Home = (props) => {
                     href="https://twitter.com/pandasfightclub"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="home-link12"
+                    className="home-link25"
                   >
                     <div className="home-buy14 button">
-                      <span className="home-text73">
+                      <span className="home-text77">
                         <span>Twitter</span>
                         <br></br>
                       </span>
@@ -1114,16 +1249,16 @@ const Home = (props) => {
           <div className="home-right2"></div>
         </header>
         <main className="home-cards1">
-          <div className="home-container4">
+          <div className="home-container5">
             <section className="home-card03">
               <div className="home-stars">
-                <svg viewBox="0 0 1024 1024" className="home-icon23">
-                  <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
-                </svg>
                 <svg viewBox="0 0 1024 1024" className="home-icon25">
                   <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
                 </svg>
                 <svg viewBox="0 0 1024 1024" className="home-icon27">
+                  <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
+                </svg>
+                <svg viewBox="0 0 1024 1024" className="home-icon29">
                   <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
                 </svg>
               </div>
@@ -1144,9 +1279,6 @@ const Home = (props) => {
             </section>
             <section className="home-card04">
               <div className="home-stars1">
-                <svg viewBox="0 0 1024 1024" className="home-icon29">
-                  <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
-                </svg>
                 <svg viewBox="0 0 1024 1024" className="home-icon31">
                   <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
                 </svg>
@@ -1154,6 +1286,9 @@ const Home = (props) => {
                   <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
                 </svg>
                 <svg viewBox="0 0 1024 1024" className="home-icon35">
+                  <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
+                </svg>
+                <svg viewBox="0 0 1024 1024" className="home-icon37">
                   <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
                 </svg>
               </div>
@@ -1173,10 +1308,10 @@ const Home = (props) => {
               </main>
             </section>
           </div>
-          <div className="home-container5">
+          <div className="home-container6">
             <section className="home-card05">
               <div className="home-stars2">
-                <svg viewBox="0 0 1024 1024" className="home-icon37">
+                <svg viewBox="0 0 1024 1024" className="home-icon39">
                   <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
                 </svg>
               </div>
@@ -1197,10 +1332,10 @@ const Home = (props) => {
             </section>
             <section className="home-card06">
               <div className="home-stars3">
-                <svg viewBox="0 0 1024 1024" className="home-icon39">
+                <svg viewBox="0 0 1024 1024" className="home-icon41">
                   <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
                 </svg>
-                <svg viewBox="0 0 1024 1024" className="home-icon41">
+                <svg viewBox="0 0 1024 1024" className="home-icon43">
                   <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
                 </svg>
               </div>
@@ -1220,12 +1355,9 @@ const Home = (props) => {
               </main>
             </section>
           </div>
-          <div className="home-container6">
+          <div className="home-container7">
             <section className="home-card07">
               <div className="home-stars4">
-                <svg viewBox="0 0 1024 1024" className="home-icon43">
-                  <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
-                </svg>
                 <svg viewBox="0 0 1024 1024" className="home-icon45">
                   <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
                 </svg>
@@ -1236,6 +1368,9 @@ const Home = (props) => {
                   <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
                 </svg>
                 <svg viewBox="0 0 1024 1024" className="home-icon51">
+                  <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
+                </svg>
+                <svg viewBox="0 0 1024 1024" className="home-icon53">
                   <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
                 </svg>
               </div>
@@ -1258,9 +1393,6 @@ const Home = (props) => {
             </section>
             <section className="home-card08">
               <div className="home-stars5">
-                <svg viewBox="0 0 1024 1024" className="home-icon53">
-                  <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
-                </svg>
                 <svg viewBox="0 0 1024 1024" className="home-icon55">
                   <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
                 </svg>
@@ -1271,6 +1403,9 @@ const Home = (props) => {
                   <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
                 </svg>
                 <svg viewBox="0 0 1024 1024" className="home-icon61">
+                  <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
+                </svg>
+                <svg viewBox="0 0 1024 1024" className="home-icon63">
                   <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
                 </svg>
               </div>
@@ -1292,7 +1427,7 @@ const Home = (props) => {
           </div>
         </main>
         <div className="home-view-more">
-          <p className="home-text76">View more</p>
+          <p className="home-text80">View more</p>
         </div>
       </section>
       <section className="home-section15">
@@ -1309,16 +1444,16 @@ const Home = (props) => {
               <img
                 alt="image"
                 src="/playground_assets/1_d1vhtbpalfshxeofveiz5w-200h.png"
-                className="home-image81"
+                className="home-image83"
               />
               <div className="home-button">
                 <a
                   href
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link13"
+                  className="home-link26"
                 >
-                  <p className="home-text77">Check It Out-&gt;</p>
+                  <p className="home-text81">Check It Out-&gt;</p>
                 </a>
               </div>
             </main>
@@ -1331,16 +1466,16 @@ const Home = (props) => {
               <img
                 alt="image"
                 src="/playground_assets/1200px-techcrunch_logo.svg-200h.png"
-                className="home-image82"
+                className="home-image84"
               />
               <div className="home-button1">
                 <a
                   href
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link14"
+                  className="home-link27"
                 >
-                  <p className="home-text78">Read -&gt;</p>
+                  <p className="home-text82">Read -&gt;</p>
                 </a>
               </div>
             </main>
@@ -1353,23 +1488,23 @@ const Home = (props) => {
               <img
                 alt="image"
                 src="/playground_assets/raritysniper-200h.webp"
-                className="home-image83"
+                className="home-image85"
               />
               <div className="home-button2">
                 <a
                   href
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link15"
+                  className="home-link28"
                 >
-                  <p className="home-text79">Scroll-&gt;</p>
+                  <p className="home-text83">Scroll-&gt;</p>
                 </a>
               </div>
             </main>
           </section>
         </main>
       </section>
-      <section className="home-section17">
+      <section id="FAQs" className="home-section17">
         <header className="home-header27">
           <span className="section-head">FAQ</span>
           <h2 className="home-heading13 section-heading">
@@ -1380,7 +1515,7 @@ const Home = (props) => {
           <FAQ rootClassName="f-a-q-root-class-name"></FAQ>
         </main>
       </section>
-      <section className="home-section19">
+      <section id="Downloads" className="home-section19">
         <main className="home-content17">
           <header className="home-header28">
             <h2 className="home-heading14 section-heading">
@@ -1391,23 +1526,23 @@ const Home = (props) => {
                 <img
                   alt="image"
                   src="/playground_assets/apple-200w.png"
-                  className="home-icon63"
+                  className="home-icon65"
                 />
-                <span className="home-text80">Download for iOS</span>
+                <span className="home-text84">Download for iOS</span>
               </div>
               <a
                 href="https://drive.google.com/file/d/1m0__KYJk7SZaUAQ1F5IHjDryIc3TciU6/view"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="home-link16"
+                className="home-link29"
               >
                 <div className="home-android button">
                   <img
                     alt="image"
                     src="/playground_assets/android-200h.png"
-                    className="home-icon64"
+                    className="home-icon66"
                   />
-                  <span className="home-text81">Download for Android</span>
+                  <span className="home-text85">Download for Android</span>
                 </div>
               </a>
             </div>
@@ -1415,14 +1550,14 @@ const Home = (props) => {
           <img
             alt="image"
             src="/playground_assets/bkg%20%5B9%5D-1200w.png"
-            className="home-image84"
+            className="home-image86"
           />
         </main>
       </section>
       <footer className="home-footer">
         <div className="home-buy15 button">
-          <span className="home-text82">-&gt;</span>
-          <span className="home-text83">Links &amp; Socials</span>
+          <span className="home-text86">-&gt;</span>
+          <span className="home-text87">Links &amp; Socials</span>
         </div>
         <div className="home-content18">
           <main className="home-main-content">
@@ -1432,43 +1567,43 @@ const Home = (props) => {
                   href="https://discord.gg/gV2P4JxjFd"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link17"
+                  className="home-link30"
                 >
                   <img
                     alt="image"
                     src="/playground_assets/discord-logo-200h.png"
-                    className="home-image85"
+                    className="home-image87"
                   />
                 </a>
                 <a
                   href="https://twitter.com/pandasfightclub"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link18"
+                  className="home-link31"
                 >
                   <img
                     alt="image"
                     src="/playground_assets/twitter-logo.svg-200h.png"
-                    className="home-image86"
+                    className="home-image88"
                   />
                 </a>
                 <a
                   href="https://opensea.io/"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link19"
+                  className="home-link32"
                 >
                   <img
                     alt="image"
                     src="/playground_assets/ef73d5ccc3ea3321755dc4a656250d307dceede8-200h.png"
-                    className="home-image87"
+                    className="home-image89"
                   />
                 </a>
               </header>
             </div>
           </main>
           <section className="home-copyright">
-            <span className="home-text84">
+            <span className="home-text88">
               © 2022 latitude. All Rights Reserved.
             </span>
           </section>
