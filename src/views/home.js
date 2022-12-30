@@ -44,7 +44,7 @@ const Home = (props) => {
           <div id="open-mobile-menu" className="home-hamburger get-started">
             <img
               alt="image"
-              src="9df4c1d2-c994-4c1e-a57e-b5a81d63ee6c"
+              src="/playground_assets/hamburger-200h.png"
               className="home-image"
             />
           </div>
@@ -815,7 +815,7 @@ listenForUrlChangesMobileMenu()
             <div className="home-icon23">
               <img
                 alt="image"
-                src="/playground_assets/group%201317-200h.png"
+                src="/playground_assets/group%201317-1200w.png"
                 className="home-icon24"
               />
             </div>
