@@ -704,12 +704,26 @@ const Home = (props) => {
             </p>
           </div>
           <div className="home-buttons1">
-            <div className="home-get-started4 button">
-              <span className="home-text26">Opensea</span>
-            </div>
-            <div className="home-book-demo button">
-              <span className="home-text27">Minting Demo (youtube)</span>
-            </div>
+            <a
+              href="https://opensea.io/"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="home-link"
+            >
+              <div className="home-get-started4 button">
+                <span className="home-text26">Opensea</span>
+              </div>
+            </a>
+            <a
+              href="https://youtu.be/yTkgsTmDzLQ"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="home-link01"
+            >
+              <div className="home-book-demo button">
+                <span className="home-text27">Minting Demo (youtube)</span>
+              </div>
+            </a>
           </div>
         </main>
       </section>
@@ -750,7 +764,7 @@ const Home = (props) => {
                     href="https://tracker.gg/valorant/profile/riot/muller23%231095/overview?season=all"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="home-link"
+                    className="home-link02"
                   >
                     <div className="home-buy button">
                       <span className="home-text28">
@@ -760,14 +774,14 @@ const Home = (props) => {
                     </div>
                   </a>
                   <a
-                    href="https://twitter.com/"
+                    href="https://discord.gg/gV2P4JxjFd"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="home-link1"
+                    className="home-link03"
                   >
                     <div className="home-buy01 button">
                       <span className="home-text31">
-                        <span>Twitter</span>
+                        <span>Discord</span>
                         <br></br>
                       </span>
                     </div>
@@ -796,7 +810,7 @@ const Home = (props) => {
                     href="https://www.deviantart.com/lupubaciu23"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="home-link2"
+                    className="home-link04"
                   >
                     <div className="home-buy02 button">
                       <span className="home-text34">
@@ -806,10 +820,10 @@ const Home = (props) => {
                     </div>
                   </a>
                   <a
-                    href="https://discord.gg"
+                    href="https://discord.gg/abhFFXxXrX"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="home-link3"
+                    className="home-link05"
                   >
                     <div className="home-buy03 button">
                       <span className="home-text37">
@@ -843,7 +857,7 @@ const Home = (props) => {
                     href="https://store.steampowered.com/curator/39218809"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="home-link4"
+                    className="home-link06"
                   >
                     <div className="home-buy04 button">
                       <span className="home-text40">
@@ -856,7 +870,7 @@ const Home = (props) => {
                     href="https://youtube.com/channel/UCXgxW8ppgHI7_zvsS4O0Ltw"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="home-link5"
+                    className="home-link07"
                   >
                     <div className="home-buy05 button">
                       <span className="home-text43">
@@ -887,18 +901,32 @@ const Home = (props) => {
                   />
                 </div>
                 <div className="home-buy-details3">
-                  <div className="home-buy06 button">
-                    <span className="home-text46">
-                      <span>GitHub</span>
-                      <br></br>
-                    </span>
-                  </div>
-                  <div className="home-buy07 button">
-                    <span className="home-text49">
-                      <span>Previously On</span>
-                      <br></br>
-                    </span>
-                  </div>
+                  <a
+                    href="https://github.com/OWO69"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="home-link08"
+                  >
+                    <div className="home-buy06 button">
+                      <span className="home-text46">
+                        <span>GitHub</span>
+                        <br></br>
+                      </span>
+                    </div>
+                  </a>
+                  <a
+                    href="https://www.layer1loopy.club/"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="home-link09"
+                  >
+                    <div className="home-buy07 button">
+                      <span className="home-text49">
+                        <span>Previously On</span>
+                        <br></br>
+                      </span>
+                    </div>
+                  </a>
                 </div>
               </div>
               <div className="home-plan4">
@@ -968,7 +996,7 @@ const Home = (props) => {
               <div className="home-plan6">
                 <div className="home-details10">
                   <div className="home-header16">
-                    <label className="home-name6">Kannon</label>
+                    <label className="home-name6">Purrsian</label>
                     <div className="home-pricing07">
                       <h1 className="home-price6">MemeTeam</h1>
                     </div>
@@ -983,18 +1011,25 @@ const Home = (props) => {
                   />
                 </div>
                 <div className="home-buy-details6">
-                  <div className="home-buy12 button">
-                    <span className="home-text64">
-                      <span>Discord</span>
-                      <br></br>
-                    </span>
-                  </div>
+                  <a
+                    href="https://discord.gg/J7xQm2NyQC"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="home-link10"
+                  >
+                    <div className="home-buy12 button">
+                      <span className="home-text64">
+                        <span>Discord</span>
+                        <br></br>
+                      </span>
+                    </div>
+                  </a>
                 </div>
               </div>
               <div className="home-plan7">
                 <div className="home-details11">
                   <div className="home-header17">
-                    <label className="home-name7">Gabriel</label>
+                    <label className="home-name7">bonappetitjovi</label>
                     <div className="home-pricing08">
                       <h1 className="home-price7">MemeTeam</h1>
                     </div>
@@ -1017,15 +1052,22 @@ const Home = (props) => {
                   />
                 </div>
                 <div className="home-buy-details7">
-                  <div className="home-buy13 button">
-                    <span className="home-text72">Discord</span>
-                  </div>
+                  <a
+                    href="https://discord.gg/NQjph5e7aS"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="home-link11"
+                  >
+                    <div className="home-buy13 button">
+                      <span className="home-text72">Discord</span>
+                    </div>
+                  </a>
                 </div>
               </div>
               <div className="home-plan8">
                 <div className="home-details12">
                   <div className="home-header18">
-                    <label className="home-name8">WarJammer99</label>
+                    <label className="home-name8">MrCoolio</label>
                     <div className="home-pricing09">
                       <span className="home-price8">MemeTeam</span>
                     </div>
@@ -1040,12 +1082,19 @@ const Home = (props) => {
                   />
                 </div>
                 <div className="home-buy-details8">
-                  <div className="home-buy14 button">
-                    <span className="home-text73">
-                      <span>Twitter</span>
-                      <br></br>
-                    </span>
-                  </div>
+                  <a
+                    href="https://twitter.com/pandasfightclub"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="home-link12"
+                  >
+                    <div className="home-buy14 button">
+                      <span className="home-text73">
+                        <span>Twitter</span>
+                        <br></br>
+                      </span>
+                    </div>
+                  </a>
                 </div>
               </div>
             </main>
@@ -1267,7 +1316,7 @@ const Home = (props) => {
                   href
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link6"
+                  className="home-link13"
                 >
                   <p className="home-text77">Check It Out-&gt;</p>
                 </a>
@@ -1289,7 +1338,7 @@ const Home = (props) => {
                   href
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link7"
+                  className="home-link14"
                 >
                   <p className="home-text78">Read -&gt;</p>
                 </a>
@@ -1311,7 +1360,7 @@ const Home = (props) => {
                   href
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link8"
+                  className="home-link15"
                 >
                   <p className="home-text79">Scroll-&gt;</p>
                 </a>
@@ -1346,14 +1395,21 @@ const Home = (props) => {
                 />
                 <span className="home-text80">Download for iOS</span>
               </div>
-              <div className="home-android button">
-                <img
-                  alt="image"
-                  src="/playground_assets/android-200h.png"
-                  className="home-icon64"
-                />
-                <span className="home-text81">Download for Android</span>
-              </div>
+              <a
+                href="https://drive.google.com/file/d/1m0__KYJk7SZaUAQ1F5IHjDryIc3TciU6/view"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="home-link16"
+              >
+                <div className="home-android button">
+                  <img
+                    alt="image"
+                    src="/playground_assets/android-200h.png"
+                    className="home-icon64"
+                  />
+                  <span className="home-text81">Download for Android</span>
+                </div>
+              </a>
             </div>
           </header>
           <img
@@ -1372,21 +1428,42 @@ const Home = (props) => {
           <main className="home-main-content">
             <div className="home-content19">
               <header className="home-categories">
-                <img
-                  alt="image"
-                  src="/playground_assets/discord-logo-200h.png"
-                  className="home-image85"
-                />
-                <img
-                  alt="image"
-                  src="/playground_assets/twitter-logo.svg-200h.png"
-                  className="home-image86"
-                />
-                <img
-                  alt="image"
-                  src="/playground_assets/ef73d5ccc3ea3321755dc4a656250d307dceede8-200h.png"
-                  className="home-image87"
-                />
+                <a
+                  href="https://discord.gg/gV2P4JxjFd"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="home-link17"
+                >
+                  <img
+                    alt="image"
+                    src="/playground_assets/discord-logo-200h.png"
+                    className="home-image85"
+                  />
+                </a>
+                <a
+                  href="https://twitter.com/pandasfightclub"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="home-link18"
+                >
+                  <img
+                    alt="image"
+                    src="/playground_assets/twitter-logo.svg-200h.png"
+                    className="home-image86"
+                  />
+                </a>
+                <a
+                  href="https://opensea.io/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="home-link19"
+                >
+                  <img
+                    alt="image"
+                    src="/playground_assets/ef73d5ccc3ea3321755dc4a656250d307dceede8-200h.png"
+                    className="home-image87"
+                  />
+                </a>
               </header>
             </div>
           </main>
