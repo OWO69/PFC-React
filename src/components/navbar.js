@@ -8,11 +8,7 @@ import './navbar.css'
 const Navbar = (props) => {
   return (
     <nav className={`navbar-navbar ${props.rootClassName} `}>
-      <img
-        alt="Planical7012"
-        src={props.BrandingLogo}
-        className="navbar-branding-logo"
-      />
+      <div className="navbar-branding-logo"></div>
       <div className="navbar-nav-content">
         <div className="navbar-nav-links">
           <span className="navbar-link nav-link">JungleMap</span>
@@ -36,12 +32,8 @@ const Navbar = (props) => {
       </div>
       <div id="mobile-menu" className="navbar-mobile-menu">
         <div className="navbar-branding">
-          <img
-            alt={props.image_alt1}
-            src={props.image_src1}
-            className="navbar-image1"
-          />
-          <div id="close-mobile-menu" className="navbar-container">
+          <div className="navbar-container"></div>
+          <div id="close-mobile-menu" className="navbar-container1">
             <svg viewBox="0 0 1024 1024" className="navbar-icon">
               <path d="M225.835 286.165l225.835 225.835-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l225.835-225.835 225.835 225.835c16.683 16.683 43.691 16.683 60.331 0s16.683-43.691 0-60.331l-225.835-225.835 225.835-225.835c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0l-225.835 225.835-225.835-225.835c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path>
             </svg>
@@ -118,20 +110,14 @@ listenForUrlChangesMobileMenu()
 
 Navbar.defaultProps = {
   image_alt: 'image',
-  image_src1: '/playground_assets/pfc-1500h.png',
   image_src: '/playground_assets/hamburger-200h.png',
-  image_alt1: 'image',
   rootClassName: '',
-  BrandingLogo: '/playground_assets/pfc-1500h.png',
 }
 
 Navbar.propTypes = {
   image_alt: PropTypes.string,
-  image_src1: PropTypes.string,
   image_src: PropTypes.string,
-  image_alt1: PropTypes.string,
   rootClassName: PropTypes.string,
-  BrandingLogo: PropTypes.string,
 }
 
 export default Navbar

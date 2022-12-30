@@ -28,8 +28,10 @@
 .home-branding-logo {
   width: 145px;
   height: 170px;
-  box-sizing: content-box;
-  text-decoration: none;
+  display: flex;
+  background-size: cover;
+  background-image: 7202d858-4ef8-4ec3-993d-6215da46e507;
+  background-position: center;
 }
 .home-nav-content {
   gap: var(--dl-space-space-threeunits);

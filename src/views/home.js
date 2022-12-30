@@ -15,11 +15,7 @@ const Home = (props) => {
       </Helmet>
       <nav className="home-navbar">
         <a href="#top" className="home-link">
-          <img
-            alt="Planical7012"
-            src="7202d858-4ef8-4ec3-993d-6215da46e507"
-            className="home-branding-logo"
-          />
+          <div className="home-branding-logo"></div>
         </a>
         <div className="home-nav-content">
           <div className="home-nav-links">

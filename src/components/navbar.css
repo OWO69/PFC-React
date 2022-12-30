@@ -15,7 +15,10 @@
 .navbar-branding-logo {
   width: 145px;
   height: 170px;
-  box-sizing: content-box;
+  display: flex;
+  background-size: cover;
+  background-image: url("/playground_assets/pfc-200h.png");
+  background-position: center;
 }
 .navbar-nav-content {
   gap: var(--dl-space-space-threeunits);
@@ -73,12 +76,15 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.navbar-image1 {
-  width: 100px;
-  filter: brightness(0) saturate(100%);
-  object-fit: cover;
-}
 .navbar-container {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  background-size: cover;
+  background-image: url("/playground_assets/9-200h.png");
+  background-position: center;
+}
+.navbar-container1 {
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -111,6 +117,10 @@
   .navbar-mobile-menu {
     width: 505px;
     margin-right: 0px;
+  }
+  .navbar-container {
+    background-size: cover;
+    background-image: url("/playground_assets/pfc-200h.png");
   }
   .navbar-link4 {
     color: #000000;
@@ -161,9 +171,16 @@
   }
 }
 @media(max-width: 479px) {
+  .navbar-branding-logo {
+    width: 159px;
+  }
   .navbar-mobile-menu {
     width: 478px;
     margin-right: 283px;
+  }
+  .navbar-container {
+    background-size: cover;
+    background-image: url("/playground_assets/pfc-200h.png");
   }
   .navbar-text3 {
     color: rgb(255, 255, 255);
