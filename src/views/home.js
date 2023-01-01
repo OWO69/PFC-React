@@ -74,7 +74,7 @@ const Home = (props) => {
             </a>
           </div>
           <div className="get-started">
-            <span className="home-text05">Mint</span>
+            <span className="home-text005">Mint</span>
           </div>
         </div>
         <div>
@@ -204,7 +204,7 @@ listenForUrlChangesMobileMenu()
                   className="home-link09"
                 >
                   <div className="home-get-started2 button">
-                    <span className="home-text06">Join the waitlist</span>
+                    <span className="home-text006">Join the waitlist</span>
                   </div>
                 </a>
                 <a
@@ -214,7 +214,7 @@ listenForUrlChangesMobileMenu()
                   className="home-link10"
                 >
                   <div className="home-get-started3 button">
-                    <span className="home-text07">
+                    <span className="home-text007">
                       Join the waitlist (but in grey)
                     </span>
                   </div>
@@ -240,18 +240,17 @@ listenForUrlChangesMobileMenu()
       </section>
       <section className="home-section01">
         <header className="home-header01">
-          <h2 className="home-text08">
+          <h2 className="home-text008">
             What&apos;s cooking in the Panda kitchen?
           </h2>
-          <span className="home-text09">Panda stuff</span>
+          <span className="home-text009">Panda stuff</span>
         </header>
         <section className="home-note">
           <div className="home-image16">
-            <img
-              alt="image"
-              src="/playground_assets/bkg%20%5B18%5D-600h.png"
-              className="home-image17"
-            />
+            <iframe
+              src="https://www.youtube.com/embed/CqMpy1PIxNE"
+              className="home-iframe"
+            ></iframe>
           </div>
           <div className="home-content01">
             <div className="home-main1">
@@ -259,7 +258,7 @@ listenForUrlChangesMobileMenu()
                 <span className="home-section02 section-head">Sneak peek</span>
               </div>
               <div className="home-heading01">
-                <h2 className="section-heading">Wen trailer</h2>
+                <h2 className="section-heading">First Looks</h2>
                 <p className="section-description">
                   The black &amp; white belt master of all 69 known and unheard
                   of martial arts these Pandas have the excitement &amp; energy
@@ -277,17 +276,17 @@ listenForUrlChangesMobileMenu()
               className="home-link11"
             >
               <div className="home-get-started4 button">
-                <span className="home-text10">Join Discord</span>
+                <span className="home-text010">Join Discord</span>
               </div>
             </a>
           </div>
         </section>
         <section className="home-note1">
-          <div className="home-image18">
+          <div className="home-image17">
             <img
               alt="image"
               src="/playground_assets/bkg%20%5B8%5D-1200w.png"
-              className="home-image19"
+              className="home-image18"
             />
           </div>
           <div className="home-content02">
@@ -344,7 +343,7 @@ listenForUrlChangesMobileMenu()
               className="home-link12"
             >
               <div className="home-get-started5 button">
-                <span className="home-text11">
+                <span className="home-text011">
                   Did I tell you about our lord and savior black&amp;whitelist
                 </span>
               </div>
@@ -356,78 +355,78 @@ listenForUrlChangesMobileMenu()
             <img
               alt="image"
               src="/playground_assets/bkg%20%5B1%5D-600h.png"
-              className="home-image20 scroll-item"
+              className="home-image19 scroll-item"
             />
             <img
               alt="image"
               src="/playground_assets/bkg%20%5B10%5D-600h.png"
-              className="home-image21 scroll-item"
+              className="home-image20 scroll-item"
             />
             <img
               alt="image"
               src="/playground_assets/bkg%20%5B11%5D-600h.png"
-              className="home-image22 scroll-item"
+              className="home-image21 scroll-item"
             />
             <img
               alt="image"
               src="/playground_assets/bkg%20%5B12%5D-600h.png"
-              className="home-image23 scroll-item"
+              className="home-image22 scroll-item"
             />
             <img
               alt="image"
               src="/playground_assets/bkg%20%5B13%5D-600h.png"
-              className="home-image24 scroll-item"
+              className="home-image23 scroll-item"
             />
             <img
               alt="image"
               src="/playground_assets/bkg%20%5B14%5D-600h.png"
-              className="home-image25 scroll-item"
+              className="home-image24 scroll-item"
             />
             <img
               alt="image"
               src="/playground_assets/bkg%20%5B15%5D-600h.png"
-              className="home-image26 scroll-item"
+              className="home-image25 scroll-item"
             />
             <img
               alt="image"
               src="/playground_assets/bkg%20%5B16%5D-600h.png"
-              className="home-image27 scroll-item"
+              className="home-image26 scroll-item"
             />
             <img
               alt="image"
               src="/playground_assets/bkg%20%5B17%5D-600h.png"
-              className="home-image28 scroll-item"
+              className="home-image27 scroll-item"
             />
             <img
               alt="image"
               src="/playground_assets/bkg%20%5B18%5D-600h.png"
-              className="home-image29 scroll-item"
+              className="home-image28 scroll-item"
             />
             <img
               alt="image"
               src="/playground_assets/bkg%20%5B19%5D-600h.png"
-              className="home-image30 scroll-item"
+              className="home-image29 scroll-item"
             />
           </div>
         </div>
       </section>
       <section id="Pew Pew" className="home-section04">
-        <h2 className="home-text12">
+        <h2 className="home-text012">
           <span>PEW PEW POW POW</span>
           <br></br>
         </h2>
         <div className="home-features">
           <header className="feature feature-active home-feature">
-            <h3 className="home-text15">Bambooska</h3>
-            <p className="home-text16">ERC 1155s</p>
+            <h3 className="home-text015">Bambooska</h3>
+            <p className="home-text016">ERC 1155s</p>
           </header>
           <header className="feature home-feature1">
-            <h3 className="home-text17">Babubshka</h3>
-            <p className="home-text18">Limited Edition</p>
+            <h3 className="home-text017">Babubshka</h3>
+            <p className="home-text018">Limited Edition</p>
           </header>
           <header className="feature home-feature2">
-            <h3 className="home-text19">Streamer Snipers</h3>
-            <p className="home-text20">Ultra Rare Pro Max 1off Editions</p>
+            <h3 className="home-text019">Streamer Snipers</h3>
+            <p className="home-text020">Ultra Rare Pro Max 1off Editions</p>
           </header>
         </div>
         <div className="home-note2">
@@ -447,14 +446,14 @@ listenForUrlChangesMobileMenu()
               </p>
             </main>
             <div className="home-explore-more">
-              <p className="home-text23">Learn more -&gt;</p>
+              <p className="home-text023">Learn more -&gt;</p>
             </div>
           </div>
-          <div className="home-image31">
+          <div className="home-image30">
             <img
               alt="image"
               src="/playground_assets/wrappedzooka%20%5B1%5D-1200w.png"
-              className="home-image32"
+              className="home-image31"
             />
           </div>
         </div>
@@ -463,209 +462,209 @@ listenForUrlChangesMobileMenu()
             <img
               alt="image"
               src="/playground_assets/bambooka-200h.png"
-              className="home-image33 scroll-item"
+              className="home-image32 scroll-item"
             />
             <img
               alt="image"
               src="/playground_assets/pew%20%5B11%5D-200h.png"
+              className="home-image33 scroll-item"
+            />
+            <img
+              alt="image"
+              src="/playground_assets/shotgun-200h.png"
               className="home-image34 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/shotgun-200h.png"
+              src="/playground_assets/pew%20%5B1%5D-200h.png"
               className="home-image35 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/pew%20%5B1%5D-200h.png"
+              src="/playground_assets/binigun-200h.png"
               className="home-image36 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/binigun-200h.png"
+              src="/playground_assets/pew%20%5B10%5D-200h.png"
               className="home-image37 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/pew%20%5B10%5D-200h.png"
+              src="/playground_assets/bk47-200h.png"
               className="home-image38 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/bk47-200h.png"
+              src="/playground_assets/pew%20%5B12%5D-200h.png"
               className="home-image39 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/pew%20%5B12%5D-200h.png"
+              src="/playground_assets/bambooshka-200h.png"
               className="home-image40 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/bambooshka-200h.png"
+              src="/playground_assets/pew%20%5B4%5D-200h.png"
               className="home-image41 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/pew%20%5B4%5D-200h.png"
+              src="/playground_assets/wrappedzooka-200h.png"
               className="home-image42 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/wrappedzooka-200h.png"
+              src="/playground_assets/pew%20%5B9%5D-200h.png"
               className="home-image43 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/pew%20%5B9%5D-200h.png"
+              src="/playground_assets/bambooka-200h.png"
               className="home-image44 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/bambooka-200h.png"
+              src="/playground_assets/pew%20%5B31%5D-200h.png"
               className="home-image45 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/pew%20%5B31%5D-200h.png"
+              src="/playground_assets/shotgun-200h.png"
               className="home-image46 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/shotgun-200h.png"
+              src="/playground_assets/pew%20%5B22%5D-200h.png"
               className="home-image47 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/pew%20%5B22%5D-200h.png"
+              src="/playground_assets/binigun-200h.png"
               className="home-image48 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/binigun-200h.png"
+              src="/playground_assets/pew%20%5B32%5D-200h.png"
               className="home-image49 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/pew%20%5B32%5D-200h.png"
+              src="/playground_assets/bk47-200h.png"
               className="home-image50 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/bk47-200h.png"
+              src="/playground_assets/pew%20%5B37%5D-200h.png"
               className="home-image51 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/pew%20%5B37%5D-200h.png"
+              src="/playground_assets/bambooshka-200h.png"
               className="home-image52 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/bambooshka-200h.png"
+              src="/playground_assets/pow%20%5B7%5D-200h.png"
               className="home-image53 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/pow%20%5B7%5D-200h.png"
+              src="/playground_assets/wrappedzooka-200h.png"
               className="home-image54 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/wrappedzooka-200h.png"
+              src="/playground_assets/pow%20%5B12%5D-200h.png"
               className="home-image55 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/pow%20%5B12%5D-200h.png"
+              src="/playground_assets/bambooshka-200h.png"
               className="home-image56 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/bambooshka-200h.png"
+              src="/playground_assets/pow%20%5B6%5D-200h.png"
               className="home-image57 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/pow%20%5B6%5D-200h.png"
+              src="/playground_assets/wrappedzooka-200h.png"
               className="home-image58 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/wrappedzooka-200h.png"
+              src="/playground_assets/pew%20%5B27%5D-200h.png"
               className="home-image59 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/pew%20%5B27%5D-200h.png"
+              src="/playground_assets/wrappedzooka-200h.png"
               className="home-image60 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/wrappedzooka-200h.png"
+              src="/playground_assets/pow%20%5B8%5D-200h.png"
               className="home-image61 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/pow%20%5B8%5D-200h.png"
+              src="/playground_assets/wrappedzooka-200h.png"
               className="home-image62 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/wrappedzooka-200h.png"
+              src="/playground_assets/pew%20%5B18%5D-200h.png"
               className="home-image63 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/pew%20%5B18%5D-200h.png"
+              src="/playground_assets/wrappedzooka-200h.png"
               className="home-image64 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/wrappedzooka-200h.png"
+              src="/playground_assets/pow%20%5B2%5D-200h.png"
               className="home-image65 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/pow%20%5B2%5D-200h.png"
+              src="/playground_assets/wrappedzooka-200h.png"
               className="home-image66 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/wrappedzooka-200h.png"
+              src="/playground_assets/pew%20%5B23%5D-200h.png"
               className="home-image67 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/pew%20%5B23%5D-200h.png"
+              src="/playground_assets/wrappedzooka-200h.png"
               className="home-image68 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/wrappedzooka-200h.png"
-              className="home-image69 scroll-item"
-            />
-            <img
-              alt="image"
               src="/playground_assets/pew%20%5B13%5D-200h.png"
-              className="home-image70 scroll-item"
+              className="home-image69 scroll-item"
             />
           </div>
         </div>
       </section>
       <section id="JungleMap" className="home-section05">
-        <div className="home-image71">
+        <div className="home-image70">
           <img
             alt="image"
             src="/playground_assets/bkg%20%5B19%5D-600h.png"
-            className="home-image72"
+            className="home-image71"
           />
         </div>
         <div className="home-content04">
           <div className="home-caption3"></div>
           <div className="home-heading06">
             <div className="home-header03">
-              <h2 className="section-heading">JungleMap</h2>
+              <h2 className="section-heading">JungleMap🎄</h2>
             </div>
             <div className="home-accordion">
               <div
@@ -674,8 +673,8 @@ listenForUrlChangesMobileMenu()
               >
                 <div className="home-details">
                   <span className="section-head">Bambooverse begins</span>
-                  <span className="home-text24">Dec 22</span>
-                  <span data-role="accordion-content" className="home-text25">
+                  <span className="home-text024">Dec 22</span>
+                  <span data-role="accordion-content" className="home-text025">
                     we will first build a community of around 10k people on both
                     twitter and discord and be giving whitelists to first and
                     foremost the gaming audience of our partner streamer
@@ -695,8 +694,8 @@ listenForUrlChangesMobileMenu()
                 className="home-element1 accordion-element"
               >
                 <div className="home-details01">
-                  <span className="home-text26">Q1 2023</span>
-                  <span data-role="accordion-content" className="home-text27">
+                  <span className="home-text026">Q1 2023</span>
+                  <span data-role="accordion-content" className="home-text027">
                     we will then add our project into leading nft marketplaces
                     like opensea and gamestop nft as we set up shop
                     <span
@@ -720,8 +719,8 @@ listenForUrlChangesMobileMenu()
                 className="home-element2 accordion-element"
               >
                 <div className="home-details02">
-                  <span className="home-text28">Q2 2023</span>
-                  <span data-role="accordion-content" className="home-text29">
+                  <span className="home-text028">Q2 2023</span>
+                  <span data-role="accordion-content" className="home-text029">
                     we&apos;ll be building a Panda gaming studio from the funds
                     raised and add more members to the team to build more games
                     and add more skins and events as time passes to build even
@@ -742,8 +741,8 @@ listenForUrlChangesMobileMenu()
                 className="home-element3 accordion-element"
               >
                 <div className="home-details03">
-                  <span className="home-text30">Funds Split</span>
-                  <span data-role="accordion-content" className="home-text31">
+                  <span className="home-text030">Funds Split</span>
+                  <span data-role="accordion-content" className="home-text031">
                     50% for the project, 10% for the team, 10% for promotion,
                     10% misc , 20% to streamer partner and a 100% reason to
                     remember the name
@@ -766,8 +765,161 @@ listenForUrlChangesMobileMenu()
           </div>
         </div>
       </section>
-      <section className="home-section09">
-        <header className="home-header04">
+      <section id="JungleMap" className="home-section09">
+        <div className="home-image72">
+          <img
+            alt="image"
+            src="/playground_assets/bkg%20%5B18%5D-600h.png"
+            className="home-image73"
+          />
+        </div>
+        <div className="home-content05">
+          <div className="home-caption4"></div>
+          <div className="home-heading08">
+            <div className="home-header04">
+              <h2 className="section-heading">Alpha Pass🧧</h2>
+            </div>
+            <div className="home-accordion1">
+              <div
+                data-role="accordion-container"
+                className="home-element4 accordion-element"
+              >
+                <div className="home-details04">
+                  <span className="home-section10 section-head">
+                    Single Holder
+                  </span>
+                  <span className="home-text032">UNO Panda</span>
+                  <span data-role="accordion-content" className="home-text033">
+                    <span>Adfree experience forever</span>
+                    <br></br>
+                    <br></br>
+                    <span>
+                      Airdrops, 1 limited launch edition bazooka skin, 2 rare
+                      random weapon skins, 1 armory update accessories
+                    </span>
+                    <br className="home-text038"></br>
+                    <br></br>
+                    <span>Battle pass (q2) to PFC</span>
+                    <br className="home-text041"></br>
+                    <br></br>
+                    <span>
+                      World Cup mode and exclusive holder only lobbies
+                    </span>
+                    <br className="home-text044"></br>
+                    <br></br>
+                    <span>
+                      Future mobi games skins and accessories
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: ' ',
+                        }}
+                      />
+                    </span>
+                  </span>
+                </div>
+                <svg
+                  viewBox="0 0 1024 1024"
+                  data-role="accordion-icon"
+                  className="home-icon19"
+                >
+                  <path d="M366 708l196-196-196-196 60-60 256 256-256 256z"></path>
+                </svg>
+              </div>
+              <span className="home-section11 section-head">panda express</span>
+              <div
+                data-role="accordion-container"
+                className="home-element5 accordion-element"
+              >
+                <div className="home-details05">
+                  <span className="home-text047">2-9 Pandas</span>
+                  <span data-role="accordion-content" className="home-text048">
+                    <span>early access to upcoming games</span>
+                    <br className="home-text050"></br>
+                    <br></br>
+                    <span>
+                      Raffles and giveaways of one off designs
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: ' ',
+                        }}
+                      />
+                    </span>
+                  </span>
+                </div>
+                <svg
+                  viewBox="0 0 1024 1024"
+                  data-role="accordion-icon"
+                  className="home-icon21"
+                >
+                  <path d="M366 708l196-196-196-196 60-60 256 256-256 256z"></path>
+                </svg>
+              </div>
+              <span className="home-section12 section-head">whale</span>
+              <div
+                data-role="accordion-container"
+                className="home-element6 accordion-element"
+              >
+                <div className="home-details06">
+                  <span className="home-text053">10+ Pandas</span>
+                  <span data-role="accordion-content" className="home-text054">
+                    <span>Pre launch exclusive in game items</span>
+                    <br className="home-text056"></br>
+                    <br></br>
+                    <span>
+                      1 entry into b&amp;wlist for Rare items in Collabs with
+                      other communities
+                    </span>
+                  </span>
+                </div>
+                <svg
+                  viewBox="0 0 1024 1024"
+                  data-role="accordion-icon"
+                  className="home-icon23"
+                >
+                  <path d="M366 708l196-196-196-196 60-60 256 256-256 256z"></path>
+                </svg>
+              </div>
+              <div
+                data-role="accordion-container"
+                className="home-element7 accordion-element"
+              >
+                <div className="home-details07">
+                  <span className="home-section13 section-head">
+                    panda presidente
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
+                  <span className="home-text059">69 Pandas</span>
+                  <span data-role="accordion-content" className="home-text060">
+                    <span>
+                      President Pass- add assets &amp; ideas ranging from
+                      mechanics to maps and Easter eggs
+                    </span>
+                    <br></br>
+                    <br></br>
+                    <span>
+                      Order 42- executive access to command game designer to
+                      design assets
+                    </span>
+                  </span>
+                </div>
+                <svg
+                  viewBox="0 0 1024 1024"
+                  data-role="accordion-icon"
+                  className="home-icon25"
+                >
+                  <path d="M366 708l196-196-196-196 60-60 256 256-256 256z"></path>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="home-section14">
+        <header className="home-header05">
           <header className="home-left">
             <span className="section-head">
               Priced at a Popcorn per pop, a pizza per piece
@@ -786,54 +938,54 @@ listenForUrlChangesMobileMenu()
         </header>
         <main className="home-cards">
           <section className="home-card">
-            <div className="home-icon19">
+            <div className="home-icon27">
               <img
                 alt="image"
                 src="/playground_assets/group%201316-1200w.png"
-                className="home-icon20"
+                className="home-icon28"
               />
             </div>
-            <main className="home-content05">
-              <h1 className="home-header05">Price</h1>
+            <main className="home-content06">
+              <h1 className="home-header06">Price</h1>
               <p className="home-description">0.0069 ETH (~$10)</p>
             </main>
           </section>
           <section className="home-card01">
-            <div className="home-icon21">
+            <div className="home-icon29">
               <img
                 alt="image"
                 src="/playground_assets/group%201314-200h.png"
-                className="home-icon22"
+                className="home-icon30"
               />
             </div>
-            <main className="home-content06">
-              <h1 className="home-header06">Launch</h1>
+            <main className="home-content07">
+              <h1 className="home-header07">Launch</h1>
               <p className="home-description01">TBD</p>
             </main>
           </section>
           <section className="home-card02">
-            <div className="home-icon23">
+            <div className="home-icon31">
               <img
                 alt="image"
                 src="/playground_assets/group%201317-1200w.png"
-                className="home-icon24"
+                className="home-icon32"
               />
             </div>
-            <main className="home-content07">
-              <h1 className="home-header07">Blockchain</h1>
+            <main className="home-content08">
+              <h1 className="home-header08">Blockchain</h1>
               <p className="home-description02">Polygon</p>
             </main>
           </section>
         </main>
       </section>
-      <section className="home-section11">
+      <section className="home-section16">
         <div className="home-cube">
           <div className="home-top side"></div>
           <div className="home-front side"></div>
           <div className="home-left1 side"></div>
         </div>
         <main className="home-banner">
-          <div className="home-header08">
+          <div className="home-header09">
             <h2 className="section-heading">Blockchain </h2>
             <p className="home-description03 section-description">
               Polyon is our starting choice of sidechain. As we&apos;re only
@@ -850,7 +1002,7 @@ listenForUrlChangesMobileMenu()
               className="home-link13"
             >
               <div className="home-get-started6 button">
-                <span className="home-text32">Opensea</span>
+                <span className="home-text065">Opensea</span>
               </div>
             </a>
             <a
@@ -860,30 +1012,30 @@ listenForUrlChangesMobileMenu()
               className="home-link14"
             >
               <div className="home-book-demo button">
-                <span className="home-text33">Minting Demo (youtube)</span>
+                <span className="home-text066">Minting Demo (youtube)</span>
               </div>
             </a>
           </div>
         </main>
       </section>
-      <section className="home-section12">
+      <section className="home-section17">
         <div className="home-cube1">
           <div className="home-top1 side"></div>
           <div className="home-front1 side"></div>
           <div className="home-left2 side"></div>
         </div>
         <main id="About Us" className="home-pricing">
-          <header className="home-header09">
+          <header className="home-header10">
             <header className="home-left3">
-              <h2 className="section-heading home-heading10">About Us</h2>
+              <h2 className="section-heading home-heading12">About Us</h2>
             </header>
             <div className="home-right1"></div>
           </header>
           <div className="home-plans-container">
             <main className="home-plans">
               <div className="home-plan">
-                <div className="home-details04">
-                  <div className="home-header10">
+                <div className="home-details08">
+                  <div className="home-header11">
                     <label className="home-name">Muller23#1095</label>
                     <div className="home-pricing01">
                       <h1 className="home-price">Project Lead</h1>
@@ -895,7 +1047,7 @@ listenForUrlChangesMobileMenu()
                   <img
                     alt="image"
                     src="/playground_assets/83-300w.png"
-                    className="home-image73"
+                    className="home-image74"
                   />
                 </div>
                 <div className="home-buy-details">
@@ -906,7 +1058,7 @@ listenForUrlChangesMobileMenu()
                     className="home-link15"
                   >
                     <div className="home-buy button">
-                      <span className="home-text34">
+                      <span className="home-text067">
                         <span>Tracker GG</span>
                         <br></br>
                       </span>
@@ -919,7 +1071,7 @@ listenForUrlChangesMobileMenu()
                     className="home-link16"
                   >
                     <div className="home-buy01 button">
-                      <span className="home-text37">
+                      <span className="home-text070">
                         <span>Discord</span>
                         <br></br>
                       </span>
@@ -928,8 +1080,8 @@ listenForUrlChangesMobileMenu()
                 </div>
               </div>
               <div className="home-plan1">
-                <div className="home-details05">
-                  <div className="home-header11">
+                <div className="home-details09">
+                  <div className="home-header12">
                     <label className="home-name1">Lupu</label>
                     <div className="home-pricing02">
                       <h1 className="home-price1">Artist</h1>
@@ -941,7 +1093,7 @@ listenForUrlChangesMobileMenu()
                   <img
                     alt="image"
                     src="/playground_assets/1-300h.png"
-                    className="home-image74"
+                    className="home-image75"
                   />
                 </div>
                 <div className="home-buy-details1">
@@ -952,7 +1104,7 @@ listenForUrlChangesMobileMenu()
                     className="home-link17"
                   >
                     <div className="home-buy02 button">
-                      <span className="home-text40">
+                      <span className="home-text073">
                         <span>Deviant Art</span>
                         <br></br>
                       </span>
@@ -965,7 +1117,7 @@ listenForUrlChangesMobileMenu()
                     className="home-link18"
                   >
                     <div className="home-buy03 button">
-                      <span className="home-text43">
+                      <span className="home-text076">
                         <span>Discord</span>
                         <br></br>
                       </span>
@@ -974,8 +1126,8 @@ listenForUrlChangesMobileMenu()
                 </div>
               </div>
               <div className="home-plan2">
-                <div className="home-details06">
-                  <div className="home-header12">
+                <div className="home-details10">
+                  <div className="home-header13">
                     <label className="home-name2">BigBird</label>
                     <div className="home-pricing03">
                       <span className="home-price2">GameDev</span>
@@ -988,7 +1140,7 @@ listenForUrlChangesMobileMenu()
                   <img
                     alt="image"
                     src="/playground_assets/6-300h.png"
-                    className="home-image75"
+                    className="home-image76"
                   />
                 </div>
                 <div className="home-buy-details2">
@@ -999,7 +1151,7 @@ listenForUrlChangesMobileMenu()
                     className="home-link19"
                   >
                     <div className="home-buy04 button">
-                      <span className="home-text46">
+                      <span className="home-text079">
                         <span>Steam Store</span>
                         <br></br>
                       </span>
@@ -1012,7 +1164,7 @@ listenForUrlChangesMobileMenu()
                     className="home-link20"
                   >
                     <div className="home-buy05 button">
-                      <span className="home-text49">
+                      <span className="home-text082">
                         <span>Youtube</span>
                         <br></br>
                       </span>
@@ -1023,8 +1175,8 @@ listenForUrlChangesMobileMenu()
             </main>
             <main className="home-plans1">
               <div className="home-plan3">
-                <div className="home-details07">
-                  <div className="home-header13">
+                <div className="home-details11">
+                  <div className="home-header14">
                     <label className="home-name3">Butch</label>
                     <div className="home-pricing04">
                       <h1 className="home-price3">WebDev</h1>
@@ -1036,7 +1188,7 @@ listenForUrlChangesMobileMenu()
                   <img
                     alt="image"
                     src="/playground_assets/93-300w.png"
-                    className="home-image76"
+                    className="home-image77"
                   />
                 </div>
                 <div className="home-buy-details3">
@@ -1047,7 +1199,7 @@ listenForUrlChangesMobileMenu()
                     className="home-link21"
                   >
                     <div className="home-buy06 button">
-                      <span className="home-text52">
+                      <span className="home-text085">
                         <span>GitHub</span>
                         <br></br>
                       </span>
@@ -1060,7 +1212,7 @@ listenForUrlChangesMobileMenu()
                     className="home-link22"
                   >
                     <div className="home-buy07 button">
-                      <span className="home-text55">
+                      <span className="home-text088">
                         <span>Previously On</span>
                         <br></br>
                       </span>
@@ -1069,8 +1221,8 @@ listenForUrlChangesMobileMenu()
                 </div>
               </div>
               <div className="home-plan4">
-                <div className="home-details08">
-                  <div className="home-header14">
+                <div className="home-details12">
+                  <div className="home-header15">
                     <label className="home-name4">Frenchie</label>
                     <div className="home-pricing05">
                       <h1 className="home-price4">Solidity</h1>
@@ -1082,18 +1234,18 @@ listenForUrlChangesMobileMenu()
                   <img
                     alt="image"
                     src="/playground_assets/87-300w.png"
-                    className="home-image77"
+                    className="home-image78"
                   />
                 </div>
                 <div className="home-buy-details4">
                   <div className="home-buy08 button">
-                    <span className="home-text58">
+                    <span className="home-text091">
                       <span>Goerli</span>
                       <br></br>
                     </span>
                   </div>
                   <div className="home-buy09 button">
-                    <span className="home-text61">
+                    <span className="home-text094">
                       <span>Etherscan</span>
                       <br></br>
                     </span>
@@ -1101,8 +1253,8 @@ listenForUrlChangesMobileMenu()
                 </div>
               </div>
               <div className="home-plan5">
-                <div className="home-details09">
-                  <div className="home-header15">
+                <div className="home-details13">
+                  <div className="home-header16">
                     <label className="home-name5">****</label>
                     <div className="home-pricing06">
                       <span className="home-price5">Streamer</span>
@@ -1112,18 +1264,18 @@ listenForUrlChangesMobileMenu()
                   <img
                     alt="image"
                     src="/playground_assets/8-300h.png"
-                    className="home-image78"
+                    className="home-image79"
                   />
                 </div>
                 <div className="home-buy-details5">
                   <div className="home-buy10 button">
-                    <span className="home-text64">
+                    <span className="home-text097">
                       <span>Twitch</span>
                       <br></br>
                     </span>
                   </div>
                   <div className="home-buy11 button">
-                    <span className="home-text67">
+                    <span className="home-text100">
                       <span>Insta</span>
                       <br></br>
                     </span>
@@ -1133,8 +1285,8 @@ listenForUrlChangesMobileMenu()
             </main>
             <main className="home-plans2">
               <div className="home-plan6">
-                <div className="home-details10">
-                  <div className="home-header16">
+                <div className="home-details14">
+                  <div className="home-header17">
                     <label className="home-name6">Purrsian</label>
                     <div className="home-pricing07">
                       <h1 className="home-price6">MemeTeam</h1>
@@ -1146,7 +1298,7 @@ listenForUrlChangesMobileMenu()
                   <img
                     alt="image"
                     src="/playground_assets/97-300w.png"
-                    className="home-image79"
+                    className="home-image80"
                   />
                 </div>
                 <div className="home-buy-details6">
@@ -1157,7 +1309,7 @@ listenForUrlChangesMobileMenu()
                     className="home-link23"
                   >
                     <div className="home-buy12 button">
-                      <span className="home-text70">
+                      <span className="home-text103">
                         <span>Discord</span>
                         <br></br>
                       </span>
@@ -1166,8 +1318,8 @@ listenForUrlChangesMobileMenu()
                 </div>
               </div>
               <div className="home-plan7">
-                <div className="home-details11">
-                  <div className="home-header17">
+                <div className="home-details15">
+                  <div className="home-header18">
                     <label className="home-name7">bonappetitjovi</label>
                     <div className="home-pricing08">
                       <h1 className="home-price7">MemeTeam</h1>
@@ -1179,7 +1331,7 @@ listenForUrlChangesMobileMenu()
                     </span>
                     <br></br>
                     <span>If Neymar has one fan, then I&apos;m the one.</span>
-                    <br className="home-text76"></br>
+                    <br className="home-text109"></br>
                     <span>
                       If Neymar has no fans, that means I don&apos;t exist
                     </span>
@@ -1187,7 +1339,7 @@ listenForUrlChangesMobileMenu()
                   <img
                     alt="image"
                     src="/playground_assets/48-300w.png"
-                    className="home-image80"
+                    className="home-image81"
                   />
                 </div>
                 <div className="home-buy-details7">
@@ -1198,14 +1350,14 @@ listenForUrlChangesMobileMenu()
                     className="home-link24"
                   >
                     <div className="home-buy13 button">
-                      <span className="home-text78">Discord</span>
+                      <span className="home-text111">Discord</span>
                     </div>
                   </a>
                 </div>
               </div>
               <div className="home-plan8">
-                <div className="home-details12">
-                  <div className="home-header18">
+                <div className="home-details16">
+                  <div className="home-header19">
                     <label className="home-name8">MrCoolio</label>
                     <div className="home-pricing09">
                       <span className="home-price8">MemeTeam</span>
@@ -1217,7 +1369,7 @@ listenForUrlChangesMobileMenu()
                   <img
                     alt="image"
                     src="/playground_assets/27-300w.png"
-                    className="home-image81"
+                    className="home-image82"
                   />
                 </div>
                 <div className="home-buy-details8">
@@ -1228,7 +1380,7 @@ listenForUrlChangesMobileMenu()
                     className="home-link25"
                   >
                     <div className="home-buy14 button">
-                      <span className="home-text79">
+                      <span className="home-text112">
                         <span>Twitter</span>
                         <br></br>
                       </span>
@@ -1240,13 +1392,13 @@ listenForUrlChangesMobileMenu()
           </div>
         </main>
       </section>
-      <section className="home-section13">
-        <header className="home-header19">
+      <section className="home-section18">
+        <header className="home-header20">
           <header className="home-left4">
             <span className="section-head">
               Review us or roast us and get featured
             </span>
-            <h2 className="home-heading11 section-heading">
+            <h2 className="home-heading13 section-heading">
               Tweets with Beats
             </h2>
           </header>
@@ -1256,36 +1408,6 @@ listenForUrlChangesMobileMenu()
           <div className="home-container6">
             <section className="home-card03">
               <div className="home-stars">
-                <svg viewBox="0 0 1024 1024" className="home-icon25">
-                  <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
-                </svg>
-                <svg viewBox="0 0 1024 1024" className="home-icon27">
-                  <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
-                </svg>
-                <svg viewBox="0 0 1024 1024" className="home-icon29">
-                  <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
-                </svg>
-              </div>
-              <main className="home-content08">
-                <p className="home-quote">&quot;What the fk&quot;</p>
-                <div className="home-author">
-                  <img
-                    alt="image"
-                    src="/playground_assets/9-300h.png"
-                    className="home-avatar"
-                  />
-                  <div className="home-details13">
-                    <h1 className="home-author01">Skrrrrrrr</h1>
-                    <label className="home-position">Twitter</label>
-                  </div>
-                </div>
-              </main>
-            </section>
-            <section className="home-card04">
-              <div className="home-stars1">
-                <svg viewBox="0 0 1024 1024" className="home-icon31">
-                  <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
-                </svg>
                 <svg viewBox="0 0 1024 1024" className="home-icon33">
                   <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
                 </svg>
@@ -1297,6 +1419,36 @@ listenForUrlChangesMobileMenu()
                 </svg>
               </div>
               <main className="home-content09">
+                <p className="home-quote">&quot;What the fk&quot;</p>
+                <div className="home-author">
+                  <img
+                    alt="image"
+                    src="/playground_assets/9-300h.png"
+                    className="home-avatar"
+                  />
+                  <div className="home-details17">
+                    <h1 className="home-author01">Skrrrrrrr</h1>
+                    <label className="home-position">Twitter</label>
+                  </div>
+                </div>
+              </main>
+            </section>
+            <section className="home-card04">
+              <div className="home-stars1">
+                <svg viewBox="0 0 1024 1024" className="home-icon39">
+                  <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
+                </svg>
+                <svg viewBox="0 0 1024 1024" className="home-icon41">
+                  <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
+                </svg>
+                <svg viewBox="0 0 1024 1024" className="home-icon43">
+                  <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
+                </svg>
+                <svg viewBox="0 0 1024 1024" className="home-icon45">
+                  <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
+                </svg>
+              </div>
+              <main className="home-content10">
                 <p className="home-quote1">&quot;Cool Stuff&quot;</p>
                 <div className="home-author02">
                   <img
@@ -1304,7 +1456,7 @@ listenForUrlChangesMobileMenu()
                     src="/playground_assets/2-300h.png"
                     className="home-avatar1"
                   />
-                  <div className="home-details14">
+                  <div className="home-details18">
                     <h1 className="home-author03">DubStepForever</h1>
                     <label className="home-position1">IRL</label>
                   </div>
@@ -1315,11 +1467,11 @@ listenForUrlChangesMobileMenu()
           <div className="home-container7">
             <section className="home-card05">
               <div className="home-stars2">
-                <svg viewBox="0 0 1024 1024" className="home-icon39">
+                <svg viewBox="0 0 1024 1024" className="home-icon47">
                   <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
                 </svg>
               </div>
-              <main className="home-content10">
+              <main className="home-content11">
                 <p className="home-quote2">&quot;Not A MOBA&quot;</p>
                 <div className="home-author04">
                   <img
@@ -1327,7 +1479,7 @@ listenForUrlChangesMobileMenu()
                     src="/playground_assets/7-300h.png"
                     className="home-avatar2"
                   />
-                  <div className="home-details15">
+                  <div className="home-details19">
                     <h1 className="home-author05">MOBAlover69</h1>
                     <label className="home-position2">Discord</label>
                   </div>
@@ -1336,14 +1488,14 @@ listenForUrlChangesMobileMenu()
             </section>
             <section className="home-card06">
               <div className="home-stars3">
-                <svg viewBox="0 0 1024 1024" className="home-icon41">
+                <svg viewBox="0 0 1024 1024" className="home-icon49">
                   <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
                 </svg>
-                <svg viewBox="0 0 1024 1024" className="home-icon43">
+                <svg viewBox="0 0 1024 1024" className="home-icon51">
                   <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
                 </svg>
               </div>
-              <main className="home-content11">
+              <main className="home-content12">
                 <p className="home-quote3">&quot;Do Me&quot;</p>
                 <div className="home-author06">
                   <img
@@ -1351,7 +1503,7 @@ listenForUrlChangesMobileMenu()
                     src="/playground_assets/5-300h.png"
                     className="home-avatar3"
                   />
-                  <div className="home-details16">
+                  <div className="home-details20">
                     <h1 className="home-author07">DMmeGiveaways</h1>
                     <label className="home-position3">Reddit</label>
                   </div>
@@ -1362,41 +1514,9 @@ listenForUrlChangesMobileMenu()
           <div className="home-container8">
             <section className="home-card07">
               <div className="home-stars4">
-                <svg viewBox="0 0 1024 1024" className="home-icon45">
-                  <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
-                </svg>
-                <svg viewBox="0 0 1024 1024" className="home-icon47">
-                  <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
-                </svg>
-                <svg viewBox="0 0 1024 1024" className="home-icon49">
-                  <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
-                </svg>
-                <svg viewBox="0 0 1024 1024" className="home-icon51">
-                  <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
-                </svg>
                 <svg viewBox="0 0 1024 1024" className="home-icon53">
                   <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
                 </svg>
-              </div>
-              <main className="home-content12">
-                <p className="home-quote4">
-                  &quot;Better than Mona Lisa if that painting were a game&quot;
-                </p>
-                <div className="home-author08">
-                  <img
-                    alt="image"
-                    src="/playground_assets/4-300h.png"
-                    className="home-avatar4"
-                  />
-                  <div className="home-details17">
-                    <h1 className="home-author09">YoMomma</h1>
-                    <label className="home-position4">DMs</label>
-                  </div>
-                </div>
-              </main>
-            </section>
-            <section className="home-card08">
-              <div className="home-stars5">
                 <svg viewBox="0 0 1024 1024" className="home-icon55">
                   <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
                 </svg>
@@ -1409,11 +1529,43 @@ listenForUrlChangesMobileMenu()
                 <svg viewBox="0 0 1024 1024" className="home-icon61">
                   <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
                 </svg>
+              </div>
+              <main className="home-content13">
+                <p className="home-quote4">
+                  &quot;Better than Mona Lisa if that painting were a game&quot;
+                </p>
+                <div className="home-author08">
+                  <img
+                    alt="image"
+                    src="/playground_assets/4-300h.png"
+                    className="home-avatar4"
+                  />
+                  <div className="home-details21">
+                    <h1 className="home-author09">YoMomma</h1>
+                    <label className="home-position4">DMs</label>
+                  </div>
+                </div>
+              </main>
+            </section>
+            <section className="home-card08">
+              <div className="home-stars5">
                 <svg viewBox="0 0 1024 1024" className="home-icon63">
                   <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
                 </svg>
+                <svg viewBox="0 0 1024 1024" className="home-icon65">
+                  <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
+                </svg>
+                <svg viewBox="0 0 1024 1024" className="home-icon67">
+                  <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
+                </svg>
+                <svg viewBox="0 0 1024 1024" className="home-icon69">
+                  <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
+                </svg>
+                <svg viewBox="0 0 1024 1024" className="home-icon71">
+                  <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
+                </svg>
               </div>
-              <main className="home-content13">
+              <main className="home-content14">
                 <p className="home-quote5">&quot;It;s Okay&quot;</p>
                 <div className="home-author10">
                   <img
@@ -1421,7 +1573,7 @@ listenForUrlChangesMobileMenu()
                     src="/playground_assets/10-300h.png"
                     className="home-avatar5"
                   />
-                  <div className="home-details18">
+                  <div className="home-details22">
                     <h1 className="home-author11">Simona</h1>
                     <label className="home-position5">Insta</label>
                   </div>
@@ -1431,24 +1583,24 @@ listenForUrlChangesMobileMenu()
           </div>
         </main>
         <div className="home-view-more">
-          <p className="home-text82">View more</p>
+          <p className="home-text115">View more</p>
         </div>
       </section>
-      <section className="home-section15">
-        <header className="home-header20">
+      <section className="home-section20">
+        <header className="home-header21">
           <span className="section-head">Across the interwebz</span>
-          <h2 className="home-heading12 section-heading">Featured On</h2>
+          <h2 className="home-heading14 section-heading">Featured On</h2>
         </header>
         <main className="home-cards2">
           <section className="home-card09">
-            <main className="home-content14">
-              <header className="home-header21">
-                <h1 className="home-header22">Rarity Tools</h1>
+            <main className="home-content15">
+              <header className="home-header22">
+                <h1 className="home-header23">Rarity Tools</h1>
               </header>
               <img
                 alt="image"
                 src="/playground_assets/1_d1vhtbpalfshxeofveiz5w-200h.png"
-                className="home-image82"
+                className="home-image83"
               />
               <div className="home-button">
                 <a
@@ -1457,20 +1609,20 @@ listenForUrlChangesMobileMenu()
                   rel="noreferrer noopener"
                   className="home-link26"
                 >
-                  <p className="home-text83">Check It Out-&gt;</p>
+                  <p className="home-text116">Check It Out-&gt;</p>
                 </a>
               </div>
             </main>
           </section>
           <section className="home-card10">
-            <main className="home-content15">
-              <header className="home-header23">
-                <h1 className="home-header24">Tech Crunch</h1>
+            <main className="home-content16">
+              <header className="home-header24">
+                <h1 className="home-header25">Tech Crunch</h1>
               </header>
               <img
                 alt="image"
                 src="/playground_assets/1200px-techcrunch_logo.svg-200h.png"
-                className="home-image83"
+                className="home-image84"
               />
               <div className="home-button1">
                 <a
@@ -1479,20 +1631,20 @@ listenForUrlChangesMobileMenu()
                   rel="noreferrer noopener"
                   className="home-link27"
                 >
-                  <p className="home-text84">Read -&gt;</p>
+                  <p className="home-text117">Read -&gt;</p>
                 </a>
               </div>
             </main>
           </section>
           <section className="home-card11">
-            <main className="home-content16">
-              <header className="home-header25">
-                <h1 className="home-header26">Rarity Sniper</h1>
+            <main className="home-content17">
+              <header className="home-header26">
+                <h1 className="home-header27">Rarity Sniper</h1>
               </header>
               <img
                 alt="image"
                 src="/playground_assets/raritysniper-200h.webp"
-                className="home-image84"
+                className="home-image85"
               />
               <div className="home-button2">
                 <a
@@ -1501,28 +1653,28 @@ listenForUrlChangesMobileMenu()
                   rel="noreferrer noopener"
                   className="home-link28"
                 >
-                  <p className="home-text85">Scroll-&gt;</p>
+                  <p className="home-text118">Scroll-&gt;</p>
                 </a>
               </div>
             </main>
           </section>
         </main>
       </section>
-      <section id="FAQs" className="home-section17">
-        <header className="home-header27">
+      <section id="FAQs" className="home-section22">
+        <header className="home-header28">
           <span className="section-head">FAQ</span>
-          <h2 className="home-heading13 section-heading">
+          <h2 className="home-heading15 section-heading">
             Frequently asked questions
           </h2>
         </header>
-        <main className="home-accordion1">
+        <main className="home-accordion2">
           <FAQ rootClassName="f-a-q-root-class-name"></FAQ>
         </main>
       </section>
-      <section id="Downloads" className="home-section19">
-        <main className="home-content17">
-          <header className="home-header28">
-            <h2 className="home-heading14 section-heading">
+      <section id="Downloads" className="home-section24">
+        <main className="home-content18">
+          <header className="home-header29">
+            <h2 className="home-heading16 section-heading">
               Download links (coming soon)
             </h2>
             <div className="home-buttons2">
@@ -1530,9 +1682,9 @@ listenForUrlChangesMobileMenu()
                 <img
                   alt="image"
                   src="/playground_assets/apple-200w.png"
-                  className="home-icon65"
+                  className="home-icon73"
                 />
-                <span className="home-text86">Download for iOS</span>
+                <span className="home-text119">Download for iOS</span>
               </div>
               <a
                 href="https://drive.google.com/file/d/1m0__KYJk7SZaUAQ1F5IHjDryIc3TciU6/view"
@@ -1544,9 +1696,9 @@ listenForUrlChangesMobileMenu()
                   <img
                     alt="image"
                     src="/playground_assets/android-200h.png"
-                    className="home-icon66"
+                    className="home-icon74"
                   />
-                  <span className="home-text87">Download for Android</span>
+                  <span className="home-text120">Download for Android</span>
                 </div>
               </a>
             </div>
@@ -1554,18 +1706,18 @@ listenForUrlChangesMobileMenu()
           <img
             alt="image"
             src="/playground_assets/bkg%20%5B9%5D-1200w.png"
-            className="home-image85"
+            className="home-image86"
           />
         </main>
       </section>
       <footer className="home-footer">
         <div className="home-buy15 button">
-          <span className="home-text88">-&gt;</span>
-          <span className="home-text89">Links &amp; Socials</span>
+          <span className="home-text121">-&gt;</span>
+          <span className="home-text122">Links &amp; Socials</span>
         </div>
-        <div className="home-content18">
+        <div className="home-content19">
           <main className="home-main-content">
-            <div className="home-content19">
+            <div className="home-content20">
               <header className="home-categories">
                 <a
                   href="https://discord.gg/gV2P4JxjFd"
@@ -1576,7 +1728,7 @@ listenForUrlChangesMobileMenu()
                   <img
                     alt="image"
                     src="/playground_assets/discord-logo-200h.png"
-                    className="home-image86"
+                    className="home-image87"
                   />
                 </a>
                 <a
@@ -1588,7 +1740,7 @@ listenForUrlChangesMobileMenu()
                   <img
                     alt="image"
                     src="/playground_assets/twitter-logo.svg-200h.png"
-                    className="home-image87"
+                    className="home-image88"
                   />
                 </a>
                 <a
@@ -1600,14 +1752,14 @@ listenForUrlChangesMobileMenu()
                   <img
                     alt="image"
                     src="/playground_assets/ef73d5ccc3ea3321755dc4a656250d307dceede8-200h.png"
-                    className="home-image88"
+                    className="home-image89"
                   />
                 </a>
               </header>
             </div>
           </main>
           <section className="home-copyright">
-            <span className="home-text90">
+            <span className="home-text123">
               © 2022 latitude. All Rights Reserved.
             </span>
           </section>
