@@ -673,7 +673,7 @@ listenForUrlChangesMobileMenu()
               >
                 <div className="home-details">
                   <span className="section-head">Bambooverse begins</span>
-                  <span className="home-text024">Dec 22</span>
+                  <span className="home-text024">Jan 23</span>
                   <span data-role="accordion-content" className="home-text025">
                     we will first build a community of around 10k people on both
                     twitter and discord and be giving whitelists to first and
@@ -790,23 +790,27 @@ listenForUrlChangesMobileMenu()
                   </span>
                   <span className="home-text032">UNO Panda</span>
                   <span data-role="accordion-content" className="home-text033">
-                    <span>Adfree experience forever</span>
+                    <span>📺Adfree experience forever</span>
                     <br></br>
                     <br></br>
+                    <span>🪙</span>
                     <span>
                       Airdrops, 1 limited launch edition bazooka skin, 2 rare
                       random weapon skins, 1 armory update accessories
                     </span>
-                    <br className="home-text038"></br>
+                    <br className="home-text039"></br>
                     <br></br>
+                    <span>🪓</span>
                     <span>Battle pass (q2) to PFC</span>
-                    <br className="home-text041"></br>
+                    <br className="home-text043"></br>
                     <br></br>
+                    <span>⚽</span>
                     <span>
                       World Cup mode and exclusive holder only lobbies
                     </span>
-                    <br className="home-text044"></br>
+                    <br className="home-text047"></br>
                     <br></br>
+                    <span>🥷</span>
                     <span>
                       Future mobi games skins and accessories
                       <span
@@ -831,11 +835,12 @@ listenForUrlChangesMobileMenu()
                 className="home-element5 accordion-element"
               >
                 <div className="home-details05">
-                  <span className="home-text047">2-9 Pandas</span>
-                  <span data-role="accordion-content" className="home-text048">
-                    <span>early access to upcoming games</span>
-                    <br className="home-text050"></br>
+                  <span className="home-text051">2-9 Pandas</span>
+                  <span data-role="accordion-content" className="home-text052">
+                    <span>⛩️Early access to upcoming games</span>
+                    <br className="home-text054"></br>
                     <br></br>
+                    <span>🎁</span>
                     <span>
                       Raffles and giveaways of one off designs
                       <span
@@ -860,15 +865,13 @@ listenForUrlChangesMobileMenu()
                 className="home-element6 accordion-element"
               >
                 <div className="home-details06">
-                  <span className="home-text053">10+ Pandas</span>
-                  <span data-role="accordion-content" className="home-text054">
-                    <span>Pre launch exclusive in game items</span>
-                    <br className="home-text056"></br>
+                  <span className="home-text058">10+ Pandas</span>
+                  <span data-role="accordion-content" className="home-text059">
+                    <span>💝Pre launch exclusive in game items</span>
+                    <br className="home-text061"></br>
                     <br></br>
-                    <span>
-                      1 entry into b&amp;wlist for Rare items in Collabs with
-                      other communities
-                    </span>
+                    <span>🎀</span>
+                    <span>Rare items in Collabs with other communities</span>
                   </span>
                 </div>
                 <svg
@@ -892,14 +895,15 @@ listenForUrlChangesMobileMenu()
                       }}
                     />
                   </span>
-                  <span className="home-text059">69 Pandas</span>
-                  <span data-role="accordion-content" className="home-text060">
+                  <span className="home-text065">69 Pandas</span>
+                  <span data-role="accordion-content" className="home-text066">
                     <span>
-                      President Pass- add assets &amp; ideas ranging from
+                      🪅President Pass- add assets &amp; ideas ranging from
                       mechanics to maps and Easter eggs
                     </span>
                     <br></br>
                     <br></br>
+                    <span>🪄</span>
                     <span>
                       Order 42- executive access to command game designer to
                       design assets
@@ -1002,7 +1006,7 @@ listenForUrlChangesMobileMenu()
               className="home-link13"
             >
               <div className="home-get-started6 button">
-                <span className="home-text065">Opensea</span>
+                <span className="home-text072">Opensea</span>
               </div>
             </a>
             <a
@@ -1012,7 +1016,7 @@ listenForUrlChangesMobileMenu()
               className="home-link14"
             >
               <div className="home-book-demo button">
-                <span className="home-text066">Minting Demo (youtube)</span>
+                <span className="home-text073">Minting Demo (youtube)</span>
               </div>
             </a>
           </div>
@@ -1058,7 +1062,7 @@ listenForUrlChangesMobileMenu()
                     className="home-link15"
                   >
                     <div className="home-buy button">
-                      <span className="home-text067">
+                      <span className="home-text074">
                         <span>Tracker GG</span>
                         <br></br>
                       </span>
@@ -1071,7 +1075,7 @@ listenForUrlChangesMobileMenu()
                     className="home-link16"
                   >
                     <div className="home-buy01 button">
-                      <span className="home-text070">
+                      <span className="home-text077">
                         <span>Discord</span>
                         <br></br>
                       </span>
@@ -1104,7 +1108,7 @@ listenForUrlChangesMobileMenu()
                     className="home-link17"
                   >
                     <div className="home-buy02 button">
-                      <span className="home-text073">
+                      <span className="home-text080">
                         <span>Deviant Art</span>
                         <br></br>
                       </span>
@@ -1117,7 +1121,7 @@ listenForUrlChangesMobileMenu()
                     className="home-link18"
                   >
                     <div className="home-buy03 button">
-                      <span className="home-text076">
+                      <span className="home-text083">
                         <span>Discord</span>
                         <br></br>
                       </span>
@@ -1151,7 +1155,7 @@ listenForUrlChangesMobileMenu()
                     className="home-link19"
                   >
                     <div className="home-buy04 button">
-                      <span className="home-text079">
+                      <span className="home-text086">
                         <span>Steam Store</span>
                         <br></br>
                       </span>
@@ -1164,7 +1168,7 @@ listenForUrlChangesMobileMenu()
                     className="home-link20"
                   >
                     <div className="home-buy05 button">
-                      <span className="home-text082">
+                      <span className="home-text089">
                         <span>Youtube</span>
                         <br></br>
                       </span>
@@ -1199,7 +1203,7 @@ listenForUrlChangesMobileMenu()
                     className="home-link21"
                   >
                     <div className="home-buy06 button">
-                      <span className="home-text085">
+                      <span className="home-text092">
                         <span>GitHub</span>
                         <br></br>
                       </span>
@@ -1212,7 +1216,7 @@ listenForUrlChangesMobileMenu()
                     className="home-link22"
                   >
                     <div className="home-buy07 button">
-                      <span className="home-text088">
+                      <span className="home-text095">
                         <span>Previously On</span>
                         <br></br>
                       </span>
@@ -1238,18 +1242,32 @@ listenForUrlChangesMobileMenu()
                   />
                 </div>
                 <div className="home-buy-details4">
-                  <div className="home-buy08 button">
-                    <span className="home-text091">
-                      <span>Goerli</span>
-                      <br></br>
-                    </span>
-                  </div>
-                  <div className="home-buy09 button">
-                    <span className="home-text094">
-                      <span>Etherscan</span>
-                      <br></br>
-                    </span>
-                  </div>
+                  <a
+                    href="https://goerli.etherscan.io/address/0xFdfF7121cFb3B889afe92865F36CA7a5A7e23221"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="home-link23"
+                  >
+                    <div className="home-buy08 button">
+                      <span className="home-text098">
+                        <span>Goerli</span>
+                        <br></br>
+                      </span>
+                    </div>
+                  </a>
+                  <a
+                    href="https://mumbai.polygonscan.com/address/0xFdfF7121cFb3B889afe92865F36CA7a5A7e23221"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="home-link24"
+                  >
+                    <div className="home-buy09 button">
+                      <span className="home-text101">
+                        <span>Polygonscan</span>
+                        <br></br>
+                      </span>
+                    </div>
+                  </a>
                 </div>
               </div>
               <div className="home-plan5">
@@ -1269,13 +1287,13 @@ listenForUrlChangesMobileMenu()
                 </div>
                 <div className="home-buy-details5">
                   <div className="home-buy10 button">
-                    <span className="home-text097">
+                    <span className="home-text104">
                       <span>Twitch</span>
                       <br></br>
                     </span>
                   </div>
                   <div className="home-buy11 button">
-                    <span className="home-text100">
+                    <span className="home-text107">
                       <span>Insta</span>
                       <br></br>
                     </span>
@@ -1306,10 +1324,10 @@ listenForUrlChangesMobileMenu()
                     href="https://discord.gg/J7xQm2NyQC"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="home-link23"
+                    className="home-link25"
                   >
                     <div className="home-buy12 button">
-                      <span className="home-text103">
+                      <span className="home-text110">
                         <span>Discord</span>
                         <br></br>
                       </span>
@@ -1331,7 +1349,7 @@ listenForUrlChangesMobileMenu()
                     </span>
                     <br></br>
                     <span>If Neymar has one fan, then I&apos;m the one.</span>
-                    <br className="home-text109"></br>
+                    <br className="home-text116"></br>
                     <span>
                       If Neymar has no fans, that means I don&apos;t exist
                     </span>
@@ -1347,10 +1365,10 @@ listenForUrlChangesMobileMenu()
                     href="https://discord.gg/NQjph5e7aS"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="home-link24"
+                    className="home-link26"
                   >
                     <div className="home-buy13 button">
-                      <span className="home-text111">Discord</span>
+                      <span className="home-text118">Discord</span>
                     </div>
                   </a>
                 </div>
@@ -1377,10 +1395,10 @@ listenForUrlChangesMobileMenu()
                     href="https://twitter.com/pandasfightclub"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="home-link25"
+                    className="home-link27"
                   >
                     <div className="home-buy14 button">
-                      <span className="home-text112">
+                      <span className="home-text119">
                         <span>Twitter</span>
                         <br></br>
                       </span>
@@ -1583,7 +1601,7 @@ listenForUrlChangesMobileMenu()
           </div>
         </main>
         <div className="home-view-more">
-          <p className="home-text115">View more</p>
+          <p className="home-text122">View more</p>
         </div>
       </section>
       <section className="home-section20">
@@ -1607,9 +1625,9 @@ listenForUrlChangesMobileMenu()
                   href
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link26"
+                  className="home-link28"
                 >
-                  <p className="home-text116">Check It Out-&gt;</p>
+                  <p className="home-text123">Check It Out-&gt;</p>
                 </a>
               </div>
             </main>
@@ -1629,9 +1647,9 @@ listenForUrlChangesMobileMenu()
                   href
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link27"
+                  className="home-link29"
                 >
-                  <p className="home-text117">Read -&gt;</p>
+                  <p className="home-text124">Read -&gt;</p>
                 </a>
               </div>
             </main>
@@ -1651,9 +1669,9 @@ listenForUrlChangesMobileMenu()
                   href
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link28"
+                  className="home-link30"
                 >
-                  <p className="home-text118">Scroll-&gt;</p>
+                  <p className="home-text125">Scroll-&gt;</p>
                 </a>
               </div>
             </main>
@@ -1684,13 +1702,13 @@ listenForUrlChangesMobileMenu()
                   src="/playground_assets/apple-200w.png"
                   className="home-icon73"
                 />
-                <span className="home-text119">Download for iOS</span>
+                <span className="home-text126">Download for iOS</span>
               </div>
               <a
                 href="https://drive.google.com/file/d/1m0__KYJk7SZaUAQ1F5IHjDryIc3TciU6/view"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="home-link29"
+                className="home-link31"
               >
                 <div className="home-android button">
                   <img
@@ -1698,7 +1716,7 @@ listenForUrlChangesMobileMenu()
                     src="/playground_assets/android-200h.png"
                     className="home-icon74"
                   />
-                  <span className="home-text120">Download for Android</span>
+                  <span className="home-text127">Download for Android</span>
                 </div>
               </a>
             </div>
@@ -1712,8 +1730,8 @@ listenForUrlChangesMobileMenu()
       </section>
       <footer className="home-footer">
         <div className="home-buy15 button">
-          <span className="home-text121">-&gt;</span>
-          <span className="home-text122">Links &amp; Socials</span>
+          <span className="home-text128">-&gt;</span>
+          <span className="home-text129">Links &amp; Socials</span>
         </div>
         <div className="home-content19">
           <main className="home-main-content">
@@ -1723,7 +1741,7 @@ listenForUrlChangesMobileMenu()
                   href="https://discord.gg/gV2P4JxjFd"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link30"
+                  className="home-link32"
                 >
                   <img
                     alt="image"
@@ -1735,7 +1753,7 @@ listenForUrlChangesMobileMenu()
                   href="https://twitter.com/pandasfightclub"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link31"
+                  className="home-link33"
                 >
                   <img
                     alt="image"
@@ -1747,7 +1765,7 @@ listenForUrlChangesMobileMenu()
                   href="https://opensea.io/"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link32"
+                  className="home-link34"
                 >
                   <img
                     alt="image"
@@ -1759,7 +1777,7 @@ listenForUrlChangesMobileMenu()
             </div>
           </main>
           <section className="home-copyright">
-            <span className="home-text123">
+            <span className="home-text130">
               © 2022 latitude. All Rights Reserved.
             </span>
           </section>
