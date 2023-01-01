@@ -1050,7 +1050,7 @@ listenForUrlChangesMobileMenu()
                   </p>
                   <img
                     alt="image"
-                    src="/playground_assets/83-300w.png"
+                    src="/playground_assets/muller23-300w.gif"
                     className="home-image74"
                   />
                 </div>
@@ -1096,7 +1096,7 @@ listenForUrlChangesMobileMenu()
                   </p>
                   <img
                     alt="image"
-                    src="/playground_assets/1-300h.png"
+                    src="/playground_assets/lupu-300w.gif"
                     className="home-image75"
                   />
                 </div>
@@ -1143,7 +1143,7 @@ listenForUrlChangesMobileMenu()
                   </p>
                   <img
                     alt="image"
-                    src="/playground_assets/6-300h.png"
+                    src="/playground_assets/bigbird-300w.gif"
                     className="home-image76"
                   />
                 </div>
@@ -1191,7 +1191,7 @@ listenForUrlChangesMobileMenu()
                   </p>
                   <img
                     alt="image"
-                    src="/playground_assets/93-300w.png"
+                    src="/playground_assets/butch-300w.gif"
                     className="home-image77"
                   />
                 </div>
@@ -1227,17 +1227,17 @@ listenForUrlChangesMobileMenu()
               <div className="home-plan4">
                 <div className="home-details12">
                   <div className="home-header15">
-                    <label className="home-name4">Frenchie</label>
+                    <label className="home-name4">LimoWerner</label>
                     <div className="home-pricing05">
                       <h1 className="home-price4">Solidity</h1>
                     </div>
                   </div>
                   <p className="home-description08">
-                    If Code is law, Frenchie is lawman
+                    If Code is law, Limo is lawman
                   </p>
                   <img
                     alt="image"
-                    src="/playground_assets/87-300w.png"
+                    src="/playground_assets/limowerner-300w.gif"
                     className="home-image78"
                   />
                 </div>
@@ -1281,7 +1281,7 @@ listenForUrlChangesMobileMenu()
                   <p className="home-description09">________________</p>
                   <img
                     alt="image"
-                    src="/playground_assets/8-300h.png"
+                    src="/playground_assets/streamer-300w.gif"
                     className="home-image79"
                   />
                 </div>
@@ -1315,7 +1315,7 @@ listenForUrlChangesMobileMenu()
                   </p>
                   <img
                     alt="image"
-                    src="/playground_assets/97-300w.png"
+                    src="/playground_assets/purrsian-300w.gif"
                     className="home-image80"
                   />
                 </div>
@@ -1356,7 +1356,7 @@ listenForUrlChangesMobileMenu()
                   </p>
                   <img
                     alt="image"
-                    src="/playground_assets/48-300w.png"
+                    src="/playground_assets/bonappetitjovi-300w.gif"
                     className="home-image81"
                   />
                 </div>
@@ -1386,7 +1386,7 @@ listenForUrlChangesMobileMenu()
                   </p>
                   <img
                     alt="image"
-                    src="/playground_assets/27-300w.png"
+                    src="/playground_assets/mrcoolio-300w.gif"
                     className="home-image82"
                   />
                 </div>
