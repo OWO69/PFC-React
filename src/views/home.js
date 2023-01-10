@@ -691,7 +691,12 @@ listenForUrlChangesMobileMenu()
                 <p className="section-description">
                   We noobs and wannabe pros at PFC are here to build games on
                   our experience of what constitutes the most thrilling,
-                  exciting, fun experience 
+                  exciting, fun experience with Pandas. What we&apos;re saying
+                  is we&apos;ll be building Panda Plumbers to Panda Moon Go
+                  Karters and hope to create at least a couple games loved by
+                  milions startinng with the 8 of us. Really sus there&apos;s no
+                  among us here or is it? The one to find out the among us
+                  reference here on site gets a suszooka
                 </p>
               </div>
             </div>
