@@ -131,7 +131,7 @@ listenForUrlChangesMobileMenu()
           <div className="home-container03 scrollbar">
             <img
               alt="image"
-              src="/playground_assets/7-600h.png"
+              src="/playground_assets/7-300h.png"
               className="home-image001 scroll-item"
             />
             <img
@@ -562,13 +562,13 @@ listenForUrlChangesMobileMenu()
               className="home-image049 scroll-item"
             />
             <img
+              src="/playground_assets/pes-600h.png"
               alt="image"
-              src="/playground_assets/7-600h.png"
               className="home-image050 scroll-item"
             />
             <img
-              alt="image"
               src="/playground_assets/efootball-600h.jpeg"
+              alt="image"
               className="home-image051 scroll-item"
             />
             <img
@@ -1788,7 +1788,7 @@ listenForUrlChangesMobileMenu()
                 <div className="home-author04">
                   <img
                     alt="image"
-                    src="/playground_assets/7-600h.png"
+                    src="/playground_assets/7-300h.png"
                     className="home-avatar2"
                   />
                   <div className="home-details19">
