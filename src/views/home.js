@@ -192,8 +192,9 @@ listenForUrlChangesMobileMenu()
               <header className="home-header">
                 <h1 className="home-heading">Panda Fight Club</h1>
                 <span className="home-caption">
-                  Black and white belt fighters vowing for stream sniping
-                  supremacy as they hash it out on the most f2p fun game ever
+                  Black and white and green and red and blue belt fighters
+                  vowing for stream sniping supremacy as they hash it out on the
+                  most f2p fun game ever
                 </span>
               </header>
               <div className="home-buttons">
@@ -264,8 +265,9 @@ listenForUrlChangesMobileMenu()
                   of martial arts these Pandas have the excitement &amp; energy
                   of amateurs and the guile &amp; expertise of pros.
                   Reincarnated from a Panda who ate too much Bamboo and was
-                  deemed too hot for hell and sent back these Jetpacks of joy go
-                  for the jugular and are proficient in 20+ weapons
+                  deemed too hot for hell and shipped back with same day
+                  delivery these Jetpacks of joy go for the jugular and are
+                  proficient in 20+ weapons with an extra affinity for bazookas
                 </p>
               </div>
             </div>
@@ -276,7 +278,9 @@ listenForUrlChangesMobileMenu()
               className="home-link11"
             >
               <div className="home-get-started4 button">
-                <span className="home-text010">Join Discord</span>
+                <span className="home-text010">
+                  Join Discord cause that&apos;s what heroes do maybe
+                </span>
               </div>
             </a>
           </div>
@@ -285,7 +289,7 @@ listenForUrlChangesMobileMenu()
           <div className="home-image017">
             <img
               alt="image"
-              src="/playground_assets/bkg%20%5B8%5D-1200w.png"
+              src="/playground_assets/bazookas-min%20%5B1%5D-400h.png"
               className="home-image018"
             />
           </div>
@@ -298,14 +302,27 @@ listenForUrlChangesMobileMenu()
               </header>
               <main className="home-heading03">
                 <header className="home-header02">
-                  <h2 className="section-heading">10+ game modes</h2>
+                  <h2 className="section-heading">
+                    <span>10+ maps</span>
+                    <br></br>
+                    <span>100+ skins</span>
+                    <br></br>
+                    <span>ထ++ action</span>
+                    <br></br>
+                    <span>At least 2 hour fun</span>
+                    <br></br>
+                  </h2>
                   <p className="section-description">
                     While brought up in the bamboo jungles, they quickly spread
                     to the rest of the world to complete their conquest of
                     collecting wisdom and knowledge of what the Planet Panda has
                     to offer them. They assimilated across various cultures and
                     gained fondness for various sports, cuisines &amp; dances
-                    unlockable throughout the game modes
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
                   </p>
                 </header>
                 <div className="home-checkmarks">
@@ -343,7 +360,7 @@ listenForUrlChangesMobileMenu()
               className="home-link12"
             >
               <div className="home-get-started5 button">
-                <span className="home-text011">
+                <span className="home-text019">
                   Did I tell you about our lord and savior black&amp;whitelist
                 </span>
               </div>
@@ -512,13 +529,13 @@ listenForUrlChangesMobileMenu()
               <div className="home-heading07">
                 <h2 className="section-heading">Where to?</h2>
                 <p className="section-description">
-                  From the flash yetiis to the IOs to the ios to the mobile and
-                  consoles.  from the symbians to the symbiotes, is the medium
-                  the message or the message a hand of god crossplatforming as a
-                  dancing deadpool on a zombie beach and a too cool for pool
-                  sexy shark. Guess the humankind is doomed to make every device
-                  a gaming device be it a AI fridge or a toy tesla that runs
-                  exclusively on tropical treetops
+                  From the ol&apos; flash yetis to the IOs to the ios to the
+                  mobile and consoles.  from the symbians to the symbiotes, is
+                  the medium the message or the message a hand of god
+                  crossplatforming as a dancing deadpool on a zombie beach and a
+                  too cool for pool sexy shark. Guess the humankind is doomed to
+                  make every device a gaming device be it a AI fridge or a toy
+                  tesla that runs exclusively on tropical treetops
                 </p>
               </div>
             </div>
@@ -562,13 +579,13 @@ listenForUrlChangesMobileMenu()
               className="home-image049 scroll-item"
             />
             <img
-              src="/playground_assets/pes-600h.png"
               alt="image"
+              src="/playground_assets/pes-600h.png"
               className="home-image050 scroll-item"
             />
             <img
-              src="/playground_assets/efootball-600h.jpeg"
               alt="image"
+              src="/playground_assets/efootball-600h.jpeg"
               className="home-image051 scroll-item"
             />
             <img
@@ -695,8 +712,8 @@ listenForUrlChangesMobileMenu()
                   is we&apos;ll be building Panda Plumbers to Panda Moon Go
                   Karters and hope to create at least a couple games loved by
                   milions starting with the 9 of us. Really sus there&apos;s no
-                  among us here or is it? The one to find out the among us
-                  reference here on site gets a suszooka
+                  among us here or is it? The ones to find out the among us
+                  reference here on site get a suszooka
                 </p>
               </div>
             </div>
@@ -704,22 +721,22 @@ listenForUrlChangesMobileMenu()
         </section>
       </section>
       <section id="Pew Pew" className="home-section04">
-        <h2 className="home-text016">
+        <h2 className="home-text024">
           <span>PEW PEW POW POW</span>
           <br></br>
         </h2>
         <div className="home-features">
           <header className="feature feature-active home-feature">
-            <h3 className="home-text019">Bambooska</h3>
-            <p className="home-text020">ERC 1155s</p>
+            <h3 className="home-text027">Bambooska</h3>
+            <p className="home-text028">ERC 1155s</p>
           </header>
           <header className="feature home-feature1">
-            <h3 className="home-text021">Babubshka</h3>
-            <p className="home-text022">Limited Edition</p>
+            <h3 className="home-text029">Babubshka</h3>
+            <p className="home-text030">Limited Edition</p>
           </header>
           <header className="feature home-feature2">
-            <h3 className="home-text023">Streamer Snipers</h3>
-            <p className="home-text024">Ultra Rare Pro Max 1off Editions</p>
+            <h3 className="home-text031">Streamer Snipers</h3>
+            <p className="home-text032">Ultra Rare Pro Max 1off Editions</p>
           </header>
         </div>
         <div className="home-note6">
@@ -739,7 +756,7 @@ listenForUrlChangesMobileMenu()
               </p>
             </main>
             <div className="home-explore-more">
-              <p className="home-text027">Learn more -&gt;</p>
+              <p className="home-text035">Learn more -&gt;</p>
             </div>
           </div>
           <div className="home-image069">
@@ -897,7 +914,7 @@ listenForUrlChangesMobileMenu()
               src="/playground_assets/wrappedzooka-200h.png"
               className="home-image099 scroll-item"
             />
-            <span className="home-text028">ඞ</span>
+            <span className="home-text036">ඞ</span>
             <img
               alt="image"
               src="/playground_assets/pow%20%5B8%5D-200h.png"
@@ -967,8 +984,8 @@ listenForUrlChangesMobileMenu()
               >
                 <div className="home-details">
                   <span className="section-head">Bambooverse begins</span>
-                  <span className="home-text029">Jan 23</span>
-                  <span data-role="accordion-content" className="home-text030">
+                  <span className="home-text037">Jan 23</span>
+                  <span data-role="accordion-content" className="home-text038">
                     we will first build a community of around 10k people on both
                     twitter and discord and be giving whitelists to first and
                     foremost the gaming audience of our partner streamer
@@ -988,8 +1005,8 @@ listenForUrlChangesMobileMenu()
                 className="home-element1 accordion-element"
               >
                 <div className="home-details01">
-                  <span className="home-text031">Q1 2023</span>
-                  <span data-role="accordion-content" className="home-text032">
+                  <span className="home-text039">Q1 2023</span>
+                  <span data-role="accordion-content" className="home-text040">
                     we will then add our project into leading nft marketplaces
                     like opensea and gamestop nft as we set up shop
                     <span
@@ -1013,8 +1030,8 @@ listenForUrlChangesMobileMenu()
                 className="home-element2 accordion-element"
               >
                 <div className="home-details02">
-                  <span className="home-text033">Q2 2023</span>
-                  <span data-role="accordion-content" className="home-text034">
+                  <span className="home-text041">Q2 2023</span>
+                  <span data-role="accordion-content" className="home-text042">
                     we&apos;ll be building a Panda gaming studio from the funds
                     raised and add more members to the team to build more games
                     and add more skins and events as time passes to build even
@@ -1035,8 +1052,8 @@ listenForUrlChangesMobileMenu()
                 className="home-element3 accordion-element"
               >
                 <div className="home-details03">
-                  <span className="home-text035">Funds Split</span>
-                  <span data-role="accordion-content" className="home-text036">
+                  <span className="home-text043">Funds Split</span>
+                  <span data-role="accordion-content" className="home-text044">
                     50% for the project, 10% for the team, 10% for promotion,
                     10% misc , 20% to streamer partner and a 100% reason to
                     remember the name
@@ -1082,8 +1099,8 @@ listenForUrlChangesMobileMenu()
                   <span className="home-section10 section-head">
                     Single Holder
                   </span>
-                  <span className="home-text037">UNO Panda</span>
-                  <span data-role="accordion-content" className="home-text038">
+                  <span className="home-text045">UNO Panda</span>
+                  <span data-role="accordion-content" className="home-text046">
                     <span>📺Adfree experience forever</span>
                     <br></br>
                     <br></br>
@@ -1092,17 +1109,17 @@ listenForUrlChangesMobileMenu()
                       Airdrops, 1 limited launch edition bazooka skin, 2 rare
                       random weapon skins, 1 armory update accessories
                     </span>
-                    <br className="home-text044"></br>
+                    <br className="home-text052"></br>
                     <br></br>
                     <span>🪓</span>
                     <span>Battle pass (q2) to PFC</span>
-                    <br className="home-text048"></br>
+                    <br className="home-text056"></br>
                     <br></br>
                     <span>⚽</span>
                     <span>
                       World Cup mode and exclusive holder only lobbies
                     </span>
-                    <br className="home-text052"></br>
+                    <br className="home-text060"></br>
                     <br></br>
                     <span>🥷</span>
                     <span>
@@ -1129,10 +1146,10 @@ listenForUrlChangesMobileMenu()
                 className="home-element5 accordion-element"
               >
                 <div className="home-details05">
-                  <span className="home-text056">2-9 Pandas</span>
-                  <span data-role="accordion-content" className="home-text057">
+                  <span className="home-text064">2-9 Pandas</span>
+                  <span data-role="accordion-content" className="home-text065">
                     <span>⛩️Early access to upcoming games</span>
-                    <br className="home-text059"></br>
+                    <br className="home-text067"></br>
                     <br></br>
                     <span>🎁</span>
                     <span>
@@ -1159,10 +1176,10 @@ listenForUrlChangesMobileMenu()
                 className="home-element6 accordion-element"
               >
                 <div className="home-details06">
-                  <span className="home-text063">10+ Pandas</span>
-                  <span data-role="accordion-content" className="home-text064">
+                  <span className="home-text071">10+ Pandas</span>
+                  <span data-role="accordion-content" className="home-text072">
                     <span>💝Pre launch exclusive in game items</span>
-                    <br className="home-text066"></br>
+                    <br className="home-text074"></br>
                     <br></br>
                     <span>🎀</span>
                     <span>Rare items in Collabs with other communities</span>
@@ -1189,8 +1206,8 @@ listenForUrlChangesMobileMenu()
                       }}
                     />
                   </span>
-                  <span className="home-text070">69 Pandas</span>
-                  <span data-role="accordion-content" className="home-text071">
+                  <span className="home-text078">69 Pandas</span>
+                  <span data-role="accordion-content" className="home-text079">
                     <span>
                       🪅President Pass- add assets &amp; ideas ranging from
                       mechanics to maps and Easter eggs
@@ -1300,7 +1317,7 @@ listenForUrlChangesMobileMenu()
               className="home-link13"
             >
               <div className="home-get-started6 button">
-                <span className="home-text077">Opensea</span>
+                <span className="home-text085">Opensea</span>
               </div>
             </a>
             <a
@@ -1310,7 +1327,7 @@ listenForUrlChangesMobileMenu()
               className="home-link14"
             >
               <div className="home-book-demo button">
-                <span className="home-text078">Minting Demo (youtube)</span>
+                <span className="home-text086">Minting Demo (youtube)</span>
               </div>
             </a>
           </div>
@@ -1356,7 +1373,7 @@ listenForUrlChangesMobileMenu()
                     className="home-link15"
                   >
                     <div className="home-buy button">
-                      <span className="home-text079">
+                      <span className="home-text087">
                         <span>Tracker GG</span>
                         <br></br>
                       </span>
@@ -1369,7 +1386,7 @@ listenForUrlChangesMobileMenu()
                     className="home-link16"
                   >
                     <div className="home-buy01 button">
-                      <span className="home-text082">
+                      <span className="home-text090">
                         <span>Discord</span>
                         <br></br>
                       </span>
@@ -1402,7 +1419,7 @@ listenForUrlChangesMobileMenu()
                     className="home-link17"
                   >
                     <div className="home-buy02 button">
-                      <span className="home-text085">
+                      <span className="home-text093">
                         <span>Deviant Art</span>
                         <br></br>
                       </span>
@@ -1415,7 +1432,7 @@ listenForUrlChangesMobileMenu()
                     className="home-link18"
                   >
                     <div className="home-buy03 button">
-                      <span className="home-text088">
+                      <span className="home-text096">
                         <span>Discord</span>
                         <br></br>
                       </span>
@@ -1449,7 +1466,7 @@ listenForUrlChangesMobileMenu()
                     className="home-link19"
                   >
                     <div className="home-buy04 button">
-                      <span className="home-text091">
+                      <span className="home-text099">
                         <span>Steam Store</span>
                         <br></br>
                       </span>
@@ -1462,7 +1479,7 @@ listenForUrlChangesMobileMenu()
                     className="home-link20"
                   >
                     <div className="home-buy05 button">
-                      <span className="home-text094">
+                      <span className="home-text102">
                         <span>Youtube</span>
                         <br></br>
                       </span>
@@ -1497,7 +1514,7 @@ listenForUrlChangesMobileMenu()
                     className="home-link21"
                   >
                     <div className="home-buy06 button">
-                      <span className="home-text097">
+                      <span className="home-text105">
                         <span>GitHub</span>
                         <br></br>
                       </span>
@@ -1510,7 +1527,7 @@ listenForUrlChangesMobileMenu()
                     className="home-link22"
                   >
                     <div className="home-buy07 button">
-                      <span className="home-text100">
+                      <span className="home-text108">
                         <span>Previously On</span>
                         <br></br>
                       </span>
@@ -1543,7 +1560,7 @@ listenForUrlChangesMobileMenu()
                     className="home-link23"
                   >
                     <div className="home-buy08 button">
-                      <span className="home-text103">
+                      <span className="home-text111">
                         <span>Goerli</span>
                         <br></br>
                       </span>
@@ -1556,7 +1573,7 @@ listenForUrlChangesMobileMenu()
                     className="home-link24"
                   >
                     <div className="home-buy09 button">
-                      <span className="home-text106">
+                      <span className="home-text114">
                         <span>Polygonscan</span>
                         <br></br>
                       </span>
@@ -1581,13 +1598,13 @@ listenForUrlChangesMobileMenu()
                 </div>
                 <div className="home-buy-details5">
                   <div className="home-buy10 button">
-                    <span className="home-text109">
+                    <span className="home-text117">
                       <span>Twitch</span>
                       <br></br>
                     </span>
                   </div>
                   <div className="home-buy11 button">
-                    <span className="home-text112">
+                    <span className="home-text120">
                       <span>Insta</span>
                       <br></br>
                     </span>
@@ -1621,7 +1638,7 @@ listenForUrlChangesMobileMenu()
                     className="home-link25"
                   >
                     <div className="home-buy12 button">
-                      <span className="home-text115">
+                      <span className="home-text123">
                         <span>Discord</span>
                         <br></br>
                       </span>
@@ -1643,7 +1660,7 @@ listenForUrlChangesMobileMenu()
                     </span>
                     <br></br>
                     <span>If Neymar has one fan, then I&apos;m the one.</span>
-                    <br className="home-text121"></br>
+                    <br className="home-text129"></br>
                     <span>
                       If Neymar has no fans, that means I don&apos;t exist
                     </span>
@@ -1662,7 +1679,7 @@ listenForUrlChangesMobileMenu()
                     className="home-link26"
                   >
                     <div className="home-buy13 button">
-                      <span className="home-text123">Discord</span>
+                      <span className="home-text131">Discord</span>
                     </div>
                   </a>
                 </div>
@@ -1692,7 +1709,7 @@ listenForUrlChangesMobileMenu()
                     className="home-link27"
                   >
                     <div className="home-buy14 button">
-                      <span className="home-text124">
+                      <span className="home-text132">
                         <span>Twitter</span>
                         <br></br>
                       </span>
@@ -1895,7 +1912,7 @@ listenForUrlChangesMobileMenu()
           </div>
         </main>
         <div className="home-view-more">
-          <p className="home-text127">View more</p>
+          <p className="home-text135">View more</p>
         </div>
       </section>
       <section className="home-section20">
@@ -1921,7 +1938,7 @@ listenForUrlChangesMobileMenu()
                   rel="noreferrer noopener"
                   className="home-link28"
                 >
-                  <p className="home-text128">Check It Out-&gt;</p>
+                  <p className="home-text136">Check It Out-&gt;</p>
                 </a>
               </div>
             </main>
@@ -1943,7 +1960,7 @@ listenForUrlChangesMobileMenu()
                   rel="noreferrer noopener"
                   className="home-link29"
                 >
-                  <p className="home-text129">Read -&gt;</p>
+                  <p className="home-text137">Read -&gt;</p>
                 </a>
               </div>
             </main>
@@ -1965,7 +1982,7 @@ listenForUrlChangesMobileMenu()
                   rel="noreferrer noopener"
                   className="home-link30"
                 >
-                  <p className="home-text130">Scroll-&gt;</p>
+                  <p className="home-text138">Scroll-&gt;</p>
                 </a>
               </div>
             </main>
@@ -1996,7 +2013,7 @@ listenForUrlChangesMobileMenu()
                   src="/playground_assets/apple-200w.png"
                   className="home-icon73"
                 />
-                <span className="home-text131">Download for iOS</span>
+                <span className="home-text139">Download for iOS</span>
               </div>
               <a
                 href="https://drive.google.com/file/d/1m0__KYJk7SZaUAQ1F5IHjDryIc3TciU6/view"
@@ -2010,7 +2027,7 @@ listenForUrlChangesMobileMenu()
                     src="/playground_assets/android-200h.png"
                     className="home-icon74"
                   />
-                  <span className="home-text132">Download for Android</span>
+                  <span className="home-text140">Download for Android</span>
                 </div>
               </a>
             </div>
@@ -2024,8 +2041,8 @@ listenForUrlChangesMobileMenu()
       </section>
       <footer className="home-footer">
         <div className="home-buy15 button">
-          <span className="home-text133">-&gt;</span>
-          <span className="home-text134">Links &amp; Socials</span>
+          <span className="home-text141">-&gt;</span>
+          <span className="home-text142">Links &amp; Socials</span>
         </div>
         <div className="home-content23">
           <main className="home-main-content">
@@ -2071,7 +2088,7 @@ listenForUrlChangesMobileMenu()
             </div>
           </main>
           <section className="home-copyright">
-            <span className="home-text135">
+            <span className="home-text143">
               © 2022 latitude. All Rights Reserved.
             </span>
           </section>

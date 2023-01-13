@@ -447,6 +447,8 @@
   justify-content: center;
 }
 .home-image018 {
+  width: 714px;
+  height: 357px;
   object-fit: cover;
 }
 .home-content02 {
@@ -592,7 +594,7 @@
   text-decoration: none;
   background-color: #80FF44;
 }
-.home-text011 {
+.home-text019 {
   color: rgb(12, 16, 12);
   font-size: 16px;
   font-style: normal;
@@ -1055,7 +1057,7 @@
   padding-bottom: 120px;
   justify-content: center;
 }
-.home-text016 {
+.home-text024 {
   color: rgb(255, 255, 255);
   font-size: 40px;
   font-style: normal;
@@ -1075,36 +1077,36 @@
   justify-content: center;
   border-bottom-width: 1px;
 }
-.home-text019 {
+.home-text027 {
   color: rgb(255, 255, 255);
   font-size: 24px;
   font-style: normal;
   font-family: Poppins;
   font-weight: 600;
 }
-.home-text020 {
+.home-text028 {
   color: rgb(121, 124, 128);
   font-family: Poppins;
 }
-.home-text021 {
+.home-text029 {
   color: rgb(255, 255, 255);
   font-size: 24px;
   font-style: normal;
   font-family: Poppins;
   font-weight: 600;
 }
-.home-text022 {
+.home-text030 {
   color: rgb(121, 124, 128);
   font-family: Poppins;
 }
-.home-text023 {
+.home-text031 {
   color: rgb(255, 255, 255);
   font-size: 24px;
   font-style: normal;
   font-family: Poppins;
   font-weight: 600;
 }
-.home-text024 {
+.home-text032 {
   color: rgb(121, 124, 128);
   font-family: Poppins;
 }
@@ -1160,7 +1162,7 @@
 .home-explore-more:hover {
   opacity: 0.5;
 }
-.home-text027 {
+.home-text035 {
   color: rgb(128, 255, 68);
   font-style: normal;
   font-weight: 500;
@@ -1312,7 +1314,7 @@
   width: auto;
   object-fit: cover;
 }
-.home-text028 {
+.home-text036 {
   color: #00ff2a;
 }
 .home-image100 {
@@ -1424,7 +1426,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-text029 {
+.home-text037 {
   color: var(--dl-color-gray-white);
   width: 100%;
   font-size: 18px;
@@ -1434,7 +1436,7 @@
   font-weight: 600;
   line-height: 27px;
 }
-.home-text030 {
+.home-text038 {
   color: var(--dl-color-gray-900);
   width: 100%;
   max-width: 535px;
@@ -1459,7 +1461,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-text031 {
+.home-text039 {
   color: var(--dl-color-gray-white);
   width: 100%;
   font-size: 18px;
@@ -1469,7 +1471,7 @@
   font-weight: 600;
   line-height: 27px;
 }
-.home-text032 {
+.home-text040 {
   color: var(--dl-color-gray-900);
   width: 100%;
   max-width: 535px;
@@ -1494,7 +1496,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-text033 {
+.home-text041 {
   color: var(--dl-color-gray-white);
   width: 100%;
   font-size: 18px;
@@ -1504,7 +1506,7 @@
   font-weight: 600;
   line-height: 27px;
 }
-.home-text034 {
+.home-text042 {
   color: var(--dl-color-gray-900);
   width: 100%;
   max-width: 535px;
@@ -1529,7 +1531,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-text035 {
+.home-text043 {
   color: var(--dl-color-gray-white);
   width: 100%;
   font-size: 18px;
@@ -1539,7 +1541,7 @@
   font-weight: 600;
   line-height: 27px;
 }
-.home-text036 {
+.home-text044 {
   color: var(--dl-color-gray-900);
   width: 100%;
   max-width: 535px;
@@ -1628,7 +1630,7 @@
 .home-section10 {
   color: var(--dl-color-danger-300);
 }
-.home-text037 {
+.home-text045 {
   color: var(--dl-color-gray-white);
   width: 100%;
   font-size: 18px;
@@ -1638,7 +1640,7 @@
   font-weight: 600;
   line-height: 27px;
 }
-.home-text038 {
+.home-text046 {
   color: var(--dl-color-gray-900);
   width: 100%;
   max-width: 535px;
@@ -1646,17 +1648,17 @@
   line-height: 24px;
   user-select: text;
 }
-.home-text044 {
-  color: var(--dl-color-gray-900);
-  font-family: Poppins;
-  line-height: 24px;
-}
-.home-text048 {
-  color: var(--dl-color-gray-900);
-  font-family: Poppins;
-  line-height: 24px;
-}
 .home-text052 {
+  color: var(--dl-color-gray-900);
+  font-family: Poppins;
+  line-height: 24px;
+}
+.home-text056 {
+  color: var(--dl-color-gray-900);
+  font-family: Poppins;
+  line-height: 24px;
+}
+.home-text060 {
   color: var(--dl-color-gray-900);
   font-family: Poppins;
   line-height: 24px;
@@ -1681,7 +1683,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-text056 {
+.home-text064 {
   color: var(--dl-color-gray-white);
   width: 100%;
   font-size: 18px;
@@ -1691,7 +1693,7 @@
   font-weight: 600;
   line-height: 27px;
 }
-.home-text057 {
+.home-text065 {
   color: var(--dl-color-gray-900);
   width: 100%;
   max-width: 535px;
@@ -1699,7 +1701,7 @@
   line-height: 24px;
   user-select: text;
 }
-.home-text059 {
+.home-text067 {
   color: var(--dl-color-gray-900);
   font-family: Poppins;
   line-height: 24px;
@@ -1724,7 +1726,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-text063 {
+.home-text071 {
   color: var(--dl-color-gray-white);
   width: 100%;
   font-size: 18px;
@@ -1734,7 +1736,7 @@
   font-weight: 600;
   line-height: 27px;
 }
-.home-text064 {
+.home-text072 {
   color: var(--dl-color-gray-900);
   width: 100%;
   max-width: 535px;
@@ -1742,7 +1744,7 @@
   line-height: 24px;
   user-select: text;
 }
-.home-text066 {
+.home-text074 {
   color: var(--dl-color-gray-900);
   font-family: Poppins;
   line-height: 24px;
@@ -1767,7 +1769,7 @@
 .home-section13 {
   color: var(--dl-color-danger-300);
 }
-.home-text070 {
+.home-text078 {
   color: var(--dl-color-gray-white);
   width: 100%;
   font-size: 18px;
@@ -1777,7 +1779,7 @@
   font-weight: 600;
   line-height: 27px;
 }
-.home-text071 {
+.home-text079 {
   color: var(--dl-color-gray-900);
   width: 100%;
   max-width: 535px;
@@ -2060,7 +2062,7 @@
   text-decoration: none;
   background-color: #80FF44;
 }
-.home-text077 {
+.home-text085 {
   color: rgb(12, 16, 12);
   font-size: 16px;
   font-style: normal;
@@ -2077,7 +2079,7 @@
   text-decoration: none;
   background-color: #ffffff;
 }
-.home-text078 {
+.home-text086 {
   color: rgb(12, 16, 12);
   font-size: 16px;
   font-style: normal;
@@ -2260,7 +2262,7 @@
   text-decoration: none;
   background-color: #80FF44;
 }
-.home-text079 {
+.home-text087 {
   color: rgb(12, 16, 12);
   font-size: 16px;
   font-style: normal;
@@ -2277,7 +2279,7 @@
   text-decoration: none;
   background-color: #80FF44;
 }
-.home-text082 {
+.home-text090 {
   color: rgb(12, 16, 12);
   font-size: 16px;
   font-style: normal;
@@ -2359,7 +2361,7 @@
   text-decoration: none;
   background-color: #80FF44;
 }
-.home-text085 {
+.home-text093 {
   color: rgb(12, 16, 12);
   font-size: 16px;
   font-style: normal;
@@ -2376,7 +2378,7 @@
   text-decoration: none;
   background-color: #80FF44;
 }
-.home-text088 {
+.home-text096 {
   color: rgb(12, 16, 12);
   font-size: 16px;
   font-style: normal;
@@ -2459,7 +2461,7 @@
   text-decoration: none;
   background-color: #80FF44;
 }
-.home-text091 {
+.home-text099 {
   color: rgb(12, 16, 12);
   font-size: 16px;
   font-style: normal;
@@ -2476,7 +2478,7 @@
   text-decoration: none;
   background-color: #80FF44;
 }
-.home-text094 {
+.home-text102 {
   color: rgb(12, 16, 12);
   font-size: 16px;
   font-style: normal;
@@ -2570,7 +2572,7 @@
   text-decoration: none;
   background-color: #80FF44;
 }
-.home-text097 {
+.home-text105 {
   color: rgb(12, 16, 12);
   font-size: 16px;
   font-style: normal;
@@ -2587,7 +2589,7 @@
   text-decoration: none;
   background-color: #80FF44;
 }
-.home-text100 {
+.home-text108 {
   color: rgb(12, 16, 12);
   font-size: 16px;
   font-style: normal;
@@ -2669,7 +2671,7 @@
   text-decoration: none;
   background-color: #80FF44;
 }
-.home-text103 {
+.home-text111 {
   color: rgb(12, 16, 12);
   font-size: 16px;
   font-style: normal;
@@ -2686,7 +2688,7 @@
   text-decoration: none;
   background-color: #80FF44;
 }
-.home-text106 {
+.home-text114 {
   color: rgb(12, 16, 12);
   font-size: 16px;
   font-style: normal;
@@ -2765,7 +2767,7 @@
   display: flex;
   background-color: #80FF44;
 }
-.home-text109 {
+.home-text117 {
   color: rgb(12, 16, 12);
   font-size: 16px;
   font-style: normal;
@@ -2778,7 +2780,7 @@
   display: flex;
   background-color: #80FF44;
 }
-.home-text112 {
+.home-text120 {
   color: rgb(12, 16, 12);
   font-size: 16px;
   font-style: normal;
@@ -2872,7 +2874,7 @@
   text-decoration: none;
   background-color: #80FF44;
 }
-.home-text115 {
+.home-text123 {
   color: rgb(12, 16, 12);
   font-size: 16px;
   font-style: normal;
@@ -2933,7 +2935,7 @@
   font-family: Poppins;
   line-height: 22px;
 }
-.home-text121 {
+.home-text129 {
   color: rgba(255, 255, 255, 0.8);
   font-family: Poppins;
   line-height: 22px;
@@ -2959,7 +2961,7 @@
   text-decoration: none;
   background-color: #80FF44;
 }
-.home-text123 {
+.home-text131 {
   color: rgb(12, 16, 12);
   font-size: 16px;
   font-style: normal;
@@ -3042,7 +3044,7 @@
   text-decoration: none;
   background-color: #80FF44;
 }
-.home-text124 {
+.home-text132 {
   color: rgb(12, 16, 12);
   font-size: 16px;
   font-style: normal;
@@ -3617,7 +3619,7 @@
 .home-view-more:hover {
   opacity: 0.5;
 }
-.home-text127 {
+.home-text135 {
   color: rgb(128, 255, 68);
   font-style: normal;
   font-weight: 500;
@@ -3715,7 +3717,7 @@
 .home-link28 {
   display: contents;
 }
-.home-text128 {
+.home-text136 {
   color: rgb(128, 255, 68);
   font-style: normal;
   font-weight: 500;
@@ -3778,7 +3780,7 @@
 .home-link29 {
   display: contents;
 }
-.home-text129 {
+.home-text137 {
   color: rgb(128, 255, 68);
   font-style: normal;
   font-weight: 500;
@@ -3841,7 +3843,7 @@
 .home-link30 {
   display: contents;
 }
-.home-text130 {
+.home-text138 {
   color: rgb(128, 255, 68);
   font-style: normal;
   font-weight: 500;
@@ -3936,7 +3938,7 @@
   width: 16px;
   object-fit: cover;
 }
-.home-text131 {
+.home-text139 {
   color: rgb(255, 255, 255);
   font-size: 16px;
   font-style: normal;
@@ -3958,7 +3960,7 @@
   width: 16px;
   object-fit: cover;
 }
-.home-text132 {
+.home-text140 {
   color: rgb(255, 255, 255);
   font-size: 16px;
   font-style: normal;
@@ -3994,7 +3996,7 @@
   padding-bottom: var(--dl-space-space-unit);
   background-color: #80FF44;
 }
-.home-text133 {
+.home-text141 {
   color: rgb(12, 16, 12);
   display: none;
   font-size: 16px;
@@ -4003,7 +4005,7 @@
   font-weight: 500;
   line-height: 24px;
 }
-.home-text134 {
+.home-text142 {
   color: rgb(12, 16, 12);
   display: flex;
   font-size: 16px;
@@ -4079,7 +4081,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-text135 {
+.home-text143 {
   color: #C4C4C4;
   width: 100%;
   font-size: 14px;
@@ -4159,7 +4161,7 @@
   .home-container07 {
     grid-template-columns: 1fr 1fr 1fr;
   }
-  .home-text016 {
+  .home-text024 {
     text-align: center;
   }
   .home-note6 {
@@ -4269,7 +4271,7 @@
     display: flex;
     border-color: #CCCCCC;
   }
-  .home-text127 {
+  .home-text135 {
     color: #CCCCCC;
     font-style: normal;
     font-weight: 500;
@@ -4456,7 +4458,7 @@
     padding-top: 100px;
     padding-bottom: 100px;
   }
-  .home-text016 {
+  .home-text024 {
     font-size: 32px;
     text-align: center;
   }
@@ -4471,7 +4473,7 @@
     width: 100%;
     padding-bottom: var(--dl-space-space-unit);
   }
-  .home-text019 {
+  .home-text027 {
     font-size: 20px;
   }
   .home-feature1 {
@@ -4480,14 +4482,14 @@
     padding-bottom: var(--dl-space-space-unit);
     border-bottom-width: 1px;
   }
-  .home-text021 {
+  .home-text029 {
     font-size: 20px;
   }
   .home-feature2 {
     width: 100%;
     padding-bottom: var(--dl-space-space-unit);
   }
-  .home-text023 {
+  .home-text031 {
     font-size: 20px;
   }
   .home-note6 {
@@ -4517,7 +4519,7 @@
     width: 100%;
     max-width: 560px;
   }
-  .home-text029 {
+  .home-text037 {
     font-size: 16px;
     line-height: 24px;
   }
@@ -4525,21 +4527,21 @@
     width: 100%;
     max-width: 560px;
   }
-  .home-text031 {
+  .home-text039 {
     font-size: 16px;
   }
   .home-element2 {
     width: 100%;
     max-width: 560px;
   }
-  .home-text033 {
+  .home-text041 {
     font-size: 16px;
   }
   .home-element3 {
     width: 100%;
     max-width: 560px;
   }
-  .home-text035 {
+  .home-text043 {
     font-size: 16px;
   }
   .home-content09 {
@@ -4549,7 +4551,7 @@
     width: 100%;
     max-width: 560px;
   }
-  .home-text037 {
+  .home-text045 {
     font-size: 16px;
     line-height: 24px;
   }
@@ -4557,21 +4559,21 @@
     width: 100%;
     max-width: 560px;
   }
-  .home-text056 {
+  .home-text064 {
     font-size: 16px;
   }
   .home-element6 {
     width: 100%;
     max-width: 560px;
   }
-  .home-text063 {
+  .home-text071 {
     font-size: 16px;
   }
   .home-element7 {
     width: 100%;
     max-width: 560px;
   }
-  .home-text070 {
+  .home-text078 {
     font-size: 16px;
     line-height: 24px;
   }
@@ -4666,7 +4668,7 @@
     flex: 0 0 auto;
     width: 100%;
   }
-  .home-text134 {
+  .home-text142 {
     color: rgb(12, 16, 12);
     font-size: 16px;
     font-style: normal;
@@ -4780,7 +4782,7 @@
   .home-image125 {
     width: 100%;
   }
-  .home-text133 {
+  .home-text141 {
     color: rgb(12, 16, 12);
     display: flex;
     font-size: 24px;
@@ -4790,7 +4792,7 @@
     line-height: 24px;
     white-space: nowrap;
   }
-  .home-text134 {
+  .home-text142 {
     color: rgb(12, 16, 12);
     display: none;
     font-size: 24px;
