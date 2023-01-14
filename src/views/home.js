@@ -2034,7 +2034,7 @@ listenForUrlChangesMobileMenu()
           </header>
           <img
             alt="image"
-            src="/playground_assets/bkg%20%5B9%5D-1200w.png"
+            src="/playground_assets/bazooka%20blokes%20twitch-1200w.jpg"
             className="home-image125"
           />
         </main>
