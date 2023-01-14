@@ -1246,7 +1246,7 @@ listenForUrlChangesMobileMenu()
               We&apos;ll be guiding our fam through the experience of ordering a
               game battle pass via crypto. While f2p at it&apos;s essence, we
               are monetizing by adding special perks, drops and a limited
-              edittion world cup mode for those that support the founding of our
+              edition alpha pass for those that support the founding of our
               studio
             </p>
           </div>
@@ -2007,19 +2007,26 @@ listenForUrlChangesMobileMenu()
               Download links (coming soon)
             </h2>
             <div className="home-buttons2">
-              <div className="home-i-o-s button">
-                <img
-                  alt="image"
-                  src="/playground_assets/apple-200w.png"
-                  className="home-icon73"
-                />
-                <span className="home-text139">Download for iOS</span>
-              </div>
+              <a
+                href="https://media.tenor.com/qRpNbT_IhBAAAAAC/appurajosh-appu.gif"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="home-link31"
+              >
+                <div className="home-i-o-s button">
+                  <img
+                    alt="image"
+                    src="/playground_assets/apple-200w.png"
+                    className="home-icon73"
+                  />
+                  <span className="home-text139">Download for iOS</span>
+                </div>
+              </a>
               <a
                 href="https://drive.google.com/file/d/1m0__KYJk7SZaUAQ1F5IHjDryIc3TciU6/view"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="home-link31"
+                className="home-link32"
               >
                 <div className="home-android button">
                   <img
@@ -2052,7 +2059,7 @@ listenForUrlChangesMobileMenu()
                   href="https://discord.gg/gV2P4JxjFd"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link32"
+                  className="home-link33"
                 >
                   <img
                     alt="image"
@@ -2064,7 +2071,7 @@ listenForUrlChangesMobileMenu()
                   href="https://twitter.com/pandasfightclub"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link33"
+                  className="home-link34"
                 >
                   <img
                     alt="image"
@@ -2073,10 +2080,10 @@ listenForUrlChangesMobileMenu()
                   />
                 </a>
                 <a
-                  href="https://opensea.io/"
+                  href="https://opensea.io/collection/pandas-fight-club"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link34"
+                  className="home-link35"
                 >
                   <img
                     alt="image"

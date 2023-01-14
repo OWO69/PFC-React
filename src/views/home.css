@@ -3928,10 +3928,14 @@
   flex-direction: row;
   justify-content: center;
 }
+.home-link31 {
+  display: contents;
+}
 .home-i-o-s {
   gap: var(--dl-space-space-halfunit);
   display: flex;
   flex-direction: row;
+  text-decoration: none;
   background-color: #0F0F0F;
 }
 .home-icon73 {
@@ -3946,7 +3950,7 @@
   font-weight: 500;
   line-height: 24px;
 }
-.home-link31 {
+.home-link32 {
   display: contents;
 }
 .home-android {
@@ -4048,7 +4052,7 @@
   justify-content: center;
   background-color: #71e742;
 }
-.home-link32 {
+.home-link33 {
   display: contents;
 }
 .home-image126 {
@@ -4056,7 +4060,7 @@
   object-fit: cover;
   text-decoration: none;
 }
-.home-link33 {
+.home-link34 {
   display: contents;
 }
 .home-image127 {
@@ -4064,7 +4068,7 @@
   object-fit: cover;
   text-decoration: none;
 }
-.home-link34 {
+.home-link35 {
   display: contents;
 }
 .home-image128 {
