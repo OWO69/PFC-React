@@ -448,9 +448,9 @@ listenForUrlChangesMobileMenu()
                     fire, or is it the race till last tier. Is it the explosions
                     or the quest for domination. Is it the flex and the city or
                     a parkouring car hitting a football. Is it a spiritual panda
-                    on journey to conquest the . What is it that sets the heart
-                    racing and yearning for adventure and excitement in these 0s
-                    and 1s
+                    on journey to speedrun milky way on a gokart. What is it
+                    that sets the heart racing and yearning for adventure and
+                    excitement in these 0s and 1s
                   </span>
                   <br></br>
                 </p>
@@ -781,7 +781,7 @@ listenForUrlChangesMobileMenu()
             />
             <img
               alt="image"
-              src="/playground_assets/shotgun-200h.png"
+              src="/playground_assets/jp%20%5B59%5D-200h.png"
               className="home-image073 scroll-item"
             />
             <img
@@ -791,7 +791,7 @@ listenForUrlChangesMobileMenu()
             />
             <img
               alt="image"
-              src="/playground_assets/binigun-200h.png"
+              src="/playground_assets/jp-200h.png"
               className="home-image075 scroll-item"
             />
             <img
@@ -801,7 +801,7 @@ listenForUrlChangesMobileMenu()
             />
             <img
               alt="image"
-              src="/playground_assets/bk47-200h.png"
+              src="/playground_assets/jp%20%5B10%5D-200h.png"
               className="home-image077 scroll-item"
             />
             <img
@@ -821,7 +821,7 @@ listenForUrlChangesMobileMenu()
             />
             <img
               alt="image"
-              src="/playground_assets/wrappedzooka-200h.png"
+              src="/playground_assets/jp%20%5B57%5D-200h.png"
               className="home-image081 scroll-item"
             />
             <img
@@ -831,7 +831,7 @@ listenForUrlChangesMobileMenu()
             />
             <img
               alt="image"
-              src="/playground_assets/bambooka-200h.png"
+              src="/playground_assets/jp%20%5B51%5D-200h.png"
               className="home-image083 scroll-item"
             />
             <img
@@ -841,7 +841,7 @@ listenForUrlChangesMobileMenu()
             />
             <img
               alt="image"
-              src="/playground_assets/shotgun-200h.png"
+              src="/playground_assets/jp%20%5B12%5D-200h.png"
               className="home-image085 scroll-item"
             />
             <img
@@ -851,7 +851,7 @@ listenForUrlChangesMobileMenu()
             />
             <img
               alt="image"
-              src="/playground_assets/binigun-200h.png"
+              src="/playground_assets/jp%20%5B3%5D-200h.png"
               className="home-image087 scroll-item"
             />
             <img
@@ -861,7 +861,7 @@ listenForUrlChangesMobileMenu()
             />
             <img
               alt="image"
-              src="/playground_assets/bk47-200h.png"
+              src="/playground_assets/jp%20%5B37%5D-200h.png"
               className="home-image089 scroll-item"
             />
             <img
@@ -871,7 +871,7 @@ listenForUrlChangesMobileMenu()
             />
             <img
               alt="image"
-              src="/playground_assets/bambooshka-200h.png"
+              src="/playground_assets/jp%20%5B48%5D-200h.png"
               className="home-image091 scroll-item"
             />
             <img
@@ -881,7 +881,7 @@ listenForUrlChangesMobileMenu()
             />
             <img
               alt="image"
-              src="/playground_assets/wrappedzooka-200h.png"
+              src="/playground_assets/jp%20%5B58%5D-200h.png"
               className="home-image093 scroll-item"
             />
             <img
@@ -891,7 +891,7 @@ listenForUrlChangesMobileMenu()
             />
             <img
               alt="image"
-              src="/playground_assets/bambooshka-200h.png"
+              src="/playground_assets/jp%20%5B39%5D-200h.png"
               className="home-image095 scroll-item"
             />
             <img
@@ -901,7 +901,7 @@ listenForUrlChangesMobileMenu()
             />
             <img
               alt="image"
-              src="/playground_assets/wrappedzooka-200h.png"
+              src="/playground_assets/jp%20%5B40%5D-200h.png"
               className="home-image097 scroll-item"
             />
             <img
@@ -911,7 +911,7 @@ listenForUrlChangesMobileMenu()
             />
             <img
               alt="image"
-              src="/playground_assets/wrappedzooka-200h.png"
+              src="/playground_assets/jp%20%5B38%5D-200h.png"
               className="home-image099 scroll-item"
             />
             <span className="home-text036">ඞ</span>
@@ -922,7 +922,7 @@ listenForUrlChangesMobileMenu()
             />
             <img
               alt="image"
-              src="/playground_assets/wrappedzooka-200h.png"
+              src="/playground_assets/jp%20%5B55%5D-200h.png"
               className="home-image101 scroll-item"
             />
             <img
@@ -932,7 +932,7 @@ listenForUrlChangesMobileMenu()
             />
             <img
               alt="image"
-              src="/playground_assets/wrappedzooka-200h.png"
+              src="/playground_assets/jp%20%5B42%5D-200h.png"
               className="home-image103 scroll-item"
             />
             <img
@@ -942,7 +942,7 @@ listenForUrlChangesMobileMenu()
             />
             <img
               alt="image"
-              src="/playground_assets/wrappedzooka-200h.png"
+              src="/playground_assets/jp%20%5B50%5D-200h.png"
               className="home-image105 scroll-item"
             />
             <img
@@ -952,7 +952,7 @@ listenForUrlChangesMobileMenu()
             />
             <img
               alt="image"
-              src="/playground_assets/wrappedzooka-200h.png"
+              src="/playground_assets/jp%20%5B52%5D-200h.png"
               className="home-image107 scroll-item"
             />
             <img
