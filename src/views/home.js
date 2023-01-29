@@ -2039,11 +2039,18 @@ listenForUrlChangesMobileMenu()
               </a>
             </div>
           </header>
-          <img
-            alt="image"
-            src="/playground_assets/bazooka%20blokes%20twitch-1200w.jpg"
-            className="home-image125"
-          />
+          <a
+            href="https://www.twitch.tv/directory/game/Bazooka%20Bois"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="home-link33"
+          >
+            <img
+              alt="image"
+              src="/playground_assets/bazooka%20blokes%20twitch-1200w.jpg"
+              className="home-image125"
+            />
+          </a>
         </main>
       </section>
       <footer className="home-footer">
@@ -2059,7 +2066,7 @@ listenForUrlChangesMobileMenu()
                   href="https://discord.gg/gV2P4JxjFd"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link33"
+                  className="home-link34"
                 >
                   <img
                     alt="image"
@@ -2071,7 +2078,7 @@ listenForUrlChangesMobileMenu()
                   href="https://twitter.com/pandasfightclub"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link34"
+                  className="home-link35"
                 >
                   <img
                     alt="image"
@@ -2083,7 +2090,7 @@ listenForUrlChangesMobileMenu()
                   href="https://opensea.io/collection/pandas-fight-club"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link35"
+                  className="home-link36"
                 >
                   <img
                     alt="image"

@@ -3972,12 +3972,16 @@
   font-weight: 500;
   line-height: 24px;
 }
+.home-link33 {
+  display: contents;
+}
 .home-image125 {
   right: 0px;
   width: 470px;
   bottom: 0px;
   position: absolute;
   object-fit: cover;
+  text-decoration: none;
 }
 .home-footer {
   gap: var(--dl-space-space-fiveunits);
@@ -4052,7 +4056,7 @@
   justify-content: center;
   background-color: #71e742;
 }
-.home-link33 {
+.home-link34 {
   display: contents;
 }
 .home-image126 {
@@ -4060,7 +4064,7 @@
   object-fit: cover;
   text-decoration: none;
 }
-.home-link34 {
+.home-link35 {
   display: contents;
 }
 .home-image127 {
@@ -4068,7 +4072,7 @@
   object-fit: cover;
   text-decoration: none;
 }
-.home-link35 {
+.home-link36 {
   display: contents;
 }
 .home-image128 {
