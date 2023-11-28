@@ -1029,7 +1029,7 @@ listenForUrlChangesMobileMenu()
                 className="home-element2 accordion-element"
               >
                 <div className="home-details02">
-                  <span className="home-text041">Q2 2023</span>
+                  <span className="home-text041">Q2 2024</span>
                   <span data-role="accordion-content" className="home-text042">
                     we&apos;ll be building a Panda gaming studio from the funds
                     raised and add more members to the team to build more games
