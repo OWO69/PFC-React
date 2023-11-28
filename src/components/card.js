@@ -21,7 +21,7 @@ const Card = (props) => {
 Card.defaultProps = {
   Description: '0.0069 ETH (~$10)',
   rootClassName: '',
-  Icon: '/playground_assets/group%201316-200w.png',
+  Icon: '/Icons/group%201316-200w.png',
   IconAlt: 'image',
   Header: 'Price',
 }

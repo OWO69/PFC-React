@@ -1,9 +1,9 @@
 import React from 'react'
 
-import DangerousHTML from 'dangerous-html/react'
+import Script from 'dangerous-html/react'
 import { Helmet } from 'react-helmet'
 
-import FAQ from '../components/f-a-q'
+import FAQ from '../components/faq'
 import './home.css'
 
 const Home = (props) => {
@@ -15,10 +15,7 @@ const Home = (props) => {
       </Helmet>
       <nav className="home-navbar">
         <a href="#top" className="home-link">
-          <img
-            src="/playground_assets/pfc-200h.png"
-            className="home-branding-logo"
-          />
+          <img src="/pfc-200h.png" className="home-branding-logo" />
         </a>
         <div className="home-nav-content">
           <div className="home-nav-links">
@@ -44,7 +41,7 @@ const Home = (props) => {
           <div id="open-mobile-menu" className="home-hamburger get-started">
             <img
               alt="image"
-              src="/playground_assets/hamburger-200h.png"
+              src="/Icons/hamburger-200h.png"
               className="home-image"
             />
           </div>
@@ -78,8 +75,9 @@ const Home = (props) => {
           </div>
         </div>
         <div>
-          <DangerousHTML
-            html={`<script>
+          <div className="home-container04">
+            <Script
+              html={`<script>
     /*
 Mobile menu - Code Embed
 */
@@ -123,65 +121,66 @@ const runMobileMenuCodeEmbed = () => {
 runMobileMenuCodeEmbed()
 listenForUrlChangesMobileMenu()
 </script>`}
-          ></DangerousHTML>
+            ></Script>
+          </div>
         </div>
       </nav>
       <section id="top" className="home-section">
         <div className="home-gallery gallery">
-          <div className="home-container03 scrollbar">
+          <div className="home-container05 scrollbar">
             <img
               alt="image"
-              src="/playground_assets/7-300h.png"
+              src="/7-300h.png"
               className="home-image001 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/8-300h.png"
+              src="/8-300h.png"
               className="home-image002 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/6-300h.png"
+              src="/6-300h.png"
               className="home-image003 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/5-300h.png"
+              src="/5-300h.png"
               className="home-image004 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/4-300h.png"
+              src="/4-300h.png"
               className="home-image005 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/3-300h.png"
+              src="/3-300h.png"
               className="home-image006 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/9-300h.png"
+              src="/9-300h.png"
               className="home-image007 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/2-300h.png"
+              src="/2-300h.png"
               className="home-image008 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/11-300h.png"
+              src="/11-300h.png"
               className="home-image009 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/1-300h.png"
+              src="/1-300h.png"
               className="home-image010 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/10-300h.png"
+              src="/10-300h.png"
               className="home-image011 scroll-item"
             />
           </div>
@@ -226,14 +225,14 @@ listenForUrlChangesMobileMenu()
           <div className="home-image012">
             <img
               alt="image"
-              src="/playground_assets/faceon__1_-removebg-preview-900h.png"
+              src="/faceon__1_-removebg-preview-900h.png"
               className="home-image013"
             />
           </div>
           <div className="home-image014">
             <img
               alt="image"
-              src="/playground_assets/faceon__1_-removebg-preview-900h.png"
+              src="/faceon__1_-removebg-preview-900h.png"
               className="home-image015"
             />
           </div>
@@ -289,7 +288,7 @@ listenForUrlChangesMobileMenu()
           <div className="home-image017">
             <img
               alt="image"
-              src="/playground_assets/bazookas-min%20%5B1%5D-400h.png"
+              src="/backgs/bazookas-min%20%5B1%5D-400h.png"
               className="home-image018"
             />
           </div>
@@ -368,65 +367,65 @@ listenForUrlChangesMobileMenu()
           </div>
         </section>
         <div className="home-gallery1 gallery">
-          <div className="home-container04 scrollbar">
+          <div className="home-container06 scrollbar">
             <img
               alt="image"
-              src="/playground_assets/valorant-600h.png"
+              src="/games/valorant-600h.png"
               className="home-image019 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/screenshot_2017-10-02-18-10-11-600h.png"
+              src="/games/screenshot_2017-10-02-18-10-11-600h.png"
               className="home-image020 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/25e2140d-0e11-446f-8379-c83b8afce590-700h.jpg"
+              src="/games/25e2140d-0e11-446f-8379-c83b8afce590-700h.jpg"
               className="home-image021 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/ss_120f1a89fe4ccccb3e835314665945f4f7ced658.1920x1080-600h.jpg"
+              src="/games/ss_120f1a89fe4ccccb3e835314665945f4f7ced658.1920x1080-600h.jpg"
               className="home-image022 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/screen%20shot%202018-01-05%20at%2012.22.24%20pm-600h.png"
+              src="/games/screen%20shot%202018-01-05%20at%2012.22.24%20pm-600h.png"
               className="home-image023 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/qf91enynlq3hlgtkmbon-600h.png"
+              src="/games/qf91enynlq3hlgtkmbon-600h.png"
               className="home-image024 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/image-600h.png"
+              src="/games/image-600h.png"
               className="home-image025 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/dota-allstars-version-v6-78b-600h.jpg"
+              src="/games/dota-allstars-version-v6-78b-600h.jpg"
               className="home-image026 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/bwa093n7r8581-600h.jpg"
+              src="/games/bwa093n7r8581-600h.jpg"
               className="home-image027 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/fall-guys-gedraenge-screenshot-600h.jpg"
+              src="/games/fall-guys-gedraenge-screenshot-600h.jpg"
               className="home-image028 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/fall-guys-gedraenge-screenshot-600h.jpg"
+              src="/games/fall-guys-gedraenge-screenshot-600h.jpg"
               className="home-image029 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/fall-guys-gedraenge-screenshot-600h.jpg"
+              src="/games/fall-guys-gedraenge-screenshot-600h.jpg"
               className="home-image030 scroll-item"
             />
           </div>
@@ -459,65 +458,65 @@ listenForUrlChangesMobileMenu()
           </div>
         </section>
         <div className="home-gallery2 gallery">
-          <div className="home-container05 scrollbar">
+          <div className="home-container07 scrollbar">
             <img
               alt="image"
-              src="/playground_assets/screen%20shot%202017-09-19%20at%204.01.23%20pm-600h.png"
+              src="/games/screen%20shot%202017-09-19%20at%204.01.23%20pm-600h.png"
               className="home-image031 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/screenshot_2017-09-30-20-00-10-600h.png"
+              src="/games/screenshot_2017-09-30-20-00-10-600h.png"
               className="home-image032 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/screenshot_2019-04-01-11-31-35-876_com.ea.gp.fifamobile-600h.png"
+              src="/games/screenshot_2019-04-01-11-31-35-876_com.ea.gp.fifamobile-600h.png"
               className="home-image033 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/screenshot_2019-04-01-08-48-35-116_com.ea.gp.fifamobile-600h.png"
+              src="/games/screenshot_2019-04-01-08-48-35-116_com.ea.gp.fifamobile-600h.png"
               className="home-image034 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/screenshot_2019-06-02-18-44-35-600h.png"
+              src="/games/screenshot_2019-06-02-18-44-35-600h.png"
               className="home-image035 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/screenshot_2019-05-20-16-48-56-814_com.eamobile.nbajam_row_wf-600h.png"
+              src="/games/screenshot_2019-05-20-16-48-56-814_com.eamobile.nbajam_row_wf-600h.png"
               className="home-image036 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/screenshot_2020-01-02_23-52-4375-600h.png"
+              src="/games/screenshot_2020-01-02_23-52-4375-600h.png"
               className="home-image037 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/screenshot_2020-04-11-19-48-42-209_com.netease.g104na.gb-600h.jpg"
+              src="/games/screenshot_2020-04-11-19-48-42-209_com.netease.g104na.gb-600h.jpg"
               className="home-image038 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/screenshot_2020-04-12-09-50-23-529_com.ninemgames.football-600h.jpg"
+              src="/games/screenshot_2020-04-12-09-50-23-529_com.ninemgames.football-600h.jpg"
               className="home-image039 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/screenshot_2020-04-11-14-56-16-300_com.tencent.ig-600h.jpg"
+              src="/games/screenshot_2020-04-11-14-56-16-300_com.tencent.ig-600h.jpg"
               className="home-image040 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/screenshot_2020-04-11-14-56-16-300_com.tencent.ig-600h.jpg"
+              src="/games/screenshot_2020-04-11-14-56-16-300_com.tencent.ig-600h.jpg"
               className="home-image041 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/screenshot_2020-04-11-14-56-16-300_com.tencent.ig-600h.jpg"
+              src="/games/screenshot_2020-04-11-14-56-16-300_com.tencent.ig-600h.jpg"
               className="home-image042 scroll-item"
             />
           </div>
@@ -542,70 +541,70 @@ listenForUrlChangesMobileMenu()
           </div>
         </section>
         <div className="home-gallery3 gallery">
-          <div className="home-container06 scrollbar">
+          <div className="home-container08 scrollbar">
             <img
               alt="image"
-              src="/playground_assets/screenshot_20220312-175758-600h.png"
+              src="/games/screenshot_20220312-175758-600h.png"
               className="home-image043 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/screenshot_2020-04-15-22-27-17-907_com.distinctivegames.hockey2019-600h.jpg"
+              src="/games/screenshot_2020-04-15-22-27-17-907_com.distinctivegames.hockey2019-600h.jpg"
               className="home-image044 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/screenshot_2020-06-27-21-32-26-598_com.netmarble.mherosgb-600h.jpg"
+              src="/games/screenshot_2020-06-27-21-32-26-598_com.netmarble.mherosgb-600h.jpg"
               className="home-image045 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/poker-1000w.png"
+              src="/games/poker-1000w.png"
               className="home-image046 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/img-20220618-wa0002-600h.jpg"
+              src="/games/img-20220618-wa0002-600h.jpg"
               className="home-image047 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/img_9923-600h.jpg"
+              src="/games/img_9923-600h.jpg"
               className="home-image048 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/screenshot_2019-03-28-20-45-55-488_com.baklabs.taxi.two-600h.png"
+              src="/games/screenshot_2019-03-28-20-45-55-488_com.baklabs.taxi.two-600h.png"
               className="home-image049 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/pes-600h.png"
+              src="/games/pes-600h.png"
               className="home-image050 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/efootball-600h.jpeg"
+              src="/games/efootball-600h.jpeg"
               className="home-image051 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/ec71cbda-4ef5-4e9a-9a30-0ea78a92a93b-600h.jpg"
+              src="/games/ec71cbda-4ef5-4e9a-9a30-0ea78a92a93b-600h.jpg"
               className="home-image052 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/ec71cbda-4ef5-4e9a-9a30-0ea78a92a93b-600h.jpg"
+              src="/games/ec71cbda-4ef5-4e9a-9a30-0ea78a92a93b-600h.jpg"
               className="home-image053 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/ec71cbda-4ef5-4e9a-9a30-0ea78a92a93b-600h.jpg"
+              src="/games/ec71cbda-4ef5-4e9a-9a30-0ea78a92a93b-600h.jpg"
               className="home-image054 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/ec71cbda-4ef5-4e9a-9a30-0ea78a92a93b-600h.jpg"
+              src="/games/ec71cbda-4ef5-4e9a-9a30-0ea78a92a93b-600h.jpg"
               className="home-image055 scroll-item"
             />
           </div>
@@ -631,70 +630,70 @@ listenForUrlChangesMobileMenu()
           </div>
         </section>
         <div className="home-gallery4 gallery">
-          <div className="home-container07 scrollbar">
+          <div className="home-container09 scrollbar">
             <img
               alt="image"
-              src="/playground_assets/maxresdefault%20%5B28%5D-700h.jpg"
+              src="/games/maxresdefault%20%5B28%5D-700h.jpg"
               className="home-image056 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/screenshot_2020-10-06-20-08-29-528_com.netease.g104na.gb-600h.jpg"
+              src="/games/screenshot_2020-10-06-20-08-29-528_com.netease.g104na.gb-600h.jpg"
               className="home-image057 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/unnamed%20%5B2%5D-600h.png"
+              src="/games/unnamed%20%5B2%5D-600h.png"
               className="home-image058 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/screenshot_20220206-173206-600h.png"
+              src="/games/screenshot_20220206-173206-600h.png"
               className="home-image059 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/screenshot_2020-04-19-15-17-34-953_com.netease.g104na.gb-600h.jpg"
+              src="/games/screenshot_2020-04-19-15-17-34-953_com.netease.g104na.gb-600h.jpg"
               className="home-image060 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/screenshot_2019-03-01-15-26-47-334_com.ea.gp.fifamobile-600h.png"
+              src="/games/screenshot_2019-03-01-15-26-47-334_com.ea.gp.fifamobile-600h.png"
               className="home-image061 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/screenshot_2019-02-13-14-11-09-947_com.ea.gp.fifamobile-600h.png"
+              src="/games/screenshot_2019-02-13-14-11-09-947_com.ea.gp.fifamobile-600h.png"
               className="home-image062 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/screenshot_2018-09-27-10-00-47-600h.png"
+              src="/games/screenshot_2018-09-27-10-00-47-600h.png"
               className="home-image063 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/screenshot_2019-02-26-21-29-06-392_com.ea.gp.fifamobile-600h.png"
+              src="/games/screenshot_2019-02-26-21-29-06-392_com.ea.gp.fifamobile-600h.png"
               className="home-image064 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/20191214_133825789-600h.jpeg"
+              src="/games/20191214_133825789-600h.jpeg"
               className="home-image065 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/20191214_133825789-600h.jpeg"
+              src="/games/20191214_133825789-600h.jpeg"
               className="home-image066 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/20191214_133825789-600h.jpeg"
+              src="/games/20191214_133825789-600h.jpeg"
               className="home-image067 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/20191214_133825789-600h.jpeg"
+              src="/games/20191214_133825789-600h.jpeg"
               className="home-image068 scroll-item"
             />
           </div>
@@ -762,202 +761,202 @@ listenForUrlChangesMobileMenu()
           <div className="home-image069">
             <img
               alt="image"
-              src="/playground_assets/wrappedzooka%20%5B1%5D-1200w.png"
+              src="/guns n roses/wrappedzooka%20%5B1%5D-1200w.png"
               className="home-image070"
             />
           </div>
         </div>
         <div className="home-gallery5 gallery">
-          <div className="home-container08 scrollbar">
+          <div className="home-container10 scrollbar">
             <img
               alt="image"
-              src="/playground_assets/bambooka-200h.png"
+              src="/guns n roses/bambooka-200h.png"
               className="home-image071 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/pew%20%5B11%5D-200h.png"
+              src="/guns n roses/pew%20%5B11%5D-200h.png"
               className="home-image072 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/jp%20%5B59%5D-200h.png"
+              src="/resoozuka/jp%20%5B59%5D-200h.png"
               className="home-image073 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/pew%20%5B1%5D-200h.png"
+              src="/guns n roses/pew%20%5B1%5D-200h.png"
               className="home-image074 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/jp-200h.png"
+              src="/resoozuka/jp-200h.png"
               className="home-image075 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/pew%20%5B10%5D-200h.png"
+              src="/guns n roses/pew%20%5B10%5D-200h.png"
               className="home-image076 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/jp%20%5B10%5D-200h.png"
+              src="/resoozuka/jp%20%5B10%5D-200h.png"
               className="home-image077 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/pew%20%5B12%5D-200h.png"
+              src="/guns n roses/pew%20%5B12%5D-200h.png"
               className="home-image078 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/bambooshka-200h.png"
+              src="/guns n roses/bambooshka-200h.png"
               className="home-image079 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/pew%20%5B4%5D-200h.png"
+              src="/guns n roses/pew%20%5B4%5D-200h.png"
               className="home-image080 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/jp%20%5B57%5D-200h.png"
+              src="/resoozuka/jp%20%5B57%5D-200h.png"
               className="home-image081 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/pew%20%5B9%5D-200h.png"
+              src="/guns n roses/pew%20%5B9%5D-200h.png"
               className="home-image082 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/jp%20%5B51%5D-200h.png"
+              src="/resoozuka/jp%20%5B51%5D-200h.png"
               className="home-image083 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/pew%20%5B31%5D-200h.png"
+              src="/guns n roses/pew%20%5B31%5D-200h.png"
               className="home-image084 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/jp%20%5B12%5D-200h.png"
+              src="/resoozuka/jp%20%5B12%5D-200h.png"
               className="home-image085 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/pew%20%5B22%5D-200h.png"
+              src="/guns n roses/pew%20%5B22%5D-200h.png"
               className="home-image086 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/jp%20%5B3%5D-200h.png"
+              src="/resoozuka/jp%20%5B3%5D-200h.png"
               className="home-image087 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/pew%20%5B32%5D-200h.png"
+              src="/guns n roses/pew%20%5B32%5D-200h.png"
               className="home-image088 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/jp%20%5B37%5D-200h.png"
+              src="/resoozuka/jp%20%5B37%5D-200h.png"
               className="home-image089 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/pew%20%5B37%5D-200h.png"
+              src="/guns n roses/pew%20%5B37%5D-200h.png"
               className="home-image090 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/jp%20%5B48%5D-200h.png"
+              src="/resoozuka/jp%20%5B48%5D-200h.png"
               className="home-image091 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/pow%20%5B7%5D-200h.png"
+              src="/guns n roses/pow%20%5B7%5D-200h.png"
               className="home-image092 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/jp%20%5B58%5D-200h.png"
+              src="/resoozuka/jp%20%5B58%5D-200h.png"
               className="home-image093 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/pow%20%5B12%5D-200h.png"
+              src="/guns n roses/pow%20%5B12%5D-200h.png"
               className="home-image094 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/jp%20%5B39%5D-200h.png"
+              src="/resoozuka/jp%20%5B39%5D-200h.png"
               className="home-image095 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/pow%20%5B6%5D-200h.png"
+              src="/guns n roses/pow%20%5B6%5D-200h.png"
               className="home-image096 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/jp%20%5B40%5D-200h.png"
+              src="/resoozuka/jp%20%5B40%5D-200h.png"
               className="home-image097 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/pew%20%5B27%5D-200h.png"
+              src="/guns n roses/pew%20%5B27%5D-200h.png"
               className="home-image098 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/jp%20%5B38%5D-200h.png"
+              src="/resoozuka/jp%20%5B38%5D-200h.png"
               className="home-image099 scroll-item"
             />
             <span className="home-text036">ඞ</span>
             <img
               alt="image"
-              src="/playground_assets/pow%20%5B8%5D-200h.png"
+              src="/guns n roses/pow%20%5B8%5D-200h.png"
               className="home-image100 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/jp%20%5B55%5D-200h.png"
+              src="/resoozuka/jp%20%5B55%5D-200h.png"
               className="home-image101 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/pew%20%5B18%5D-200h.png"
+              src="/guns n roses/pew%20%5B18%5D-200h.png"
               className="home-image102 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/jp%20%5B42%5D-200h.png"
+              src="/resoozuka/jp%20%5B42%5D-200h.png"
               className="home-image103 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/pow%20%5B2%5D-200h.png"
+              src="/guns n roses/pow%20%5B2%5D-200h.png"
               className="home-image104 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/jp%20%5B50%5D-200h.png"
+              src="/resoozuka/jp%20%5B50%5D-200h.png"
               className="home-image105 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/pew%20%5B23%5D-200h.png"
+              src="/guns n roses/pew%20%5B23%5D-200h.png"
               className="home-image106 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/jp%20%5B52%5D-200h.png"
+              src="/resoozuka/jp%20%5B52%5D-200h.png"
               className="home-image107 scroll-item"
             />
             <img
               alt="image"
-              src="/playground_assets/pew%20%5B13%5D-200h.png"
+              src="/guns n roses/pew%20%5B13%5D-200h.png"
               className="home-image108 scroll-item"
             />
           </div>
@@ -967,7 +966,7 @@ listenForUrlChangesMobileMenu()
         <div className="home-image109">
           <img
             alt="image"
-            src="/playground_assets/bkg%20%5B19%5D-1500w.png"
+            src="/backgs/bkg%20%5B19%5D-1500w.png"
             className="home-image110"
           />
         </div>
@@ -984,7 +983,7 @@ listenForUrlChangesMobileMenu()
               >
                 <div className="home-details">
                   <span className="section-head">Bambooverse begins</span>
-                  <span className="home-text037">Jan 23</span>
+                  <span className="home-text037">Jan 24</span>
                   <span data-role="accordion-content" className="home-text038">
                     we will first build a community of around 10k people on both
                     twitter and discord and be giving whitelists to first and
@@ -1005,7 +1004,7 @@ listenForUrlChangesMobileMenu()
                 className="home-element1 accordion-element"
               >
                 <div className="home-details01">
-                  <span className="home-text039">Q1 2023</span>
+                  <span className="home-text039">Q1 2024</span>
                   <span data-role="accordion-content" className="home-text040">
                     we will then add our project into leading nft marketplaces
                     like opensea and gamestop nft as we set up shop
@@ -1080,7 +1079,7 @@ listenForUrlChangesMobileMenu()
         <div className="home-image111">
           <img
             alt="image"
-            src="/playground_assets/bkg%20%5B18%5D-1500w.png"
+            src="/backgs/bkg%20%5B18%5D-1500w.png"
             className="home-image112"
           />
         </div>
@@ -1256,7 +1255,7 @@ listenForUrlChangesMobileMenu()
             <div className="home-icon27">
               <img
                 alt="image"
-                src="/playground_assets/group%201316-1200w.png"
+                src="/Icons/group%201316-1200w.png"
                 className="home-icon28"
               />
             </div>
@@ -1269,7 +1268,7 @@ listenForUrlChangesMobileMenu()
             <div className="home-icon29">
               <img
                 alt="image"
-                src="/playground_assets/group%201314-200h.png"
+                src="/Icons/group%201314-200h.png"
                 className="home-icon30"
               />
             </div>
@@ -1282,7 +1281,7 @@ listenForUrlChangesMobileMenu()
             <div className="home-icon31">
               <img
                 alt="image"
-                src="/playground_assets/group%201317-1200w.png"
+                src="/Icons/group%201317-1200w.png"
                 className="home-icon32"
               />
             </div>
@@ -1361,7 +1360,7 @@ listenForUrlChangesMobileMenu()
                   </p>
                   <img
                     alt="image"
-                    src="/playground_assets/muller23-300w.gif"
+                    src="/more pandas/muller23-300w.gif"
                     className="home-image113"
                   />
                 </div>
@@ -1407,7 +1406,7 @@ listenForUrlChangesMobileMenu()
                   </p>
                   <img
                     alt="image"
-                    src="/playground_assets/lupu-300w.gif"
+                    src="/more pandas/lupu-300w.gif"
                     className="home-image114"
                   />
                 </div>
@@ -1454,7 +1453,7 @@ listenForUrlChangesMobileMenu()
                   </p>
                   <img
                     alt="image"
-                    src="/playground_assets/bigbird-300w.gif"
+                    src="/more pandas/bigbird-300w.gif"
                     className="home-image115"
                   />
                 </div>
@@ -1502,7 +1501,7 @@ listenForUrlChangesMobileMenu()
                   </p>
                   <img
                     alt="image"
-                    src="/playground_assets/butch-300w.gif"
+                    src="/more pandas/butch-300w.gif"
                     className="home-image116"
                   />
                 </div>
@@ -1548,7 +1547,7 @@ listenForUrlChangesMobileMenu()
                   </p>
                   <img
                     alt="image"
-                    src="/playground_assets/limowerner-300w.gif"
+                    src="/more pandas/limowerner-300w.gif"
                     className="home-image117"
                   />
                 </div>
@@ -1592,7 +1591,7 @@ listenForUrlChangesMobileMenu()
                   <p className="home-description09">________________</p>
                   <img
                     alt="image"
-                    src="/playground_assets/streamer-300w.gif"
+                    src="/more pandas/streamer-300w.gif"
                     className="home-image118"
                   />
                 </div>
@@ -1626,7 +1625,7 @@ listenForUrlChangesMobileMenu()
                   </p>
                   <img
                     alt="image"
-                    src="/playground_assets/purrsian-300w.gif"
+                    src="/more pandas/purrsian-300w.gif"
                     className="home-image119"
                   />
                 </div>
@@ -1667,7 +1666,7 @@ listenForUrlChangesMobileMenu()
                   </p>
                   <img
                     alt="image"
-                    src="/playground_assets/bonappetitjovi-300w.gif"
+                    src="/more pandas/bonappetitjovi-300w.gif"
                     className="home-image120"
                   />
                 </div>
@@ -1697,7 +1696,7 @@ listenForUrlChangesMobileMenu()
                   </p>
                   <img
                     alt="image"
-                    src="/playground_assets/mrcoolio-300w.gif"
+                    src="/more pandas/mrcoolio-300w.gif"
                     className="home-image121"
                   />
                 </div>
@@ -1734,7 +1733,7 @@ listenForUrlChangesMobileMenu()
           <div className="home-right2"></div>
         </header>
         <main className="home-cards1">
-          <div className="home-container09">
+          <div className="home-container11">
             <section className="home-card03">
               <div className="home-stars">
                 <svg viewBox="0 0 1024 1024" className="home-icon33">
@@ -1750,11 +1749,7 @@ listenForUrlChangesMobileMenu()
               <main className="home-content13">
                 <p className="home-quote">&quot;What the fk&quot;</p>
                 <div className="home-author">
-                  <img
-                    alt="image"
-                    src="/playground_assets/9-300h.png"
-                    className="home-avatar"
-                  />
+                  <img alt="image" src="/9-300h.png" className="home-avatar" />
                   <div className="home-details17">
                     <h1 className="home-author01">Skrrrrrrr</h1>
                     <label className="home-position">Twitter</label>
@@ -1780,11 +1775,7 @@ listenForUrlChangesMobileMenu()
               <main className="home-content14">
                 <p className="home-quote1">&quot;Cool Stuff&quot;</p>
                 <div className="home-author02">
-                  <img
-                    alt="image"
-                    src="/playground_assets/2-300h.png"
-                    className="home-avatar1"
-                  />
+                  <img alt="image" src="/2-300h.png" className="home-avatar1" />
                   <div className="home-details18">
                     <h1 className="home-author03">DubStepForever</h1>
                     <label className="home-position1">IRL</label>
@@ -1793,7 +1784,7 @@ listenForUrlChangesMobileMenu()
               </main>
             </section>
           </div>
-          <div className="home-container10">
+          <div className="home-container12">
             <section className="home-card05">
               <div className="home-stars2">
                 <svg viewBox="0 0 1024 1024" className="home-icon47">
@@ -1803,11 +1794,7 @@ listenForUrlChangesMobileMenu()
               <main className="home-content15">
                 <p className="home-quote2">&quot;Not A MOBA&quot;</p>
                 <div className="home-author04">
-                  <img
-                    alt="image"
-                    src="/playground_assets/7-300h.png"
-                    className="home-avatar2"
-                  />
+                  <img alt="image" src="/7-300h.png" className="home-avatar2" />
                   <div className="home-details19">
                     <h1 className="home-author05">MOBAlover69</h1>
                     <label className="home-position2">Discord</label>
@@ -1827,11 +1814,7 @@ listenForUrlChangesMobileMenu()
               <main className="home-content16">
                 <p className="home-quote3">&quot;Do Me&quot;</p>
                 <div className="home-author06">
-                  <img
-                    alt="image"
-                    src="/playground_assets/5-300h.png"
-                    className="home-avatar3"
-                  />
+                  <img alt="image" src="/5-300h.png" className="home-avatar3" />
                   <div className="home-details20">
                     <h1 className="home-author07">DMmeGiveaways</h1>
                     <label className="home-position3">Reddit</label>
@@ -1840,7 +1823,7 @@ listenForUrlChangesMobileMenu()
               </main>
             </section>
           </div>
-          <div className="home-container11">
+          <div className="home-container13">
             <section className="home-card07">
               <div className="home-stars4">
                 <svg viewBox="0 0 1024 1024" className="home-icon53">
@@ -1864,11 +1847,7 @@ listenForUrlChangesMobileMenu()
                   &quot;Better than Mona Lisa if that painting were a game&quot;
                 </p>
                 <div className="home-author08">
-                  <img
-                    alt="image"
-                    src="/playground_assets/4-300h.png"
-                    className="home-avatar4"
-                  />
+                  <img alt="image" src="/4-300h.png" className="home-avatar4" />
                   <div className="home-details21">
                     <h1 className="home-author09">YoMomma</h1>
                     <label className="home-position4">DMs</label>
@@ -1899,7 +1878,7 @@ listenForUrlChangesMobileMenu()
                 <div className="home-author10">
                   <img
                     alt="image"
-                    src="/playground_assets/10-300h.png"
+                    src="/10-300h.png"
                     className="home-avatar5"
                   />
                   <div className="home-details22">
@@ -1928,7 +1907,7 @@ listenForUrlChangesMobileMenu()
               </header>
               <img
                 alt="image"
-                src="/playground_assets/1_d1vhtbpalfshxeofveiz5w-200h.png"
+                src="/external/1_d1vhtbpalfshxeofveiz5w-200h.png"
                 className="home-image122"
               />
               <div className="home-button">
@@ -1950,7 +1929,7 @@ listenForUrlChangesMobileMenu()
               </header>
               <img
                 alt="image"
-                src="/playground_assets/1200px-techcrunch_logo.svg-200h.png"
+                src="/external/1200px-techcrunch_logo.svg-200h.png"
                 className="home-image123"
               />
               <div className="home-button1">
@@ -1972,7 +1951,7 @@ listenForUrlChangesMobileMenu()
               </header>
               <img
                 alt="image"
-                src="/playground_assets/raritysniper-200h.webp"
+                src="/external/raritysniper-200h.webp"
                 className="home-image124"
               />
               <div className="home-button2">
@@ -1997,7 +1976,7 @@ listenForUrlChangesMobileMenu()
           </h2>
         </header>
         <main className="home-accordion2">
-          <FAQ rootClassName="f-a-q-root-class-name"></FAQ>
+          <FAQ rootClassName="faq-root-class-name"></FAQ>
         </main>
       </section>
       <section id="Downloads" className="home-section24">
@@ -2013,10 +1992,10 @@ listenForUrlChangesMobileMenu()
                 rel="noreferrer noopener"
                 className="home-link31"
               >
-                <div className="home-i-o-s button">
+                <div className="home-ios button">
                   <img
                     alt="image"
-                    src="/playground_assets/apple-200w.png"
+                    src="/Icons/apple-200w.png"
                     className="home-icon73"
                   />
                   <span className="home-text139">Download for iOS</span>
@@ -2031,7 +2010,7 @@ listenForUrlChangesMobileMenu()
                 <div className="home-android button">
                   <img
                     alt="image"
-                    src="/playground_assets/android-200h.png"
+                    src="/Icons/android-200h.png"
                     className="home-icon74"
                   />
                   <span className="home-text140">Download for Android</span>
@@ -2047,7 +2026,7 @@ listenForUrlChangesMobileMenu()
           >
             <img
               alt="image"
-              src="/playground_assets/bazooka%20blokes%20twitch-1200w.jpg"
+              src="/backgs/bazooka%20blokes%20twitch-1200w.jpg"
               className="home-image125"
             />
           </a>
@@ -2070,7 +2049,7 @@ listenForUrlChangesMobileMenu()
                 >
                   <img
                     alt="image"
-                    src="/playground_assets/discord-logo-200h.png"
+                    src="/external/discord-logo-200h.png"
                     className="home-image126"
                   />
                 </a>
@@ -2082,7 +2061,7 @@ listenForUrlChangesMobileMenu()
                 >
                   <img
                     alt="image"
-                    src="/playground_assets/twitter-logo.svg-200h.png"
+                    src="/external/twitter-logo.svg-200h.png"
                     className="home-image127"
                   />
                 </a>
@@ -2094,7 +2073,7 @@ listenForUrlChangesMobileMenu()
                 >
                   <img
                     alt="image"
-                    src="/playground_assets/ef73d5ccc3ea3321755dc4a656250d307dceede8-200h.png"
+                    src="/external/ef73d5ccc3ea3321755dc4a656250d307dceede8-200h.png"
                     className="home-image128"
                   />
                 </a>
@@ -2109,8 +2088,9 @@ listenForUrlChangesMobileMenu()
         </div>
       </footer>
       <div>
-        <DangerousHTML
-          html={`<script>
+        <div className="home-container15">
+          <Script
+            html={`<script>
     /*
 Accordion - Code Embed
 */
@@ -2180,7 +2160,8 @@ Here's what the above is doing:
                 - Rotates accordion icon 180deg
 */
 </script>`}
-        ></DangerousHTML>
+          ></Script>
+        </div>
       </div>
     </div>
   )

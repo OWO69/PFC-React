@@ -1,6 +1,6 @@
 import React from 'react'
 
-import DangerousHTML from 'dangerous-html/react'
+import Script from 'dangerous-html/react'
 import PropTypes from 'prop-types'
 
 import './navbar.css'
@@ -57,8 +57,9 @@ const Navbar = (props) => {
         </div>
       </div>
       <div>
-        <DangerousHTML
-          html={`<script>
+        <div className="navbar-container3">
+          <Script
+            html={`<script>
     /*
 Mobile menu - Code Embed
 */
@@ -102,7 +103,8 @@ const runMobileMenuCodeEmbed = () => {
 runMobileMenuCodeEmbed()
 listenForUrlChangesMobileMenu()
 </script>`}
-        ></DangerousHTML>
+          ></Script>
+        </div>
       </div>
     </nav>
   )
@@ -110,7 +112,7 @@ listenForUrlChangesMobileMenu()
 
 Navbar.defaultProps = {
   image_alt: 'image',
-  image_src: '/playground_assets/hamburger-200h.png',
+  image_src: '/Icons/hamburger-200h.png',
   rootClassName: '',
 }
 
